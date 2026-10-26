@@ -1,0 +1,226 @@
+[
+  {
+    "category": "recovered",
+    "id": "gsm8k:dd4ef77c87240e2c093425cc8e3a0d1d4d3e0c39aaf48ca5ee51ec52d7ef497c",
+    "question": "Krystiana owns an apartment building. The rooms on the first floor cost $15 per month and the rooms on the 2nd floor cost $20 per month. The rooms on the third floor cost twice as much as the rooms on the first floor, but only two rooms are occupied. If each floor has 3 rooms, how much does Krystiana earn every month?",
+    "answers": [
+      "165",
+      "145",
+      "145",
+      "145"
+    ],
+    "correct_indices": [
+      0
+    ],
+    "old_choice": 1,
+    "new_choice": 0,
+    "candidates": [
+      "We are given the following:\n\n- The **first floor** has **3 rooms** at $15 per month.\n- The **second floor** has **3 rooms** at $20 per month.\n- The **third floor** has **2 rooms** at **twice** the price of the first floor (i.e., $30 per month).\n- Each floor has **3 rooms**.\n\n---\n\n### Step 1: Calculate earnings for each floor\n\n- **First floor**:  \n  $ 3 \\times 15 = 45 $\n\n- **Second floor**:  \n  $ 3 \\times 20 = 60 $\n\n- **Third floor**:  \n  $ 2 \\times 30 = 60 $\n\n---\n\n### Step 2: Add up the earnings\n\n$$\n45 + 60 + 60 = 165\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{165}\n$$",
+      "We are given:\n\n- **First floor**: 3 rooms at $15 per month  \n- **Second floor**: 3 rooms at $20 per month  \n- **Third floor**: 2 rooms at $20 per month (since it costs twice as much as the first floor, $15, and only 2 rooms are occupied)\n\n### Step 1: Calculate earnings for each floor\n\n- **First floor**: $ 3 \\times 15 = 45 $\n- **Second floor**: $ 3 \\times 20 = 60 $\n- **Third floor**: $ 2 \\times 20 = 40 $\n\n### Step 2: Add up all earnings\n\n$$\n45 + 60 + 40 = 145\n$$\n\n### Final Answer:\n\n$$\n\\boxed{145}\n$$",
+      "Krystiana earns money based on the number of rooms and the cost per month.\n\n- **First floor**: 3 rooms at $15  \n  Total: $3 \\times 15 = 45$\n\n- **Second floor**: 3 rooms at $20  \n  Total: $3 \\times 20 = 60$\n\n- **Third floor**: 2 rooms at $20 (since it's twice the first floor's cost)  \n  Total: $2 \\times 20 = 40$\n\nNow, add up the earnings from all floors:\n\n$$\n45 + 60 + 40 = \\boxed{145}\n$$\n\n**Answer:** $\\boxed{145}$",
+      "We are given the following information:\n\n- The **first floor** has **3 rooms**, each costing **$15** per month.\n- The **second floor** has **3 rooms**, each costing **$20** per month.\n- The **third floor** has **2 rooms**, but only **2 of them** are occupied.\n- The **total number of rooms per floor** is **3**.\n\n---\n\n### Step 1: Calculate the total earnings for each floor\n\n- **First floor**:  \n  $ 3 \\text{ rooms} \\times \\$15 = \\$45 $\n\n- **Second floor**:  \n  $ 3 \\text{ rooms} \\times \\$20 = \\$60 $\n\n- **Third floor**:  \n  $ 2 \\text{ rooms} \\times \\$20 = \\$40 $\n\n---\n\n### Step 2: Add up the earnings from all floors\n\n$$\n\\$45 + \\$60 + \\$40 = \\$145\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{145}\n$$"
+    ]
+  },
+  {
+    "category": "recovered",
+    "id": "gsm8k:47192afc2477bf7ec08339bf13f0701a9626610ffd87aa844cae46d663222a1c",
+    "question": "Javier is an Olympic javelin thrower.  In the last Olympics, he threw the javelin three times.  The first throw, he threw the javelin twice as far as he threw the javelin on his second throw, but only half as far as he threw it the third throw.  If the sum of all three throws was 1050 meters, then how far, in meters, did he throw the javelin on his first throw?",
+    "answers": [
+      "300",
+      "525/2",
+      "420",
+      "300"
+    ],
+    "correct_indices": [
+      0,
+      3
+    ],
+    "old_choice": 2,
+    "new_choice": 3,
+    "candidates": [
+      "We are told:\n\n- The first throw was **twice as far** as the second.\n- The first throw was **half as far** as the third.\n- The sum of all three throws is **1050 meters**.\n- We are to find the **distance** of the first throw.\n\n---\n\n### Step 1: Define variables\n\nLet the distance of the **first throw** be $ x $ meters.\n\nThen:\n\n- Distance of the **second throw** = $ x/2 $ meters\n- Distance of the **third throw** = $ 2x $ meters\n\n---\n\n### Step 2: Use the sum of the distances\n\n$$\nx + \\frac{x}{2} + 2x = 1050\n$$\n\n$$\nx + 0.5x + 2x = 1050\n$$\n\n$$\n3.5x = 1050\n$$\n\n$$\nx = \\frac{1050}{3.5} = 300\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{300}\n$$",
+      "We are given the following:\n\n- Let the distance of the **first throw** be $ x $.\n- The **second throw** is $ x $.\n- The **third throw** is $ x $.\n\nWe are told:\n\n- The **first throw** is twice as far as the **second throw**, but only half as far as the **third throw**.\n\nSo:\n\n- $ x = 2x $ (first throw is twice second, but only half of third, which contradicts this).\n- This suggests that the **second throw** is $ x $, and the **third throw** is $ 2x $.\n\nThen:\n\n- The sum of all three throws is 1050 meters.\n\nSo:\n\n$$\nx + x + 2x = 1050\n$$\n\n$$\n4x = 1050\n$$\n\n$$\nx = \\frac{1050}{4} = 262.5\n$$\n\n### ✅ Final Answer:\n$$\n\\boxed{262.5}\n$$",
+      "We are told:\n\n- The **first throw** is **twice as far as the second**, but **half as far as the third**.\n\nLet’s define the distances:\n\n- Let the distance of the **second throw** be $ x $.\n\nThen:\n\n- First throw = $ 2x $\n- Second throw = $ x $\n- Third throw = $ 2x $\n\nNow, the **sum of all three throws** is:\n\n$$\n2x + x + 2x = 5x\n$$\n\nWe are told the **sum is 1050 meters**:\n\n$$\n5x = 1050\n$$\n\nSolving for $ x $:\n\n$$\nx = \\frac{1050}{5} = 210\n$$\n\nSo, the **first throw** is:\n\n$$\n2x = 2 \\times 210 = 420 \\text{ meters}\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{420}\n$$",
+      "We are given:\n\n- Let the distances of the three throws be:\n  - $ x $: distance of the **first** throw\n  - $ 2x $: distance of the **second** throw\n  - $ x/2 $: distance of the **third** throw\n\n- The sum of all three throws is 1050 meters.\n\nSo:\n\n$$\nx + 2x + \\frac{x}{2} = 1050\n$$\n\nSimplify:\n\n$$\nx + 2x + \\frac{x}{2} = \\frac{2x}{2} + \\frac{4x}{2} + \\frac{x}{2} = \\frac{7x}{2}\n$$\n\nNow solve:\n\n$$\n\\frac{7x}{2} = 1050 \\Rightarrow x = \\frac{1050 \\times 2}{7} = 300\n$$\n\n### ✅ Final Answer:\n\n$$\n\\boxed{300}\n$$"
+    ]
+  },
+  {
+    "category": "recovered",
+    "id": "gsm8k:0bb6fb7e5936964cba28c2366129c6bb473129da8cdd873ba394164824c9e6fd",
+    "question": "Wade has a hot dog food truck.  He makes $2.00 in tips per customer.  On Friday he served 28 customers.  He served three times that amount of customers on Saturday.  On Sunday, he served 36 customers. How many dollars did he make in tips between the 3 days?",
+    "answers": [
+      "296",
+      "300",
+      "300",
+      "296"
+    ],
+    "correct_indices": [
+      0,
+      3
+    ],
+    "old_choice": 1,
+    "new_choice": 3,
+    "candidates": [
+      "We are given:\n\n- Tips per customer: $2.00  \n- Number of customers served on **Friday**: 28  \n- Number of customers served on **Saturday**: 3 × 28 = 84  \n- Number of customers served on **Sunday**: 36  \n\n### Total tips made:\n\n$$\n2.00 \\times (28 + 84 + 36) = 2.00 \\times 148 = 296\n$$\n\n### Final answer:\n\n$$\n\\boxed{296}\n$$",
+      "We are given the following information:\n\n- **Tips per customer**: $2.00  \n- **Number of customers served on each day**:  \n  - Friday: 28 customers  \n  - Saturday: 3 × 28 = 84 customers  \n  - Sunday: 36 customers  \n\n### Step 1: Calculate tips for each day  \n- **Friday**: $2.00 × 28 = 56 dollars  \n- **Saturday**: $2.00 × 84 = 168 dollars  \n- **Sunday**: $2.00 × 36 = 72 dollars  \n\n### Step 2: Add tips from all three days  \n$$\n56 + 168 + 72 = 300\n$$\n\n### Final Answer:  \n$$\n\\boxed{300}\n$$",
+      "We are given the following information:\n\n- **Tips per customer:** $2.00  \n- **Number of customers served on Friday:** 28  \n- **Number of customers served on Saturday:** 3 × 28 = 84  \n- **Number of customers served on Sunday:** 36  \n\n### Step 1: Calculate total tips for each day\n\n- **Friday:** $2.00 × 28 = 56  \n- **Saturday:** $2.00 × 84 = 168  \n- **Sunday:** $2.00 × 36 = 72  \n\n### Step 2: Add tips from all three days\n\n$$\n56 + 168 + 72 = 300\n$$\n\n### Final answer:\n\n$$\n\\boxed{300}\n$$",
+      "We are given the following information:\n\n- Wade makes $2.00 in tips per customer.\n- On **Friday**, he served 28 customers.\n- On **Saturday**, he served **3 times** the number of customers on Friday, so $3 \\times 28 = 84$ customers.\n- On **Sunday**, he served 36 customers.\n\n### Step 1: Calculate total number of customers over the 3 days\n$$\n28 + 84 + 36 = 148 \\text{ customers}\n$$\n\n### Step 2: Calculate total tips made\n$$\n148 \\text{ customers} \\times 2.00 \\text{ dollars per customer} = 296 \\text{ dollars}\n$$\n\n### Final Answer:\n$$\n\\boxed{296}\n$$"
+    ]
+  },
+  {
+    "category": "recovered",
+    "id": "gsm8k:f04692e90d6c37db463ff6d3e2a5cadd2f7548577cb43d9b1111a8bbadf50434",
+    "question": "Gillian’s phone bill is usually $50 a month. If the monthly bill increases by 10%, what will be her phone bill for the entire next year?",
+    "answers": [
+      "660",
+      "110",
+      null,
+      "14763/50"
+    ],
+    "correct_indices": [
+      0
+    ],
+    "old_choice": 1,
+    "new_choice": 0,
+    "candidates": [
+      "Gillian’s phone bill is usually **$50** a month.\n\n### Step 1: Calculate the increase each month\n\n- The monthly bill increases by **10%**.\n- So, the increase is:  \n  $ 50 \\times 0.10 = 5 $\n\n### Step 2: Add the increase to the original bill\n\n- The new monthly bill is:  \n  $ 50 + 5 = 55 $\n\n### Step 3: Calculate the total for the entire year\n\n- A year has 12 months, so:  \n  $ 55 \\times 12 = 660 $\n\n### Final Answer:\n\n$$\n\\boxed{660}\n$$",
+      "We are given:\n\n- Original monthly phone bill: $50  \n- Monthly increase: 10%  \n- Time period: 12 months (a year)\n\n### Step 1: Calculate the monthly increase after 10%\n\n$$\n\\text{Monthly increase} = 50 \\times 0.10 = 5\n$$\n\n### Step 2: Calculate the total increase over 12 months\n\n$$\n\\text{Total increase} = 5 \\times 12 = 60\n$$\n\n### Step 3: Add the original amount to the total increase\n\n$$\n\\text{Total phone bill for the year} = 50 + 60 = 110\n$$\n\n### Final Answer:\n\n$$\n\\boxed{110}\n$$",
+      "Gillian’s phone bill is usually **$50** a month.\n\n- **Monthly increase**: 10% of $50 = $5  \n- **New monthly bill**: $50 + $5 = **$55**\n\nFor **the entire next year**, we multiply by 12 (since there are 12 months in a year):\n\n$$\n55 \\times 12 = 660\n$$\n\n### ✅ Final Answer: **660**",
+      "Gillian’s phone bill is usually $50 a month.\n\n- The monthly bill increases by 10% each month.\n\n1. **First month**: $50 + 10% of $50 = $50 × 1.10 = $55\n\n2. **Second month**: $55 + 10% of $55 = $55 × 1.10 = $60.50\n\n3. **Third month**: $60.50 + 10% of $60.50 = $60.50 × 1.10 = $66.55\n\n4. **Fourth month**: $66.55 + 10% of $66.55 = $66.55 × 1.10 = $73.21\n\nNow, add the monthly bills for the next 12 months:\n\n$$\n55 + 60.50 + 66.55 + 73.21 = 295.26\n$$\n\n### Final Answer:\n#### $295.26"
+    ]
+  },
+  {
+    "category": "recovered",
+    "id": "gsm8k:1c738a67bc7aeb3a91c5a27427a53ebb9fc455192ac48b7da11d291881a32f3e",
+    "question": "Juvy has a garden that has 20 rows with 10 plants in each row. She plants parsley in the first 3 rows and rosemary in the last two rows. The rest of the rows will be planted with chives. How many chives will Juvy plant?",
+    "answers": [
+      "160",
+      "150",
+      "15",
+      null
+    ],
+    "correct_indices": [
+      1
+    ],
+    "old_choice": 0,
+    "new_choice": 1,
+    "candidates": [
+      "Juvy has a garden with:\n\n- **20 rows**\n- **10 plants in each row**\n\n### Step 1: Determine how many rows are planted with parsley and rosemary:\n- **Parsley**: 1st and 3rd rows → **2 rows**\n- **Rosemary**: Last 2 rows → **2 rows**\n\n### Step 2: Find the number of rows planted with chives:\n- Total rows = 20  \n- Rows with parsley and rosemary = 2 + 2 = **4 rows**\n\n- Remaining rows = 20 - 4 = **16 rows**\n\n### Step 3: Calculate the number of chives:\n- Each row has **10 plants**\n- 16 rows × 10 plants = **160 plants**\n\n### Final Answer:\n#### <numeric answer> 160",
+      "Juvy has a garden with:\n\n- **20 rows**  \n- **10 plants per row**\n\nShe plants:\n\n- **Parsley** in the **first 3 rows**  \n- **Rosemary** in the **last 2 rows**  \n- The rest will be planted with **chives**\n\n### Step-by-step:\n\n- **Rows with parsley**: 3  \n- **Rows with rosemary**: 2  \n- **Remaining rows**: $20 - 3 - 2 = 15$ rows\n\nEach row has 10 plants, so:\n\n$$\n15 \\times 10 = \\boxed{150}\n$$\n\n### Final Answer:\n$$\n\\boxed{150}\n$$",
+      "Juvy has:\n\n- 20 rows  \n- 10 plants per row  \n\nShe plants:\n\n- Parsley in the first 3 rows  \n- Rosemary in the last 2 rows  \n- The rest will be chives  \n\n### Step-by-step:\n\n- **Parsley rows:** 3  \n- **Rosemary rows:** 2  \n- **Chives rows:** $ 20 - 3 - 2 = 15 $  \n\n### Total chives: $ 15 $  \n\n#### Final Answer:  \n**$\\boxed{15}$**",
+      "We are given:\n\n- There are **20 rows** in total.\n- **Parsley** is planted in the first **3 rows**.\n- **Rosemary** is planted in the **last 2 rows**.\n- The rest of the rows (i.e., **not** parsley or rosemary) will be planted with **chives**.\n\n### Step 1: Total rows = 20\n\n### Step 2: Rows planted with parsley = 3  \n### Rows planted with rosemary = 2\n\n### Step 3: Rows planted with chives = Total rows - (rows with parsley + rows with rosemary)  \n$$\n20 - (3 + 2) = 15\n$$\n\n### ✅ Final Answer: **15 chives**."
+    ]
+  },
+  {
+    "category": "regressed",
+    "id": "gsm8k:f786810eeb3814ef511d6d35ad780d720f852f764c260218e030b01027e64be8",
+    "question": "Helga went shopping for a new pair of shoes. At the first store, she tried on 7 pairs of shoes. At the second store, she tried on 2 more pairs than at the first store. At the third store, she did not try on any shoes, but she did buy a scarf.  But at the fourth store, she tried on twice as many pairs of shoes as she did at all three other stores combined, before finally choosing a pair to buy.  What is the total number of pairs of shoes Helga tried on before buying her new shoes?",
+    "answers": [
+      "48",
+      "48",
+      "32",
+      "44"
+    ],
+    "correct_indices": [
+      0,
+      1
+    ],
+    "old_choice": 1,
+    "new_choice": 2,
+    "candidates": [
+      "Helga tried on:\n\n- 7 pairs of shoes at the first store.\n- 2 more pairs than at the first store at the second store → 7 + 2 = **9** pairs.\n- 0 pairs at the third store.\n- Twice as many pairs as at the first and second stores combined at the fourth store → 7 + 9 = **16**, so **16 × 2 = 32** pairs.\n\nTotal pairs tried on before buying shoes:  \n7 + 9 + 32 = **48** pairs.\n\n#### <numeric answer> 48",
+      "Let's solve step by step:\n\n- **First store**: 7 pairs of shoes  \n- **Second store**: 2 more pairs than the first store → $ 7 + 2 = 9 $ pairs  \n- **Third store**: 0 pairs of shoes (no shoes tried on)  \n- **Fourth store**: Twice as many pairs as the sum of the first three stores →  \n  $ 2 \\times (7 + 9 + 0) = 2 \\times 16 = 32 $ pairs  \n\nNow, add the pairs from all stores:\n\n$$\n7 + 9 + 0 + 32 = 48\n$$\n\n### Final Answer:\n$$\n\\boxed{48}\n$$",
+      "Step-by-step:\n\n- At the **first store**, Helga tried on **7** pairs of shoes.\n- At the **second store**, she tried on **2 more** than the first store, so $7 + 2 = 9$ pairs.\n- At the **third store**, she **did not try on any shoes**, so $0$ pairs.\n- At the **fourth store**, she tried on **twice as many pairs as the sum of the first three stores**.\n  - Sum of first three stores: $7 + 9 + 0 = 16$\n  - Twice that: $2 \\times 16 = 32$ pairs.\n\nTotal number of pairs of shoes Helga tried on before buying her new shoes is:\n\n$$\n\\boxed{32}\n$$",
+      "Helga tried on:\n\n- 7 pairs of shoes at the first store.\n- 2 more pairs than at the first store at the second store: $ 7 + 2 = 9 $ pairs.\n- 0 pairs at the third store, but she bought a scarf.\n- Twice as many pairs of shoes as the sum of the pairs tried on at the first and second stores at the fourth store.\n\nSo, the total number of pairs of shoes Helga tried on is:\n\n$$\n7 + 9 + 0 + (2 \\times (7 + 9)) = 7 + 9 + 0 + 28 = 44\n$$\n\n### Final Answer:\n$$\n\\boxed{44}\n$$"
+    ]
+  },
+  {
+    "category": "regressed",
+    "id": "gsm8k:9996ba1830f138f22df6fe986c5ab8db8b53a629cabc554c13430471b287de07",
+    "question": "When Mark bought his first tv it was was 24 inches wide and 16 inches tall. It cost $672. His new tv is 48 inches wide and 32 inches tall and costs $1152. How much more expensive as measure by cost per square inch, was his first TV compared to his newest TV?",
+    "answers": [
+      "1",
+      "1152",
+      "1",
+      "1152"
+    ],
+    "correct_indices": [
+      0,
+      2
+    ],
+    "old_choice": 0,
+    "new_choice": 3,
+    "candidates": [
+      "We are given:\n\n- First TV: width = 24 inches, height = 16 inches, cost = $672  \n- New TV: width = 48 inches, height = 32 inches, cost = $1152  \n\nWe are to find **how much more expensive** the first TV is, measured **by cost per square inch**.\n\n### Step 1: Calculate cost per square inch for the first TV\n\n$$\n\\text{Cost per square inch} = \\frac{\\text{Cost}}{\\text{Area}} = \\frac{672}{24 \\times 16} = \\frac{672}{384} = 1.75\n$$\n\n### Step 2: Calculate cost per square inch for the new TV\n\n$$\n\\text{Cost per square inch} = \\frac{1152}{48 \\times 32} = \\frac{1152}{1536} = 0.75\n$$\n\n### Step 3: Find the difference\n\n$$\n\\text{Difference} = 1.75 - 0.75 = 1\n$$\n\n### Final Answer:\n\n$$\n\\boxed{1}\n$$",
+      "We are given the dimensions and prices of two TVs:\n\n- First TV: 24 inches wide, 16 inches tall, $672  \n- New TV: 48 inches wide, 32 inches tall, $1152  \n\nWe are asked to find **how much more expensive** the first TV is **by cost per square inch** compared to the second.\n\n### Step 1: Calculate the cost per square inch for both TVs\n\n#### First TV:\n$$\n\\text{Cost per square inch} = \\frac{672}{(24 \\times 16)} = \\frac{672}{384} = 1.75\n$$\n\n#### New TV:\n$$\n\\text{Cost per square inch} = \\frac{1152}{(48 \\times 32)} = \\frac{1152}{1536} = 0.75\n$$\n\n### Step 2: Find the difference\n\n$$\n\\text{Difference} = 1.75 - 0.75 = 1\n$$\n\n### Final Answer:\n\n$$\n\\boxed{1}\n$$",
+      "We are given:\n\n- **First TV**: 24 inches wide, 16 inches tall, cost $672  \n- **New TV**: 48 inches wide, 32 inches tall, cost $1152  \n\nWe are to find how much more expensive the **first TV** is as a measure of **cost per square inch** compared to the **newest TV**.\n\n---\n\n### Step 1: Calculate the cost per square inch for the first TV\n\n$$\n\\text{Cost per square inch} = \\frac{\\text{Cost}}{\\text{Area}} = \\frac{672}{(24 \\times 16)} = \\frac{672}{384} = 1.75\n$$\n\n---\n\n### Step 2: Calculate the cost per square inch for the newest TV\n\n$$\n\\text{Cost per square inch} = \\frac{1152}{(48 \\times 32)} = \\frac{1152}{1536} = 0.75\n$$\n\n---\n\n### Step 3: Find the difference\n\n$$\n\\text{Difference} = 1.75 - 0.75 = 1\n$$\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{1}\n$$",
+      "We are given:\n\n- **First TV**: 24 inches wide, 16 inches tall, cost = $672  \n- **New TV**: 48 inches wide, 32 inches tall, cost = $1152\n\n### Step 1: Calculate cost per square inch for each TV\n\n#### First TV:\n$$\n\\text{Cost per square inch} = \\frac{672}{24 \\times 16} = \\frac{672}{384} = 1.75\n$$\n\n#### New TV:\n$$\n\\text{Cost per square inch} = \\frac{1152}{48 \\times 32} = \\frac{1152}{1536} = 0.75\n$$\n\n### Step 2: Find the difference in cost per square inch\n\n$$\n1.75 - 0.75 = 1\n$$\n\n### Final Answer:\n\n$$\n\\boxed{1}\n$$"
+    ]
+  },
+  {
+    "category": "regressed",
+    "id": "gsm8k:1cd761b6f245d77da10fe923983fa7ed2788059971b369dcc27fb65c14d472e1",
+    "question": "John buys a heating pad for $30.  He uses it 3 times a week for 2 weeks.  How much does he spend on each use?",
+    "answers": [
+      "5",
+      null,
+      "10",
+      "30"
+    ],
+    "correct_indices": [
+      0
+    ],
+    "old_choice": 0,
+    "new_choice": 3,
+    "candidates": [
+      "We are told:\n\n- John buys a heating pad for **$30**.\n- He uses it **3 times a week**.\n- He uses it for **2 weeks**.\n\n### Step-by-step:\n\n1. Total cost of the heating pad: **$30**\n2. Number of times used per week: **3**\n3. Number of weeks: **2**\n\nSo, total cost for the heating pad over 2 weeks is:\n\n$$\n3 \\text{ uses/week} \\times 2 \\text{ weeks} = 6 \\text{ uses}\n$$\n\nNow, the cost per use is:\n\n$$\n\\frac{30}{6} = 5\n$$\n\n### Final answer:\n\n$$\n\\boxed{5}\n$$",
+      "John buys a heating pad for $30. He uses it **3 times a week** for **2 weeks**.  \n\nTo find the cost per use:  \n$$\n\\frac{30}{3 \\times 2} = \\frac{30}{6} = 5\n$$\n\n**Answer:** $5.00.**",
+      "We are told:\n\n- John buys a heating pad for **$30**.\n- He uses it **3 times a week** for **2 weeks**.\n\nTo find out how much he spends on each use:\n\n1. Calculate the total cost of the heating pad:\n   $$\n   30 \\text{ dollars}\n   $$\n\n2. Divide the total cost by the number of uses per week:\n   $$\n   \\frac{30}{3} = 10 \\text{ dollars per use}\n   $$\n\nSo, the amount he spends on each use is:\n\n$$\n\\boxed{10}\n$$",
+      "We are given:\n\n- Total cost of the heating pad: $30  \n- Number of uses per week: 3  \n- Number of weeks: 2  \n\n### Step 1: Calculate total cost of the heating pad  \n$$ 30 \\text{ dollars} $$\n\n### Step 2: Calculate total cost over 2 weeks  \n$$ 30 \\text{ dollars} \\times 3 \\text{ uses/week} \\times 2 \\text{ weeks} = 180 \\text{ dollars} $$\n\n### Step 3: Calculate the cost per use  \n$$ \\frac{180 \\text{ dollars}}{3 \\text{ uses/week} \\times 2 \\text{ weeks}} = 30 \\text{ dollars per use} $$\n\n### Final Answer:  \n$$ \\boxed{30} $$"
+    ]
+  },
+  {
+    "category": "regressed",
+    "id": "gsm8k:b2a1de95af68f1166d519fbfeb1cf95423db2d3da3bc64330d9375286a79814a",
+    "question": "Sharon wants to get kitchen supplies. She admired Angela's kitchen supplies which consist of 20 pots, 6 more than three times as many plates as the pots, and half as many cutlery as the plates. Sharon wants to buy half as many pots as Angela, 20 less than three times as many plates as Angela, and twice as much cutlery as Angela. What is the total number of kitchen supplies Sharon wants to buy?",
+    "answers": [
+      "122",
+      "274",
+      null,
+      "254"
+    ],
+    "correct_indices": [
+      3
+    ],
+    "old_choice": 3,
+    "new_choice": 1,
+    "candidates": [
+      "Let's solve this step by step:\n\n---\n\n### Step 1: Let the number of **pots** that Angela has be $ x $.\n\nThen:\n\n- **Pots**: $ x $\n- **Plates**: 6 more than three times the pots: $ 3x + 6 $\n- **Cutlery**: Half as many as the plates: $ \\frac{3x + 6}{2} $\n\n---\n\n### Step 2: Sharon wants:\n\n- **Pots**: Half as many as Angela: $ \\frac{x}{2} $\n- **Plates**: 20 less than three times as many as Angela: $ 3x + 6 - 20 = 3x - 14 $\n- **Cutlery**: Twice as much as Angela: $ 2 \\times \\frac{3x + 6}{2} = 3x + 6 $\n\n---\n\n### Step 3: Total kitchen supplies Sharon wants:\n\n$$\n\\text{Total} = \\frac{x}{2} + (3x - 14) + (3x + 6)\n$$\n\n$$\n\\text{Total} = \\frac{x}{2} + 6x - 14 + 6\n$$\n\n$$\n\\text{Total} = \\frac{13x}{2} - 8\n$$\n\n---\n\n### Step 4: Find the value of $ x $ (Angela's pots). Since the problem doesn't specify, we assume $ x = 20 $ (a reasonable assumption).\n\n$$\n\\text{Total} = \\frac{13 \\times 20}{2} - 8 = 130 - 8 = \\boxed{122}\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{122}\n$$",
+      "We are given the number of kitchen supplies Angela has:\n\n- 20 pots  \n- 6 more than 3 times the number of pots: $ 3 \\times 20 + 6 = 66 $ plates  \n- Half as many cutlery as the plates: $ \\frac{66}{2} = 33 $ cutlery  \n\nSo, Angela's supplies are:\n\n- Pots: 20  \n- Plates: 66  \n- Cutlery: 33  \n\nNow, Sharon wants to buy:\n\n- Half as many pots as Angela: $ \\frac{1}{2} \\times 20 = 10 $ pots  \n- 20 less than three times as many plates as Angela: $ 3 \\times 66 - 20 = 198 $ plates  \n- Twice as much cutlery as Angela: $ 2 \\times 33 = 66 $ cutlery  \n\nNow, add up the total number of supplies Sharon wants:\n\n- Pots: 10  \n- Plates: 198  \n- Cutlery: 66  \n\n$$\n10 + 198 + 66 = 274\n$$\n\n#### <numeric answer> 274",
+      "Let's solve this step by step:\n\n### Step 1: Let’s define variables:\n\n- Let the number of **pots** in Angela’s kitchen supplies be $ x $.\n- Then, the number of **plates** is $ 3x + 6 $ (since it's 6 more than 3 times the number of pots).\n- The number of **cutlery** is $ \\frac{1}{2}(3x + 6) = \\frac{3x + 6}{2} $.\n\n---\n\n### Step 2: Sharon wants:\n\n- Half as many pots as Angela: $ \\frac{x}{2} $\n- 20 less than three times as many plates as Angela: $ 3x + 6 - 20 = 3x - 14 $\n- Twice as much cutlery as Angela: $ 2 \\times \\left( \\frac{3x + 6}{2} \\right) = 3x + 6 $\n\n---\n\n### Step 3: Add up the quantities Sharon wants:\n\n- Pots: $ \\frac{x}{2} $\n- Plates: $ 3x - 14 $\n- Cutlery: $ 3x + 6 $\n\nNow, let’s add them:\n\n$$\n\\text{Total} = \\frac{x}{2} + (3x - 14) + (3x + 6)\n$$\n\n$$\n= \\frac{x}{2} + 6x - 14 + 6\n$$\n\n$$\n= \\frac{x}{2} + 6x - 8\n$$\n\n$$\n= \\frac{13x}{2} - 8\n$$\n\nBut we need to find a **numerical answer**, so we need to find the **value of $ x $**.\n\n---\n\n",
+      "Let's solve this step by step.\n\n---\n\n### Step 1: Define the number of kitchen supplies Angela has\n\n- Angela has **20 pots**.\n- The number of **plates** is **6 more than three times the number of pots**:\n  $$\n  \\text{Plates} = 3 \\times 20 + 6 = 66\n  $$\n- The number of **cutlery** is **half as many as the plates**:\n  $$\n  \\text{Cutlery} = \\frac{1}{2} \\times 66 = 33\n  $$\n\n---\n\n### Step 2: Determine how many Sharon wants to buy\n\n- Sharon wants to buy **half as many pots as Angela**:\n  $$\n  \\text{Pots Sharon wants} = \\frac{1}{2} \\times 20 = 10\n  $$\n- Sharon wants to buy **20 less than three times as many plates as Angela**:\n  $$\n  \\text{Plates Sharon wants} = 3 \\times 66 - 20 = 198 - 20 = 178\n  $$\n- Sharon wants to buy **twice as much cutlery as Angela**:\n  $$\n  \\text{Cutlery Sharon wants} = 2 \\times 33 = 66\n  $$\n\n---\n\n### Step 3: Add up the supplies Sharon wants\n\n$$\n\\text{Total supplies Sharon wants} = 10 + 178 + 66 = 254\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{254}\n$$"
+    ]
+  },
+  {
+    "category": "regressed",
+    "id": "gsm8k:ce48c13719a46b932e20bfda42e9281d3873db617769fea6c4f76b92bd25c262",
+    "question": "A train leaves its departure station with 6 coal cars, 12 iron cars, and 2 wood cars. Between each station, there are 6 miles, and it takes 25 minutes to travel between them. At each station, the train can deposit up to 2 coal cars, 3 iron cars, and 1 wood car. How many minutes will it take to deliver all the cars?",
+    "answers": [
+      "300",
+      "100",
+      "500",
+      "500"
+    ],
+    "correct_indices": [
+      1
+    ],
+    "old_choice": 1,
+    "new_choice": 2,
+    "candidates": [
+      "We are told:\n\n- A train leaves its departure station with:\n  - 6 coal cars,\n  - 12 iron cars,\n  - 2 wood cars.\n\n- Between each station, there are 6 miles, and it takes **25 minutes** to travel between them.\n\n- At each station, the train can **deposit up to**:\n  - 2 coal cars,\n  - 3 iron cars,\n  - 1 wood car.\n\nWe need to find the **total time** required to deliver all the cars.\n\n---\n\n### Step-by-step:\n\n1. **Total number of cars**:  \n   $ 6 + 12 + 2 = 20 $ cars.\n\n2. **Number of stations**:  \n   Since there are 6 cars between each station, and each car is delivered once, the number of stations is:  \n   $ 6 \\text{ cars} \\times 2 = 12 \\text{ stations} $.\n\n3. **Time per station**:  \n   Each trip takes **25 minutes**.\n\n4. **Total time**:  \n   $ 12 \\text{ stations} \\times 25 \\text{ minutes} = 300 \\text{ minutes} $.\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{300}\n$$",
+      "We are given:\n\n- A train departs a station with:\n  - 6 coal cars\n  - 12 iron cars\n  - 2 wood cars\n\n- There are **6 stations** between the departure station and the final destination.\n\n- The train can **deposit up to 2 coal cars, 3 iron cars, and 1 wood car** at each station.\n\n- It takes **25 minutes** to travel between stations.\n\nLet’s solve step by step:\n\n### Step 1: Determine the total number of cars\n\n- Coal: 6 cars\n- Iron: 12 cars\n- Wood: 2 cars\n\nTotal cars = 6 + 12 + 2 = **20 cars**\n\n### Step 2: Determine how many cars are delivered per station\n\n- At each station, the train can deliver:\n  - 2 coal cars\n  - 3 iron cars\n  - 1 wood car\n\nSo, per station, the train can deliver **5 cars** (2 + 3 + 1)\n\n### Step 3: Calculate how many stations are needed to deliver all 20 cars\n\nWe divide the total number of cars by the number of cars per station:\n\n$$\n\\frac{20}{5} = 4 \\text{ stations}\n$$\n\n### Step 4: Calculate total time\n\n- It takes **25 minutes** to travel between stations\n- There are **4 stations** in total\n\n$$\n\\text{Total time} = 4 \\times 25 = \\boxed{100} \\text{ minutes}\n$$\n\n### Final Answer:\n\n$$\n\\boxed{100}\n$$",
+      "We are told that:\n\n- A train leaves its departure station with:\n  - 6 coal cars,\n  - 12 iron cars,\n  - 2 wood cars.\n\n- There are **6 miles** between each station,\n- It takes **25 minutes** to travel between stations,\n- At each station, the train can **deposit up to**:\n  - 2 coal cars,\n  - 3 iron cars,\n  - 1 wood car.\n\nWe are to find the **total time** required to deliver all the cars.\n\n---\n\n### Step-by-step:\n\n1. **Total number of cars:**\n   $$\n   6 \\text{ coal} + 12 \\text{ iron} + 2 \\text{ wood} = 20 \\text{ cars}\n   $$\n\n2. **How many stations are there?**\n   - The number of stations is equal to the number of cars (since each car needs to be delivered at a station).\n   - So, there are **20 stations**.\n\n3. **Time to deliver all cars:**\n   - It takes **25 minutes per 6 miles**.\n   - Therefore, the time is:\n     $$\n     20 \\text{ stations} \\times 25 \\text{ minutes per station} = 500 \\text{ minutes}\n     $$\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{500}\n$$",
+      "We are given:\n\n- A train departs from a departure station with:\n  - 6 coal cars\n  - 12 iron cars\n  - 2 wood cars\n\n- Between each station, there are **6 miles**, and it takes **25 minutes** to travel between them.\n\n- At each station, the train can **deposit up to 2 coal cars, 3 iron cars, and 1 wood car**.\n\nWe need to find the **total time** required to deliver all the cars.\n\n### Step-by-step:\n\n1. **Total number of cars**:\n   $$\n   6 + 12 + 2 = 20 \\text{ cars}\n   $$\n\n2. **Number of stations**:\n   Since the train departs from a station and travels to another, and there are 20 cars, there are **20 stations**.\n\n3. **Time to deliver all cars**:\n   - Each trip takes **25 minutes**.\n   - There are **20 trips**.\n\n$$\n\\text{Total time} = 20 \\times 25 = \\boxed{500} \\text{ minutes}\n$$\n\n### Final Answer:\n\n$$\n\\boxed{500}\n$$"
+    ]
+  }
+]

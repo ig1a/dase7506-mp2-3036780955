@@ -1,0 +1,20 @@
+[
+  {
+    "process": "prediction",
+    "wall_seconds": 0.2532992910128087,
+    "returncode": 0,
+    "user_cpu_seconds": 0.20039099999999999,
+    "system_cpu_seconds": 0.022802999999999997,
+    "stdout": "{\"protocol\": \"dase7506-mp2-open-hard-verifier-v5\", \"split\": \"test\", \"prediction_seconds\": 0.1760920420056209}\n",
+    "stderr": ""
+  },
+  {
+    "process": "scoring",
+    "wall_seconds": 0.061528541991719976,
+    "returncode": 0,
+    "user_cpu_seconds": 0.04826199999999997,
+    "system_cpu_seconds": 0.010728000000000001,
+    "stdout": "{\n  \"protocol\": \"dase7506-mp2-open-hard-verifier-v5\",\n  \"split\": \"test\",\n  \"correct\": 379,\n  \"n\": 467,\n  \"accuracy\": 81.15631691648822,\n  \"scoring_seconds\": 0.010816041001817212\n}\n",
+    "stderr": ""
+  }
+]

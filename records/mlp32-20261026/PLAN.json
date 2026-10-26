@@ -1,0 +1,35 @@
+{
+  "seed": 17,
+  "hidden": 32,
+  "activation": "tanh",
+  "input_dimensions": 1028,
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "betas": [
+    0.9,
+    0.999
+  ],
+  "epsilon": 1e-08,
+  "batch_questions": 64,
+  "max_epochs": 100,
+  "validation_every_epochs": 5,
+  "early_stopping_patience_epochs": 20,
+  "selection": "highest hard validation correct count; ties keep earliest epoch",
+  "l2_lambda": 0.001,
+  "l2_definition": "0.5 * lambda * (sum(w1^2) + sum(w2^2)); no bias penalty",
+  "objective": "mean over informative questions of mean correct-vs-valid-wrong pair softplus(-(s_pos-s_neg)), plus L2",
+  "dtype": "float32",
+  "threads": 4,
+  "configurations": 1,
+  "fits": 1,
+  "dropout": 0,
+  "scaler": "Reuse identical train-only scaler from pairwise C=0.01; features unchanged",
+  "test_accessed": false,
+  "baseline": "artifacts/pairwise-C001-20261026.npz",
+  "source": "https://www.microsoft.com/en-us/research/wp-content/uploads/2005/08/icml_ranking.pdf (pairwise objective, section 3; not exact reproduction)",
+  "frozen": {
+    "artifacts/pairwise-C001-20261026.npz": "fb2354bbd24598833f63bd05c6eb0d020a7af535e361edca59b223a4e9c51ef4",
+    "submission.py": "f9e704ece2503b4df34ff43a1e4cee72895203c62e157e86f72705491230c10f",
+    "run_pairwise_c001.py": "2e93c91f1949630f4d6ec40b99b96f3ab8dfbafe111616e07bf64d212e1b282a"
+  }
+}

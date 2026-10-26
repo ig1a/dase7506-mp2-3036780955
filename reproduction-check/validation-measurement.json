@@ -1,0 +1,22 @@
+{
+  "official_score": {
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "validation",
+    "correct": 738,
+    "n": 798,
+    "accuracy": 92.4812030075188,
+    "scoring_seconds": 0.016875291999895126
+  },
+  "total_prediction_plus_scoring_wall_seconds": 0.38848837499972433,
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "threads": {
+    "OMP_NUM_THREADS": "4",
+    "OPENBLAS_NUM_THREADS": "4",
+    "MKL_NUM_THREADS": "4",
+    "VECLIB_MAXIMUM_THREADS": "4",
+    "NUMEXPR_NUM_THREADS": "4"
+  },
+  "asset_file_bytes": 26064,
+  "asset_uncompressed_bytes": 25456,
+  "checkpoint_sha256": "3efecdf40f8420a2b547e4ac49bb67b13cb3873e2a4fc87c73a4042dbe00fc66"
+}

@@ -1,0 +1,586 @@
+[
+  {
+    "category": "correct_final",
+    "question_index": 3282,
+    "candidate_index": 0,
+    "id": "gsm8k:c8eb952b1226ffac367628e0e7532dc2bcd7954da583af2061e74bc7d144538d",
+    "question": "Emmett does 12 jumping jacks, 8 pushups, and 20 situps. What percentage of his exercises were pushups?",
+    "text": "To find the **percentage of pushups** in Emmett's exercises:\n\n- Total exercises = 12 (jumping jacks) + 8 (pushups) + 20 (situps) = **40 exercises**\n\n- Pushups = 8\n\n- Percentage of pushups = $ \\frac{8}{40} \\times 100 = 20\\% $\n\n### Final Answer:\n#### 20.",
+    "checks": [
+      {
+        "left": "((8)/(40)) * 100",
+        "right": "(20/100)",
+        "computed_left": "20",
+        "computed_right": "1/5",
+        "tolerance": "0",
+        "inconsistent": true
+      }
+    ]
+  },
+  {
+    "category": "correct_final",
+    "question_index": 2311,
+    "candidate_index": 3,
+    "id": "gsm8k:3397d4f8053b5cc2a8c7fe2b57f1f1d66ba3f54c1542f39eb00adb23a91fd997",
+    "question": "Wendy spent 25 years as an accountant and 15 years as an accounting manager. If Wendy lived to be 80 years old, what percentage of her life did she spend in an accounting-related job?",
+    "text": "Wendy spent:\n\n- **25 years as an accountant**  \n- **15 years as an accounting manager**\n\nTotal life years:  \n$$ 25 + 15 = 40 \\text{ years} $$\n\nShe lived to be **80 years old**, so the remaining time is:  \n$$ 80 - 40 = 40 \\text{ years} $$\n\nPercentage of her life spent in an accounting-related job:  \n$$ \\frac{40}{80} \\times 100 = 50\\% $$\n\n#### <numeric answer> 50.",
+    "checks": [
+      {
+        "left": "25 + 15",
+        "right": "40",
+        "computed_left": "40",
+        "computed_right": "40",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "80 - 40",
+        "right": "40",
+        "computed_left": "40",
+        "computed_right": "40",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "((40)/(80)) * 100",
+        "right": "(50/100)",
+        "computed_left": "50",
+        "computed_right": "1/2",
+        "tolerance": "0",
+        "inconsistent": true
+      }
+    ]
+  },
+  {
+    "category": "correct_final",
+    "question_index": 2066,
+    "candidate_index": 2,
+    "id": "gsm8k:6ef3b61724c5fc8940a40500280a344063a7ce18b86313907bd75b6360e6f0eb",
+    "question": "Out of the 300 comic books in a comic store, 30% are liked by females, males like 120, and both genders don't like the rest. What percentage of the comic books are disliked by both males and females?",
+    "text": "We are given:\n\n- Total number of comic books = 300  \n- 30% are liked by females  \n- 120 are liked by males  \n- The rest (i.e., disliked by both males and females) is what we need to find.\n\n### Step 1: Calculate the number of comic books liked by females\n\n$$\n30\\% \\text{ of } 300 = 0.3 \\times 300 = 90\n$$\n\n### Step 2: Total liked by females + liked by males = total liked\n\n$$\n90 + 120 = 210\n$$\n\n### Step 3: Total disliked = total comics - liked = $ 300 - 210 = 90 $\n\n### Step 4: Percentage of comics disliked by both genders is:\n\n$$\n\\frac{90}{300} \\times 100 = 30\\%\n$$\n\n### ✅ Final Answer:\n\n$$\n\\boxed{30}\n$$",
+    "checks": [
+      {
+        "left": "0.3 * 300",
+        "right": "90",
+        "computed_left": "90",
+        "computed_right": "90",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "90 + 120",
+        "right": "210",
+        "computed_left": "210",
+        "computed_right": "210",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "300 - 210",
+        "right": "90",
+        "computed_left": "90",
+        "computed_right": "90",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "((90)/(300)) * 100",
+        "right": "(30/100)",
+        "computed_left": "30",
+        "computed_right": "3/10",
+        "tolerance": "0",
+        "inconsistent": true
+      }
+    ]
+  },
+  {
+    "category": "correct_final",
+    "question_index": 2531,
+    "candidate_index": 3,
+    "id": "gsm8k:c4ccda91d7bfb972b26f0ed5bd0b619580494c18d1f9f08de7314529de8f3789",
+    "question": "Janice adds 2 tablespoons of koolaid power and 16 tablespoons of water to a jug. She leaves it out long enough for 4 tablespoons of water to evaporate. Then she quadruples the amount of water in the jug. What percentage of the liquid in the jug is koolaid powder?",
+    "text": "We are given the following:\n\n- Janice adds:\n  - 2 tablespoons of koolaid powder\n  - 16 tablespoons of water\n\n- She leaves it out for 4 tablespoons of water to evaporate.\n\n- Then she **quadruples** the amount of water in the jug.\n\nWe are to find **what percentage of the liquid in the jug is koolaid powder**.\n\n---\n\n### Step 1: Start with the initial amount of liquid\n\n- Initial amount of liquid = 2 tablespoons of koolaid powder + 16 tablespoons of water = **18 tablespoons**\n\n---\n\n### Step 2: Evaporation of water\n\n- 4 tablespoons of water evaporates.\n\n- Remaining water = 16 - 4 = **12 tablespoons**\n\n- So, the total liquid is now:\n  - 2 + 12 = **14 tablespoons**\n\n---\n\n### Step 3: Quadruples the amount of water\n\n- The amount of water is now **12 tablespoons**, and it **quadruples** to:\n  - 12 × 4 = **48 tablespoons**\n\n- Total liquid = 2 (koolaid) + 48 (water) = **50 tablespoons**\n\n---\n\n### Step 4: Find the percentage of koolaid powder\n\n$$\n\\text{Percentage} = \\left( \\frac{2}{50} \\right) \\times 100 = 4\\%\n$$\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{4}\n$$",
+    "checks": [
+      {
+        "left": "( ((2)/(50))  ) * 100",
+        "right": "(4/100)",
+        "computed_left": "4",
+        "computed_right": "1/25",
+        "tolerance": "0",
+        "inconsistent": true
+      }
+    ]
+  },
+  {
+    "category": "correct_final",
+    "question_index": 2963,
+    "candidate_index": 0,
+    "id": "gsm8k:e1e6ba25268e72f515fa274ed05eb497df3a375d2cd2fae8949b81a9b92dd459",
+    "question": "The pizzeria sells small pizzas for $2 and large pizzas for $8. They sold $40 in pizzas. If they sold 8 small pizzas, how many large pizzas did they sell?",
+    "text": "We are given:\n\n- Price of a small pizza: $2  \n- Price of a large pizza: $8  \n- Total revenue: $40  \n- Number of small pizzas sold: 8\n\nLet the number of large pizzas sold be $ x $.\n\nThen:\n\n$$\n2 \\times 8 + 8 \\times 8 = 40\n$$\n\n$$\n16 + 64 = 40\n$$\n\n$$\n80 = 40\n$$\n\nThis means the calculation is incorrect. Let's solve it correctly:\n\nLet the number of large pizzas sold be $ x $.\n\n$$\n2 \\times 8 + 8 \\times x = 40\n$$\n\n$$\n16 + 8x = 40\n$$\n\n$$\n8x = 24\n$$\n\n$$\nx = 3\n$$\n\n### Final Answer:\n\n$$\n\\boxed{3}\n$$",
+    "checks": [
+      {
+        "left": "2 * 8 + 8 * 8",
+        "right": "40",
+        "computed_left": "80",
+        "computed_right": "40",
+        "tolerance": "0",
+        "inconsistent": true
+      },
+      {
+        "left": "16 + 64",
+        "right": "40",
+        "computed_left": "80",
+        "computed_right": "40",
+        "tolerance": "0",
+        "inconsistent": true
+      },
+      {
+        "left": "80",
+        "right": "40",
+        "computed_left": "80",
+        "computed_right": "40",
+        "tolerance": "0",
+        "inconsistent": true
+      }
+    ]
+  },
+  {
+    "category": "correct_final",
+    "question_index": 4033,
+    "candidate_index": 2,
+    "id": "gsm8k:9cace3857cd368036541ff0aa5b24607426027e2e78968f5550d4126294ee948",
+    "question": "Alma is taking a walk and comes across four goats standing behind a fence. Alma has a bag of baby carrots she brought to have for a snack and decides to feed the goats with them. Alma wants to make sure all the goats get the same amount of carrots, so she starts counting them out. She has 47 baby carrots. If she wants to give the exact same amount of carrots to each goat and wants to feed them all the carrots she can, how many will she have left over?",
+    "text": "Alma has **47 baby carrots** and wants to give **each goat an equal amount**. The number of goats is **4**.\n\nTo find how many carrots go to each goat, divide the total by the number of goats:\n\n$$\n\\frac{47}{4} = 11 \\text{ with a remainder of } 3\n$$\n\nSo, **11 carrots go to each goat**, and **3 carrots are left over**.\n\n#### Final answer: **3**.",
+    "checks": [
+      {
+        "left": "((47)/(4))",
+        "right": "11",
+        "computed_left": "47/4",
+        "computed_right": "11",
+        "tolerance": "0",
+        "inconsistent": true
+      }
+    ]
+  },
+  {
+    "category": "correct_final",
+    "question_index": 2248,
+    "candidate_index": 0,
+    "id": "gsm8k:5c42869b5e3c99edd844e15c844bb7ba69e3073420fc2d98996811cdd778d69b",
+    "question": "Carmen is counting the cars that pass by her window. All the cars are either white, black, or red. She sees 50 trucks and 40 cars. Half the trucks are red, and another 20% are black. If she picks one car at random, what is the percentage chance it's a white truck, rounded to the nearest integer?",
+    "text": "We are given:\n\n- Total number of cars: $ 50 + 40 = 90 $\n- Half the trucks are red: $ \\frac{1}{2} \\times 50 = 25 $ trucks are red\n- Another 20% of the trucks are black: $ 0.2 \\times 50 = 10 $ trucks are black\n\nSo, the number of white trucks is:\n\n$$\n\\text{White trucks} = 50 - 25 - 10 = 15\n$$\n\nNow, we want to find the **percentage chance it's a white truck**, given that she picks one car at random.\n\n$$\n\\text{Percentage chance} = \\left( \\frac{15}{90} \\right) \\times 100 = 16.67\\%\n$$\n\nRounded to the nearest integer:\n\n$$\n\\boxed{17}\n$$",
+    "checks": [
+      {
+        "left": "50 + 40",
+        "right": "90",
+        "computed_left": "90",
+        "computed_right": "90",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "((1)/(2)) * 50",
+        "right": "25",
+        "computed_left": "25",
+        "computed_right": "25",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "0.2 * 50",
+        "right": "10",
+        "computed_left": "10",
+        "computed_right": "10",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "50 - 25 - 10",
+        "right": "15",
+        "computed_left": "15",
+        "computed_right": "15",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "( ((15)/(90))  ) * 100",
+        "right": "(16.67/100)",
+        "computed_left": "50/3",
+        "computed_right": "1667/10000",
+        "tolerance": "0",
+        "inconsistent": true
+      }
+    ]
+  },
+  {
+    "category": "correct_final",
+    "question_index": 2900,
+    "candidate_index": 1,
+    "id": "gsm8k:572603c6d1a175504d4bde0954de6f81fffb9a30174b5ad04ab781df8ca14627",
+    "question": "Amelia has $60 to spend on her dinner at a restaurant. The first course costs $15 and the second course $5 more. The cost of the dessert is 25% of the price of the second course. How much money will Amelia have left after buying all those meals?",
+    "text": "Amelia has $60 to spend on her dinner:\n\n- First course: $15  \n- Second course: $15 + $5 = $20  \n- Dessert: 25% of the second course = $20 × 0.25 = $5  \n\nTotal cost = $15 + $20 + $5 = **$40**\n\nAmount left = $60 - $40 = **$20**\n\n#### <numeric answer> 20",
+    "checks": [
+      {
+        "left": "20 * 0.25",
+        "right": "15 +        5",
+        "computed_left": "5",
+        "computed_right": "20",
+        "tolerance": "0",
+        "inconsistent": true
+      }
+    ]
+  },
+  {
+    "category": "correct_final",
+    "question_index": 3896,
+    "candidate_index": 2,
+    "id": "gsm8k:120863c46d4a465067d54b3c3641e74c490069c9fa2c7214b788fd789d4bd5cf",
+    "question": "Diana earned $150 in July. She earned 3 times this amount in August. In September, She earned twice the money she earned in August. How much money did Diana earn over these three months?",
+    "text": "Diana earned:\n\n- $150 in July  \n- $150 × 3 = $450 in August  \n- $450 × 2 = $900 in September  \n\nTotal earnings over the three months:  \n**$150 + $450 + $900 = $1500**\n\n#### <numeric answer>  \n**$1500**",
+    "checks": [
+      {
+        "left": "-                   150 * 3",
+        "right": "450 * 2",
+        "computed_left": "-450",
+        "computed_right": "900",
+        "tolerance": "0",
+        "inconsistent": true
+      },
+      {
+        "left": "450 * 2",
+        "right": "150 +         900",
+        "computed_left": "900",
+        "computed_right": "1050",
+        "tolerance": "0",
+        "inconsistent": true
+      }
+    ]
+  },
+  {
+    "category": "correct_final",
+    "question_index": 671,
+    "candidate_index": 1,
+    "id": "gsm8k:d2625023f381a27b6348a420b5458559132641f306935418fd6a09ae85cb1ee2",
+    "question": "Julie wants to give her favorite cousin a $2345 mountain bike for his birthday. So far, she has saved $1500. Since the birthday is still a few weeks away, Julie has time to save even more. She plans on mowing 20 lawns, delivering 600 newspapers, and walking 24 of her neighbors’ dogs. She is paid $20 for each lawn, 40 cents per newspaper, and $15 per dog. After purchasing the bike, how much money will Julie have left?",
+    "text": "Julie has already saved $1500. She plans to save more:\n\n- Mowing 20 lawns: $20 × 20 = $400  \n- Delivering 600 newspapers: $0.40 × 600 = $240  \n- Walking 24 dogs: $15 × 24 = $360  \n\nTotal additional money she will save:  \n$400 + $240 + $360 = **$1000**\n\nNow, she will buy the bike for $2345.  \n\nJulie will have:  \n$1500 + $1000 = **$2500**  \n$2500 - $2345 = **$155**\n\n#### <numeric answer> 155",
+    "checks": [
+      {
+        "left": "0.40 * 600",
+        "right": "15 * 24",
+        "computed_left": "240",
+        "computed_right": "360",
+        "tolerance": "0",
+        "inconsistent": true
+      },
+      {
+        "left": "15 * 24",
+        "right": "400 +         360",
+        "computed_left": "360",
+        "computed_right": "760",
+        "tolerance": "0",
+        "inconsistent": true
+      }
+    ]
+  },
+  {
+    "category": "wrong_final",
+    "question_index": 2288,
+    "candidate_index": 1,
+    "id": "gsm8k:f195e70fc993b00767a83875e5597d9f699af2adeee3be7a77e189abd726c46b",
+    "question": "On a monthly basis, Esperanza pays $600 in rent, 3/5 as much money on food as she pays on rent and her mortgage bill costs three times the amount of money she spends on food. If she saves $2000 and also pays the equivalent of 2/5 of her savings in taxes, calculate her gross monthly salary.",
+    "text": "We are given the following details:\n\n- **Rent** = $600  \n- **Food** = $600 × (3/5) = $360  \n- **Mortgage** = 3 × Food = $3 × 360 = $1,080  \n\n- **Savings** = $2000  \n- **Taxes** = $2000 × (2/5) = $800  \n\nLet’s calculate the **gross monthly salary**:\n\n$$\n\\text{Gross Monthly Salary} = \\text{Rent} + \\text{Food} + \\text{Mortgage} + \\text{Savings} + \\text{Taxes}\n$$\n\n$$\n\\text{Gross Monthly Salary} = 600 + 360 + 1080 + 2000 + 800 = \\boxed{6000}\n$$\n\n**Answer:** $6000.",
+    "checks": [
+      {
+        "left": "600 + 360 + 1080 + 2000 + 800",
+        "right": "(6000)",
+        "computed_left": "4840",
+        "computed_right": "6000",
+        "tolerance": "0",
+        "inconsistent": true
+      },
+      {
+        "left": "600 * (3/5)",
+        "right": "3 * 360",
+        "computed_left": "360",
+        "computed_right": "1080",
+        "tolerance": "0",
+        "inconsistent": true
+      },
+      {
+        "left": "3 * 360",
+        "right": "2000",
+        "computed_left": "1080",
+        "computed_right": "2000",
+        "tolerance": "0",
+        "inconsistent": true
+      }
+    ]
+  },
+  {
+    "category": "wrong_final",
+    "question_index": 1389,
+    "candidate_index": 3,
+    "id": "gsm8k:d4ff5615ee414a0caa0c75d4deceb137388058071dbdf4225b4d0a5103846ad7",
+    "question": "Brian likes to read books.  He read one book that had 20 chapters, two books that had 15 chapters each, and one book that had half the chapters of the three previous books put together. How many chapters of books did Brian read?",
+    "text": "Brian read:\n\n- 1 book with **20 chapters**  \n- 2 books with **15 chapters each**  \n- 1 book with **half the chapters of the three previous books** (i.e., $ \\frac{20 + 15 + 15}{2} = 20 $ chapters)\n\nSo, the total number of chapters is:\n\n$$\n20 + 2 \\times 15 + 20 = 20 + 30 + 20 = \\boxed{70}\n$$\n\n**Answer:** 70 chapters.",
+    "checks": [
+      {
+        "left": "((20 + 15 + 15)/(2))",
+        "right": "20",
+        "computed_left": "25",
+        "computed_right": "20",
+        "tolerance": "0",
+        "inconsistent": true
+      },
+      {
+        "left": "20 + 2 * 15 + 20",
+        "right": "20 + 30 + 20",
+        "computed_left": "70",
+        "computed_right": "70",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "20 + 30 + 20",
+        "right": "(70)",
+        "computed_left": "70",
+        "computed_right": "70",
+        "tolerance": "0",
+        "inconsistent": false
+      }
+    ]
+  },
+  {
+    "category": "wrong_final",
+    "question_index": 3186,
+    "candidate_index": 0,
+    "id": "gsm8k:671bdbf32229a0860e919f07f1ab52e862ce2cc4dfc8da695245e417d06da2a6",
+    "question": "Chrystal’s vehicle speed is 30 miles per hour. Ascending the mountain decreases its speed by fifty percent, and descending the mountain increases its speed by twenty percent. If the distance going to the top of the mountain is 60 miles and the distance going down to the foot of the mountain is 72 miles, how many hours will Crystal have to pass the whole mountain?",
+    "text": "We are given:\n\n- Crystal’s vehicle speed = 30 mph  \n- Ascending decreases speed by 50% → new speed = 30 × 0.5 = **15 mph**  \n- Descending increases speed by 20% → new speed = 30 × 1.2 = **36 mph**\n\nWe are told:\n\n- Distance going to the top = 60 miles  \n- Distance going down to the foot = 72 miles  \n\nWe can now calculate the total time taken:\n\n$$\n\\text{Total time} = \\frac{\\text{Distance going up} + \\text{Distance going down}}{\\text{Speed}} = \\frac{60 + 72}{15 + 36} = \\frac{132}{51} = 2.619 \\text{ hours}\n$$\n\n### Final Answer:\n$$\n\\boxed{2.62} \\text{ hours}\n$$",
+    "checks": [
+      {
+        "left": "((60 + 72)/(15 + 36))",
+        "right": "((132)/(51))",
+        "computed_left": "44/17",
+        "computed_right": "44/17",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "((132)/(51))",
+        "right": "2.619",
+        "computed_left": "44/17",
+        "computed_right": "2619/1000",
+        "tolerance": "1/2000",
+        "inconsistent": true
+      }
+    ]
+  },
+  {
+    "category": "wrong_final",
+    "question_index": 479,
+    "candidate_index": 3,
+    "id": "gsm8k:3521f361e2c2d74d756a275195c666f88c8c6fe08b68ce70f0f7840e5023b49c",
+    "question": "On a farm, there are 2 cows, 3 pigs, and 6 goats. The farmer planned on adding 3 cows, 5 pigs, and 2 goats. How many animals will there be on the farm?",
+    "text": "We start with the number of animals on the farm:\n\n- Cows: 2  \n- Pigs: 3  \n- Goats: 6  \n\nThe farmer planned to add:\n\n- 3 more cows  \n- 5 more pigs  \n- 2 more goats  \n\nSo, the total number of animals will be:\n\n$$\n2 + 3 + 3 + 3 + 5 + 2 + 6 = 23\n$$\n\n#### <numeric answer> 23",
+    "checks": [
+      {
+        "left": "2 + 3 + 3 + 3 + 5 + 2 + 6",
+        "right": "23",
+        "computed_left": "24",
+        "computed_right": "23",
+        "tolerance": "0",
+        "inconsistent": true
+      }
+    ]
+  },
+  {
+    "category": "wrong_final",
+    "question_index": 3032,
+    "candidate_index": 0,
+    "id": "gsm8k:19f627fe4be9b5dacfe017887560e07548623747c41ca92b0d3be672ef87b5ed",
+    "question": "James spends 10 minutes downloading a game, half as long installing it, and triple that combined amount of time going through the tutorial. How long does it take before he can play the main game?",
+    "text": "James spends:\n\n- 10 minutes downloading a game  \n- Half as long installing it: $ \\frac{10}{2} = 5 $ minutes  \n- Triple the combined time: $ 3 \\times (10 + 5) = 25 $ minutes  \n\nSo, the total time before he can play the main game is:  \n**25 minutes**\n\n#### <numeric answer> = **25**",
+    "checks": [
+      {
+        "left": "((10)/(2))",
+        "right": "5",
+        "computed_left": "5",
+        "computed_right": "5",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "3 * (10 + 5)",
+        "right": "25",
+        "computed_left": "45",
+        "computed_right": "25",
+        "tolerance": "0",
+        "inconsistent": true
+      }
+    ]
+  },
+  {
+    "category": "wrong_final",
+    "question_index": 2494,
+    "candidate_index": 2,
+    "id": "gsm8k:f07a4a6b47daf6d8fa7ba2529f574266f4ee9c8011c1f5e76c61b6de21e294a8",
+    "question": "Thomas made 4 stacks of wooden blocks. The first stack was 7 blocks tall. The second stack was 3 blocks taller than the first. The third stack was 6 blocks shorter than the second stack, and the fourth stack was 10 blocks taller than the third stack. If the fifth stack has twice as many blocks as the second stack, how many blocks did Thomas use in all?",
+    "text": "We are given the following information:\n\n- First stack: 7 blocks  \n- Second stack: 3 blocks taller than the first → $ 7 + 3 = 10 $ blocks  \n- Third stack: 6 blocks shorter than the second → $ 10 - 6 = 4 $ blocks  \n- Fourth stack: 10 blocks taller than the third → $ 4 + 10 = 14 $ blocks  \n- Fifth stack: twice as many blocks as the second → $ 2 \\times 10 = 20 $ blocks  \n\nNow, add all the blocks:\n\n$$\n7 + 10 + 4 + 14 + 20 = \\boxed{65}\n$$\n\n#### Final answer: **65**",
+    "checks": [
+      {
+        "left": "7 + 3",
+        "right": "10",
+        "computed_left": "10",
+        "computed_right": "10",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "10 - 6",
+        "right": "4",
+        "computed_left": "4",
+        "computed_right": "4",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "4 + 10",
+        "right": "14",
+        "computed_left": "14",
+        "computed_right": "14",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "2 * 10",
+        "right": "20",
+        "computed_left": "20",
+        "computed_right": "20",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "7 + 10 + 4 + 14 + 20",
+        "right": "(65)",
+        "computed_left": "55",
+        "computed_right": "65",
+        "tolerance": "0",
+        "inconsistent": true
+      }
+    ]
+  },
+  {
+    "category": "wrong_final",
+    "question_index": 1613,
+    "candidate_index": 2,
+    "id": "gsm8k:dcd4fe4b2bb632409bf9ec732d5d9033f44ab7268c9ba62b09a9c521416ebe03",
+    "question": "Rebecca runs a hair salon. She charges $30 for haircuts, $40 for perms, and $60 for dye jobs, but she has to buy a box of hair dye for $10 to dye every head of hair. Today, she has four haircuts, one perm, and two dye jobs scheduled. If she makes $50 in tips, how much money will she have in dollars at the end of the day?",
+    "text": "We are given the following information:\n\n- **Haircuts**: $30 each  \n- **Perms**: $40 each  \n- **Dye jobs**: $60 each  \n- **Dye cost**: $10 per dye job  \n- **Number of haircuts**: 4  \n- **Number of perms**: 1  \n- **Number of dye jobs**: 2  \n- **Tips**: $50  \n\n---\n\n### Step 1: Calculate total revenue from services\n\n- Haircuts: $30 × 4 = $120  \n- Perms: $40 × 1 = $40  \n- Dye jobs: $60 × 2 = $120  \n- **Total service revenue**: $120 + $40 + $120 = **$280**\n\n---\n\n### Step 2: Calculate total cost of services\n\n- Dye cost: $10 × 2 = $20  \n- **Total service cost**: $20 (dye) + $120 (haircuts) + $40 (perm) = **$280**\n\n---\n\n### Step 3: Add tips to total revenue\n\n- **Total money at the end of the day**: $280 (services) + $50 (tips) = **$330**\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{330}\n$$",
+    "checks": [
+      {
+        "left": "40 * 1",
+        "right": "60 * 2",
+        "computed_left": "40",
+        "computed_right": "120",
+        "tolerance": "0",
+        "inconsistent": true
+      },
+      {
+        "left": "60 * 2",
+        "right": "120 +        120",
+        "computed_left": "120",
+        "computed_right": "240",
+        "tolerance": "0",
+        "inconsistent": true
+      }
+    ]
+  },
+  {
+    "category": "wrong_final",
+    "question_index": 3114,
+    "candidate_index": 0,
+    "id": "gsm8k:69e9b679a7bf3bc622c92e852a81f15ddf94a585a7f199b9f9269120fd776cb1",
+    "question": "Randy got 90, 98, 92, and 94 in his first four quizzes. His goal is to get a 94 average on his 5 quizzes. What score should he get in the fifth quiz to reach his desired average?",
+    "text": "To solve this problem, we first find the total of Randy's current scores:\n\n$$\n90 + 98 + 92 + 94 = 384\n$$\n\nHe wants an average of **94** over **5 quizzes**. So, the total he needs to achieve is:\n\n$$\n5 \\times 94 = 470\n$$\n\nHe currently has **384**. To reach the desired average, he needs:\n\n$$\n470 - 384 = 86\n$$\n\nThus, he should score **86** in the fifth quiz.\n\n### Final Answer:\n$$\n\\boxed{86}\n$$",
+    "checks": [
+      {
+        "left": "90 + 98 + 92 + 94",
+        "right": "384",
+        "computed_left": "374",
+        "computed_right": "384",
+        "tolerance": "0",
+        "inconsistent": true
+      },
+      {
+        "left": "5 * 94",
+        "right": "470",
+        "computed_left": "470",
+        "computed_right": "470",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "470 - 384",
+        "right": "86",
+        "computed_left": "86",
+        "computed_right": "86",
+        "tolerance": "0",
+        "inconsistent": false
+      }
+    ]
+  },
+  {
+    "category": "wrong_final",
+    "question_index": 3548,
+    "candidate_index": 2,
+    "id": "gsm8k:201a4ae44dd27164906a7992ff2549ad1a3c791cc8e82ea5c61c3be9267fe61d",
+    "question": "Regina has a farm with animals. She has 20 cows and four times more pigs. Someone told her, that she could sell all the animals and earn $400 for each pig and $800 for each cow. How much money would she earn if she would sell all the animals from the farm?",
+    "text": "Regina has:\n\n- **20 cows**\n- **4 times more pigs** than cows → 20 × 4 = **80 pigs**\n\nTotal animals = 20 + 80 = **100 animals**\n\nEach pig sells for **$400**, and each cow sells for **$800**\n\nTotal earnings =  \n$$\n(20 \\times 800) + (80 \\times 400) = 16,000 + 320,000 = \\boxed{480,000}\n$$\n\n**Final answer: $480,000**.",
+    "checks": [
+      {
+        "left": "(20 * 800) + (80 * 400)",
+        "right": "16000 + 320000",
+        "computed_left": "48000",
+        "computed_right": "336000",
+        "tolerance": "0",
+        "inconsistent": true
+      },
+      {
+        "left": "16000 + 320000",
+        "right": "(480000)",
+        "computed_left": "336000",
+        "computed_right": "480000",
+        "tolerance": "0",
+        "inconsistent": true
+      }
+    ]
+  },
+  {
+    "category": "wrong_final",
+    "question_index": 924,
+    "candidate_index": 1,
+    "id": "gsm8k:41187dd77df7bb432e56749d2b0800c3596ccc966e8987c86c33b5e6eb3865fc",
+    "question": "Johnny spent 3 hours working on a job that paid $7 per hour, 2 hours working on a job that paid $10 an hour, and 4 hours working on a job that paid $12 an hour.  Assuming he repeats this process 5 days in a row, how much does Johnny make?",
+    "text": "Johnny spends:\n\n- **3 hours** on a job that pays **$7/hour**  \n- **2 hours** on a job that pays **$10/hour**  \n- **4 hours** on a job that pays **$12/hour**\n\nAssuming he repeats this **5 days in a row**, we calculate his total earnings:\n\n1. **First day**:\n   - 3 hours × $7 = $21  \n   - 2 hours × $10 = $20  \n   - 4 hours × $12 = $48  \n   - Total: $21 + $20 + $48 = **$89**\n\n2. **Second day**:\n   - Same as first day: **$89**\n\n3. **Third day**:\n   - Same as first day: **$89**\n\n4. **Fourth day**:\n   - Same as first day: **$89**\n\n5. **Fifth day**:\n   - Same as first day: **$89**\n\nSo, **Johnny makes $89 per day**.\n\n#### <numeric answer> 89",
+    "checks": [
+      {
+        "left": "10",
+        "right": "12",
+        "computed_left": "10",
+        "computed_right": "12",
+        "tolerance": "0",
+        "inconsistent": true
+      },
+      {
+        "left": "12",
+        "right": "21 +        48",
+        "computed_left": "12",
+        "computed_right": "69",
+        "tolerance": "0",
+        "inconsistent": true
+      }
+    ]
+  }
+]

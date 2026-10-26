@@ -1,0 +1,1189 @@
+[
+  {
+    "category": "opportunity",
+    "id": "gsm8k:95691fde17ea0acd33c8b58ec6cc5e918f2a97cbc347af0f9314670b418682a8",
+    "question": "A store decides to shut down and sell all of its inventory.  They have 2000 different items which would normally retail for $50.  They are offering an 80% discount and manage to sell 90% of the items.  They owed $15000 to their creditors.  How much money do they have left after the sale?",
+    "choice": 0,
+    "correct_indices": [
+      2
+    ],
+    "candidates": [
+      {
+        "text": "We are given:\n\n- Number of items: 2000  \n- Retail price per item: $50  \n- Discount: 80%  \n- Percentage sold: 90%  \n- Total owed to creditors: $15000\n\n---\n\n### Step 1: Calculate the total revenue from the sale\n\n$$\n\\text{Revenue} = \\text{Number of items} \\times (\\text{Retail price} - \\text{Discount}) = 2000 \\times (50 - 0.8 \\times 50) = 2000 \\times 30 = 60,000\n$$\n\n---\n\n### Step 2: Calculate the total amount owed\n\nThey owed $15,000.\n\n---\n\n### Step 3: Calculate how much money they have left\n\n$$\n\\text{Money left} = \\text{Total revenue} - \\text{Amount owed} = 60,000 - 15,000 = \\boxed{45000}\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{45000}\n$$",
+        "code": null,
+        "index": 0
+      },
+      {
+        "text": "We are given:\n\n- Total number of items: 2000  \n- Retail price per item: $50  \n- Discount: 80%  \n- Percentage of items sold: 90%  \n- Total owed to creditors: $15000\n\n---\n\n### Step 1: Calculate the total amount the store would have if no discount is applied\n\n$$\n\\text{Total amount without discount} = 2000 \\times 50 = 100,000\n$$\n\n---\n\n### Step 2: Calculate the amount the store would have if they apply the 80% discount\n\n$$\n\\text{Discount amount} = 100,000 \\times 0.80 = 80,000\n$$\n\n$$\n\\text{Amount after discount} = 100,000 - 80,000 = 20,000\n$$\n\n---\n\n### Step 3: Calculate the amount of money they actually have after the sale\n\n$$\n\\text{Amount after sale} = 20,000 \\times 0.90 = 18,000\n$$\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{18000}\n$$",
+        "code": null,
+        "index": 1
+      },
+      {
+        "text": "We are given:\n\n- Total items: 2000  \n- Original retail price per item: $50  \n- Discount: 80%  \n- Number of items sold: 90% of 2000 = 1800  \n- Total debt owed: $15000  \n- Selling price per item: $50 × 0.20 = $10\n\nNow, calculate the total amount received from the sale:\n\n$$\n1800 \\times 10 = 18000\n$$\n\nNow subtract the debt owed from the amount received:\n\n$$\n18000 - 15000 = \\boxed{3000}\n$$\n\n**Final answer:** $ \\boxed{3000} $",
+        "code": null,
+        "index": 2
+      },
+      {
+        "text": "We are given:\n\n- Number of items: 2000  \n- Retail price per item: $50  \n- Discount: 80%  \n- Number of items sold: 90% of 2000 = 1800  \n- Total debt owed: $15000  \n- Total revenue from sales: $1800 \\times 50 = 90,000\n\nThey sold **90% of the items**, so:\n\n- Revenue: $90,000  \n- Total debt: $15,000\n\nAfter the sale, the amount of money they have left is:\n\n$$\n15,000 - 9,000 = \\boxed{6000}\n$$\n\n### Final Answer:\n#### <numeric answer> 6000.",
+        "code": null,
+        "index": 3
+      }
+    ],
+    "checks": [
+      [
+        {
+          "left": "2000 * (50 - 0.8 * 50)",
+          "right": "2000 * 30",
+          "computed_left": "20000",
+          "computed_right": "60000",
+          "tolerance": "0",
+          "inconsistent": true
+        },
+        {
+          "left": "2000 * 30",
+          "right": "60000",
+          "computed_left": "60000",
+          "computed_right": "60000",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "60000 - 15000",
+          "right": "(45000)",
+          "computed_left": "45000",
+          "computed_right": "45000",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ],
+      [
+        {
+          "left": "2000 * 50",
+          "right": "100000",
+          "computed_left": "100000",
+          "computed_right": "100000",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "100000 * 0.80",
+          "right": "80000",
+          "computed_left": "80000",
+          "computed_right": "80000",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "100000 - 80000",
+          "right": "20000",
+          "computed_left": "20000",
+          "computed_right": "20000",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "20000 * 0.90",
+          "right": "18000",
+          "computed_left": "18000",
+          "computed_right": "18000",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ],
+      [
+        {
+          "left": "1800 * 10",
+          "right": "18000",
+          "computed_left": "18000",
+          "computed_right": "18000",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "18000 - 15000",
+          "right": "(3000)",
+          "computed_left": "3000",
+          "computed_right": "3000",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ],
+      [
+        {
+          "left": "1800 * 50",
+          "right": "90000",
+          "computed_left": "90000",
+          "computed_right": "90000",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "15000 - 9000",
+          "right": "(6000)",
+          "computed_left": "6000",
+          "computed_right": "6000",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ]
+    ]
+  },
+  {
+    "category": "opportunity",
+    "id": "gsm8k:c2b774ce8d6a26df67879fd372e4dcea454504f60c376d1b5cf474b6ea92b52d",
+    "question": "After buying shirts worth $27 from a store, Dennis received 2 $10 bills and $3 in loose coins for his change. How much money did Dennis have initially?",
+    "choice": 0,
+    "correct_indices": [
+      2
+    ],
+    "candidates": [
+      {
+        "text": "Let's break down the problem step by step:\n\n- Dennis bought **$27** worth of shirts.\n- He received **2 $10 bills** and **$3 in loose coins**.\n\nTo find the **initial amount of money** Dennis had, we add the value of the shirts and the change:\n\n$$\n\\text{Initial amount} = 27 + 2 \\times 10 + 3 = 27 + 20 + 3 = 40\n$$\n\n### Final Answer:\n$$\n\\boxed{40}\n$$",
+        "code": null,
+        "index": 0
+      },
+      {
+        "text": "Dennis initially had **$27** worth of shirts. He received **$10 bills** and **$3 in loose coins** for his change. Since the question asks for the total amount he had initially, and not the total change, we can conclude:\n\n**Final answer:**  \n#### $27",
+        "code": null,
+        "index": 1
+      },
+      {
+        "text": "Let's break it down step by step:\n\n- Dennis bought **$27** worth of shirts.\n- He received **2 $10 bills** for change.\n- He also received **$3 in loose coins**.\n\nSo, the total amount he had initially is:\n\n$$\n27 + 2 \\times 10 + 3 = 27 + 20 + 3 = \\boxed{50}\n$$\n\n### Final Answer:\n**$50**.",
+        "code": null,
+        "index": 2
+      },
+      {
+        "text": "Dennis received $27 in total, including $10 bills and loose coins. We need to find out how much he had initially.\n\n- He paid $27.\n- He received $10 bills and $3 in loose coins.\n\nSo, the total amount he had initially is:\n\n$$\n27 + 10 + 3 = \\boxed{40}\n$$\n\n**Answer:** $\\boxed{40}$",
+        "code": null,
+        "index": 3
+      }
+    ],
+    "checks": [
+      [
+        {
+          "left": "27 + 2 * 10 + 3",
+          "right": "27 + 20 + 3",
+          "computed_left": "50",
+          "computed_right": "50",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "27 + 20 + 3",
+          "right": "40",
+          "computed_left": "50",
+          "computed_right": "40",
+          "tolerance": "0",
+          "inconsistent": true
+        }
+      ],
+      [],
+      [
+        {
+          "left": "27 + 2 * 10 + 3",
+          "right": "27 + 20 + 3",
+          "computed_left": "50",
+          "computed_right": "50",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "27 + 20 + 3",
+          "right": "(50)",
+          "computed_left": "50",
+          "computed_right": "50",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ],
+      [
+        {
+          "left": "27 + 10 + 3",
+          "right": "(40)",
+          "computed_left": "40",
+          "computed_right": "40",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ]
+    ]
+  },
+  {
+    "category": "opportunity",
+    "id": "gsm8k:fe4310a4712ec07ee6289f8c304fef6d6b00c42ae460824bf922b62233a94dfb",
+    "question": "Trey has 5 times as many turtles as Kris. Kris has one fourth the turtles Kristen has. How many turtles are there altogether if Kristen has 12?",
+    "choice": 2,
+    "correct_indices": [
+      0,
+      3
+    ],
+    "candidates": [
+      {
+        "text": "We are given:\n\n- Trey has 5 times as many turtles as **Kris**.\n- Kris has **1/4** the number of turtles as **Kristen**.\n- Kristen has **12** turtles.\n\n---\n\n### Step 1: Express the number of turtles in terms of Kristen.\n\nLet:\n- $ K $ = number of turtles Kristen has = 12\n\nThen:\n- Kris has $ \\frac{1}{4} \\times 12 = 3 $ turtles.\n\n---\n\n### Step 2: Express Trey in terms of Kris.\n\nTrey has 5 times as many turtles as Kris:\n\n- $ T = 5 \\times 3 = 15 $ turtles.\n\n---\n\n### Step 3: Total number of turtles.\n\n- Kristen: 12\n- Kris: 3\n- Trey: 15\n\n$$\n\\text{Total} = 12 + 3 + 15 = 30\n$$\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{30}\n$$",
+        "code": null,
+        "index": 0
+      },
+      {
+        "text": "We are given the following relationships:\n\n- Trey has 5 times as many turtles as **Kris**.\n- Kris has **1/4** the number of turtles that **Kristen** has.\n- Kristen has **12** turtles.\n\nLet's solve step by step:\n\n1. Let **Kristen's turtles** be 12.\n\n2. Kris has $ \\frac{1}{4} \\times 12 = 3 $ turtles.\n\n3. Trey has $ 5 \\times 3 = 15 $ turtles.\n\n4. The total number of turtles is:\n   $$\n   15 + 3 + 12 = 29\n   $$\n\n### Final Answer:\n$$\n\\boxed{29}\n$$",
+        "code": null,
+        "index": 1
+      },
+      {
+        "text": "We are given:\n\n- Trey has 5 times as many turtles as Kris.\n- Kris has 1/4 the turtles Kristen has.\n- Kristen has 12 turtles.\n\nLet’s solve step by step:\n\n1. Let Kristen’s number of turtles be **12**.\n2. Kris has **1/4** of that:  \n   $$\n   \\text{Kris} = \\frac{1}{4} \\times 12 = 3\n   $$\n3. Trey has 5 times as many as Kris:  \n   $$\n   \\text{Trey} = 5 \\times 3 = 15\n   $$\n4. Total turtles:  \n   $$\n   \\text{Total} = \\text{Trey} + \\text{Kris} + \\text{Kristen} = 15 + 3 + 12 = 29\n   $$\n\n### Final Answer:\n$$\n\\boxed{29}\n$$",
+        "code": null,
+        "index": 2
+      },
+      {
+        "text": "We are given:\n\n- Trey has 5 times as many turtles as Kris.\n- Kris has 1/4 as many turtles as Kristen.\n- Kristen has 12 turtles.\n\n---\n\nLet’s define:\n\n- Let $ K $ be the number of turtles Kristen has.\n- Then, Kris has $ \\frac{1}{4}K = \\frac{1}{4} \\times 12 = 3 $ turtles.\n- Trey has $ 5 \\times 3 = 15 $ turtles.\n\nSo, the total number of turtles is:\n\n$$\n15 + 3 + 12 = \\boxed{30}\n$$\n\n### Final Answer:\n#### <numeric answer> = **30**.",
+        "code": null,
+        "index": 3
+      }
+    ],
+    "checks": [
+      [
+        {
+          "left": "((1)/(4)) * 12",
+          "right": "3",
+          "computed_left": "3",
+          "computed_right": "3",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "5 * 3",
+          "right": "15",
+          "computed_left": "15",
+          "computed_right": "15",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "12 + 3 + 15",
+          "right": "30",
+          "computed_left": "30",
+          "computed_right": "30",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ],
+      [
+        {
+          "left": "((1)/(4)) * 12",
+          "right": "3",
+          "computed_left": "3",
+          "computed_right": "3",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "5 * 3",
+          "right": "15",
+          "computed_left": "15",
+          "computed_right": "15",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "15 + 3 + 12",
+          "right": "29",
+          "computed_left": "30",
+          "computed_right": "29",
+          "tolerance": "0",
+          "inconsistent": true
+        }
+      ],
+      [
+        {
+          "left": "((1)/(4)) * 12",
+          "right": "3",
+          "computed_left": "3",
+          "computed_right": "3",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "5 * 3",
+          "right": "15",
+          "computed_left": "15",
+          "computed_right": "15",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "15 + 3 + 12",
+          "right": "29",
+          "computed_left": "30",
+          "computed_right": "29",
+          "tolerance": "0",
+          "inconsistent": true
+        }
+      ],
+      [
+        {
+          "left": "((1)/(4)) * 12",
+          "right": "3",
+          "computed_left": "3",
+          "computed_right": "3",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "5 * 3",
+          "right": "15",
+          "computed_left": "15",
+          "computed_right": "15",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "15 + 3 + 12",
+          "right": "(30)",
+          "computed_left": "30",
+          "computed_right": "30",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ]
+    ]
+  },
+  {
+    "category": "opportunity",
+    "id": "gsm8k:5951b8bd948f16d7423ed1377de46b27c1cc6cd976c905b2f840fa4b2edbe840",
+    "question": "Linda is painting her bedroom. Her bedroom has 4 walls, with the room being 20 feet wide by 20 feet long by 8 feet tall. One wall has a 3-foot by 7-foot doorway. A second wall has a 6-foot by 4-foot window. A third wall has a 5-foot by 7-foot doorway to a walk-in-closet. And the fourth wall is completely solid. What is the total area of wall space that Linda will have to paint?",
+    "choice": 1,
+    "correct_indices": [
+      0
+    ],
+    "candidates": [
+      {
+        "text": "To find the total area of wall space Linda will paint, we need to calculate the total area of all the walls and subtract the areas of the doors and windows that are already painted.\n\n### Step 1: Calculate the area of all walls\n\nThe room is a rectangular prism with dimensions:  \n- Width = 20 feet  \n- Length = 20 feet  \n- Height = 8 feet  \n\nThe total area of the walls is:  \n$$\n2 \\times (20 \\times 8) + 2 \\times (20 \\times 8) = 2 \\times 160 + 2 \\times 160 = 640 \\text{ square feet}\n$$\n\n### Step 2: Subtract the areas of the doors and windows\n\n- **Doorway on one wall**:  \n  $$\n  3 \\times 7 = 21 \\text{ square feet}\n  $$\n\n- **Window on one wall**:  \n  $$\n  6 \\times 4 = 24 \\text{ square feet}\n  $$\n\n- **Doorway to the walk-in-closet**:  \n  $$\n  5 \\times 7 = 35 \\text{ square feet}\n  $$\n\nSo, the total area to be painted is:  \n$$\n640 - 21 - 24 - 35 = 560 \\text{ square feet}\n$$\n\n### Final Answer:\n\n$$\n\\boxed{560}\n$$",
+        "code": null,
+        "index": 0
+      },
+      {
+        "text": "We are given:\n\n- The room has dimensions: **20 ft × 20 ft × 8 ft**.\n- One wall has a **3 ft × 7 ft doorway**.\n- One wall has a **6 ft × 4 ft window**.\n- One wall has a **5 ft × 7 ft doorway** to a **walk-in-closet**.\n- The fourth wall is **completely solid**.\n\n---\n\n### Step 1: Calculate the total area of the walls\n\nThe room has **4 walls**, so we can calculate the area of each wall and then add them up.\n\n- **First wall**: 20 ft × 8 ft = 160 ft²  \n- **Second wall**: 20 ft × 8 ft = 160 ft²  \n- **Third wall**: 20 ft × 8 ft = 160 ft²  \n- **Fourth wall**: 20 ft × 20 ft = 400 ft²\n\nTotal wall area = 160 + 160 + 160 + 400 = **880 ft²**\n\n---\n\n### Step 2: Subtract the areas of the windows and doors that are not painted\n\n- **First door**: 3 ft × 7 ft = 21 ft²  \n- **Second window**: 6 ft × 4 ft = 24 ft²  \n- **Third door**: 5 ft × 7 ft = 35 ft²\n\nNow subtract these from the total:\n\n$$\n880 - 21 - 24 - 35 = 820 \\text{ ft}^2\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{820}\n$$",
+        "code": null,
+        "index": 1
+      },
+      {
+        "text": "To find the total area of wall space that Linda will have to paint, we need to calculate the area of all the walls, subtract the areas of the windows and doors that are already painted, and then add the area of the walls that are completely solid.\n\n### Step 1: Calculate the total area of all walls\n\nThe room is a rectangular prism with:\n- Width = 20 ft\n- Length = 20 ft\n- Height = 8 ft\n\nSo the total area of the walls is:\n\n$$\n2 \\times (20 \\times 20) = 800 \\, \\text{ft}^2\n$$\n\n### Step 2: Calculate the areas of the windows and doors\n\n- **Doorway 1**: 3 ft × 7 ft  \n  Area = $ 3 \\times 7 = 21 \\, \\text{ft}^2 $\n\n- **Window 2**: 6 ft × 4 ft  \n  Area = $ 6 \\times 4 = 24 \\, \\text{ft}^2 $\n\n- **Doorway 3**: 5 ft × 7 ft  \n  Area = $ 5 \\times 7 = 35 \\, \\text{ft}^2 $\n\n### Step 3: Subtract the areas of the windows and doors from the total wall area\n\n$$\n800 - 21 - 24 - 35 = 730 \\, \\text{ft}^2\n$$\n\n### Final Answer:\n\n$$\n\\boxed{730}\n$$",
+        "code": null,
+        "index": 2
+      },
+      {
+        "text": "To find the **total area of wall space that Linda will have to paint**, we need to calculate the **total area of all walls** and then subtract the **area of the walls that are covered by **doors or windows**.\n\n---\n\n### Step 1: Calculate the area of all walls\n\nThe room is a rectangular prism with:\n- **Width = 20 ft**\n- **Length = 20 ft**\n- **Height = 8 ft**\n\nThe **total area of the walls** is:\n\n$$\n2 \\times (20 \\, \\text{ft} \\times 20 \\, \\text{ft}) + 2 \\times (20 \\, \\text{ft} \\times 8 \\, \\text{ft})\n$$\n\n$$\n= 2 \\times 400 + 2 \\times 160 = 800 + 320 = 1120 \\, \\text{ft}^2\n$$\n\n---\n\n### Step 2: Calculate the area of the walls that are covered by **doors or windows**\n\n- **One wall** has a **3-foot by 7-foot doorway**:\n  $$\n  3 \\times 7 = 21 \\, \\text{ft}^2\n  $$\n\n- **A second wall** has a **6-foot by 4-foot window**:\n  $$\n  6 \\times 4 = 24 \\, \\text{ft}^2\n  $$\n\n- **A third wall** has a **5-foot by 7-foot doorway**:\n  $$\n  5 \\times 7 = 35 \\, \\text{ft}^2\n  $$\n\n- **The fourth wall** is completely solid, so its area is **1120 ft²**",
+        "code": null,
+        "index": 3
+      }
+    ],
+    "checks": [
+      [
+        {
+          "left": "2 * (20 * 8) + 2 * (20 * 8)",
+          "right": "2 * 160 + 2 * 160",
+          "computed_left": "640",
+          "computed_right": "640",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "2 * 160 + 2 * 160",
+          "right": "640",
+          "computed_left": "640",
+          "computed_right": "640",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "3 * 7",
+          "right": "21",
+          "computed_left": "21",
+          "computed_right": "21",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "6 * 4",
+          "right": "24",
+          "computed_left": "24",
+          "computed_right": "24",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "5 * 7",
+          "right": "35",
+          "computed_left": "35",
+          "computed_right": "35",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "640 - 21 - 24 - 35",
+          "right": "560",
+          "computed_left": "560",
+          "computed_right": "560",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ],
+      [
+        {
+          "left": "880 - 21 - 24 - 35",
+          "right": "820",
+          "computed_left": "800",
+          "computed_right": "820",
+          "tolerance": "0",
+          "inconsistent": true
+        }
+      ],
+      [
+        {
+          "left": "2 * (20 * 20)",
+          "right": "800",
+          "computed_left": "800",
+          "computed_right": "800",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "3 * 7",
+          "right": "21",
+          "computed_left": "21",
+          "computed_right": "21",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "6 * 4",
+          "right": "24",
+          "computed_left": "24",
+          "computed_right": "24",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "5 * 7",
+          "right": "35",
+          "computed_left": "35",
+          "computed_right": "35",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "800 - 21 - 24 - 35",
+          "right": "730",
+          "computed_left": "720",
+          "computed_right": "730",
+          "tolerance": "0",
+          "inconsistent": true
+        }
+      ],
+      [
+        {
+          "left": "2 * 400 + 2 * 160",
+          "right": "800 + 320",
+          "computed_left": "1120",
+          "computed_right": "1120",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "800 + 320",
+          "right": "1120",
+          "computed_left": "1120",
+          "computed_right": "1120",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "3 * 7",
+          "right": "21",
+          "computed_left": "21",
+          "computed_right": "21",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "6 * 4",
+          "right": "24",
+          "computed_left": "24",
+          "computed_right": "24",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "5 * 7",
+          "right": "35",
+          "computed_left": "35",
+          "computed_right": "35",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ]
+    ]
+  },
+  {
+    "category": "opportunity",
+    "id": "gsm8k:8a50467fe54f457a934c6d677be66996a202a9cdfceb94304645c6d6e13e2d9e",
+    "question": "Seth lost 17.5 pounds. Jerome lost three times that many pounds and Veronica lost 1.5 pounds more than Seth. How many pounds did the 3 people lose in total?",
+    "choice": 1,
+    "correct_indices": [
+      3
+    ],
+    "candidates": [
+      {
+        "text": "We are given:\n\n- Seth lost **17.5 pounds**\n- Jerome lost **3 times** Seth's loss: $ 3 \\times 17.5 = 52.5 $ pounds\n- Veronica lost **1.5 pounds more than Seth**: $ 17.5 + 1.5 = 20 $ pounds\n\nNow, add all the amounts together:\n\n$$\n17.5 + 52.5 + 20 = \\boxed{90}\n$$\n\n### Final Answer: **90** pounds.",
+        "code": null,
+        "index": 0
+      },
+      {
+        "text": "We are given:\n\n- Seth lost **17.5 pounds**  \n- Jerome lost **3 times** the amount Seth lost:  \n  $ 3 \\times 17.5 = 52.5 $ pounds  \n- Veronica lost **1.5 pounds more than Seth**:  \n  $ 17.5 + 1.5 = 19 $ pounds  \n\nNow, add the amounts together:\n\n$$\n17.5 + 52.5 + 19 = 79\n$$\n\n### Final answer:\n\n$$\n\\boxed{79}\n$$",
+        "code": null,
+        "index": 1
+      },
+      {
+        "text": "We are given the following:\n\n- Seth lost **17.5 pounds**.\n- Jerome lost **3 times** the pounds Seth lost:  \n  $ 3 \\times 17.5 = 52.5 $ pounds.\n- Veronica lost **1.5 pounds more than Seth**:  \n  $ 17.5 + 1.5 = 19 $ pounds.\n\nNow, we add the total weight lost by all three people:\n\n$$\n17.5 + 52.5 + 19 = 79\n$$\n\n### Final Answer:\n$$\n\\boxed{79}\n$$",
+        "code": null,
+        "index": 2
+      },
+      {
+        "text": "We are given the following:\n\n- Seth lost **17.5 pounds**.\n- Jerome lost **3 times** the amount Seth lost: $ 3 \\times 17.5 = 52.5 $ pounds.\n- Veronica lost **1.5 pounds more than Seth**: $ 17.5 + 1.5 = 19 $ pounds.\n\nNow, add the amounts together:\n\n$$\n17.5 + 52.5 + 19 = \\boxed{89}\n$$\n\n**Final answer:** $\\boxed{89}$ pounds.",
+        "code": null,
+        "index": 3
+      }
+    ],
+    "checks": [
+      [
+        {
+          "left": "3 * 17.5",
+          "right": "52.5",
+          "computed_left": "105/2",
+          "computed_right": "105/2",
+          "tolerance": "1/20",
+          "inconsistent": false
+        },
+        {
+          "left": "17.5 + 1.5",
+          "right": "20",
+          "computed_left": "19",
+          "computed_right": "20",
+          "tolerance": "0",
+          "inconsistent": true
+        },
+        {
+          "left": "17.5 + 52.5 + 20",
+          "right": "(90)",
+          "computed_left": "90",
+          "computed_right": "90",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ],
+      [
+        {
+          "left": "3 * 17.5",
+          "right": "52.5",
+          "computed_left": "105/2",
+          "computed_right": "105/2",
+          "tolerance": "1/20",
+          "inconsistent": false
+        },
+        {
+          "left": "17.5 + 1.5",
+          "right": "19",
+          "computed_left": "19",
+          "computed_right": "19",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "17.5 + 52.5 + 19",
+          "right": "79",
+          "computed_left": "89",
+          "computed_right": "79",
+          "tolerance": "0",
+          "inconsistent": true
+        }
+      ],
+      [
+        {
+          "left": "3 * 17.5",
+          "right": "52.5",
+          "computed_left": "105/2",
+          "computed_right": "105/2",
+          "tolerance": "1/20",
+          "inconsistent": false
+        },
+        {
+          "left": "17.5 + 1.5",
+          "right": "19",
+          "computed_left": "19",
+          "computed_right": "19",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "17.5 + 52.5 + 19",
+          "right": "79",
+          "computed_left": "89",
+          "computed_right": "79",
+          "tolerance": "0",
+          "inconsistent": true
+        }
+      ],
+      [
+        {
+          "left": "3 * 17.5",
+          "right": "52.5",
+          "computed_left": "105/2",
+          "computed_right": "105/2",
+          "tolerance": "1/20",
+          "inconsistent": false
+        },
+        {
+          "left": "17.5 + 1.5",
+          "right": "19",
+          "computed_left": "19",
+          "computed_right": "19",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "17.5 + 52.5 + 19",
+          "right": "(89)",
+          "computed_left": "89",
+          "computed_right": "89",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ]
+    ]
+  },
+  {
+    "category": "risk",
+    "id": "gsm8k:6bfc8e985f4beec1cd3101f2e234ecba829fbf3f6d4bad19fac9f0cac0ec666f",
+    "question": "Duke was at a garage sale when he spotted DVDs on sale.  They were separated by price into 2 different boxes.  In the first box, he found 10 movies that he wanted.  These were $2.00 apiece.  The second box was marked $5 each and he found 5 movies he wanted.  What was the average price of each of the DVDs he bought?",
+    "choice": 1,
+    "correct_indices": [
+      1,
+      2,
+      3
+    ],
+    "candidates": [
+      {
+        "text": "Duke bought 10 DVDs at $2.00 each from the first box, and 5 DVDs at $5.00 each from the second box.\n\n- Cost of first box: $2.00 × 10 = $20.00  \n- Cost of second box: $5.00 × 5 = $25.00\n\nTotal cost = $20.00 + $25.00 = **$45.00**\n\nAverage price = **$45.00**\n\n#### <numeric answer> = 45.00",
+        "code": null,
+        "index": 0
+      },
+      {
+        "text": "Duke bought 10 movies from the first box at $2.00 each, and 5 movies from the second box at $5.00 each.\n\n- Cost of 10 movies: $2.00 × 10 = $20.00  \n- Cost of 5 movies: $5.00 × 5 = $25.00\n\nTotal cost = $20.00 + $25.00 = $45.00\n\nAverage price = $45.00 ÷ 15 = **$3.00**\n\n#### <numeric answer> 3.00",
+        "code": null,
+        "index": 1
+      },
+      {
+        "text": "Duke bought 10 DVDs from the first box at $2.00 each, and 5 DVDs from the second box at $5.00 each.\n\n- Total price from the first box: $10 \\times 2 = 20$\n- Total price from the second box: $5 \\times 5 = 25$\n\nTotal price = $20 + 25 = 45$\n\nAverage price = $45 \\div 15 = 3$\n\n#### <numeric answer> 3.00",
+        "code": null,
+        "index": 2
+      },
+      {
+        "text": "Duke bought 10 movies at $2.00 each from the first box, and 5 movies at $5.00 each from the second box.\n\n- Cost of the first box: $10 \\times 2.00 = 20.00$\n- Cost of the second box: $5 \\times 5.00 = 25.00$\n\nTotal cost: $20.00 + 25.00 = 45.00$\n\nAverage price per DVD: $45.00 / 15 = 3.00$\n\n#### <numeric answer> 3.00",
+        "code": null,
+        "index": 3
+      }
+    ],
+    "checks": [
+      [],
+      [
+        {
+          "left": "25.00",
+          "right": "45.00 / 15",
+          "computed_left": "25",
+          "computed_right": "3",
+          "tolerance": "0",
+          "inconsistent": true
+        }
+      ],
+      [
+        {
+          "left": "10 * 2",
+          "right": "20",
+          "computed_left": "20",
+          "computed_right": "20",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "5 * 5",
+          "right": "25",
+          "computed_left": "25",
+          "computed_right": "25",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "20 + 25",
+          "right": "45",
+          "computed_left": "45",
+          "computed_right": "45",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "45 / 15",
+          "right": "3",
+          "computed_left": "3",
+          "computed_right": "3",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ],
+      [
+        {
+          "left": "10 * 2.00",
+          "right": "20.00",
+          "computed_left": "20",
+          "computed_right": "20",
+          "tolerance": "1/200",
+          "inconsistent": false
+        },
+        {
+          "left": "5 * 5.00",
+          "right": "25.00",
+          "computed_left": "25",
+          "computed_right": "25",
+          "tolerance": "1/200",
+          "inconsistent": false
+        },
+        {
+          "left": "20.00 + 25.00",
+          "right": "45.00",
+          "computed_left": "45",
+          "computed_right": "45",
+          "tolerance": "1/200",
+          "inconsistent": false
+        },
+        {
+          "left": "45.00 / 15",
+          "right": "3.00",
+          "computed_left": "3",
+          "computed_right": "3",
+          "tolerance": "1/200",
+          "inconsistent": false
+        }
+      ]
+    ]
+  },
+  {
+    "category": "risk",
+    "id": "gsm8k:94a9135f80c91c2c68dab211859f0432326c645259daf61fec92e8438935e1eb",
+    "question": "Keesha wants to get her hair and nails done for prom.  Hair updos cost $50 and manicures cost $30.  How much will these two services cost her with a 20% tip for each beautician?",
+    "choice": 0,
+    "correct_indices": [
+      0,
+      1,
+      2
+    ],
+    "candidates": [
+      {
+        "text": "Keesha wants to get her hair and nails done for prom.  \n- Hair updos cost $50  \n- Manicures cost $30  \n- Each beautician offers a 20% tip  \n\n### Step 1: Cost of hair updos and manicures  \n$50 + $30 = **$80**\n\n### Step 2: Add 20% tip to each service  \n- $50 × 20% = $10  \n- $30 × 20% = $6  \n\n### Step 3: Total cost  \n$80 + $10 + $6 = **$96**\n\n#### Final answer: **$96**",
+        "code": null,
+        "index": 0
+      },
+      {
+        "text": "Keesha wants to get her hair and nails done for prom.  \n- Hair updos: $50  \n- Manicures: $30  \n\n**Tip:** 20% of each service  \n\n**Total cost:**  \n- $50 (hair updos) + $30 (manicures) + 20% of $50 + 20% of $30  \n\n**Step-by-step calculation:**  \n- Hair updos: $50  \n- Manicures: $30  \n- Tip for hair: 20% of $50 = $10  \n- Tip for manicures: 20% of $30 = $6  \n\n**Total cost:**  \n$50 + $30 + $10 + $6 = **$96**  \n\n#### <numeric answer> 96",
+        "code": null,
+        "index": 1
+      },
+      {
+        "text": "Keesha wants to get her hair and nails done. The cost of hair updos is $50, and manicures are $30. With a 20% tip for each beautician, we need to calculate the total cost.\n\n1. **Cost of hair updos**: $50  \n2. **Cost of manicures**: $30  \n3. **Tip for hair updos**: $50 × 20% = $10  \n4. **Tip for manicures**: $30 × 20% = $6  \n\n5. **Total cost**:  \n   $50 + $30 + $10 + $6 = **$96**\n\n#### <numeric answer> 96",
+        "code": null,
+        "index": 2
+      },
+      {
+        "text": "Keesha wants to do her hair and nails for prom.  \n- Hair updos cost $50  \n- Manicures cost $30  \n\nEach service includes a 20% tip.  \n\n- Hair cost: $50 × 20% = $10  \n- Manicure cost: $30 × 20% = $6  \n\nTotal cost: $10 + $6 = **$16**  \n\n#### <numeric answer> = **16**",
+        "code": null,
+        "index": 3
+      }
+    ],
+    "checks": [
+      [
+        {
+          "left": "30 * (20/100)",
+          "right": "80 +        6",
+          "computed_left": "6",
+          "computed_right": "86",
+          "tolerance": "0",
+          "inconsistent": true
+        }
+      ],
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "category": "risk",
+    "id": "gsm8k:2415b1b742a1583b1aa7c3b84f1f9b2d57aff020bb268710f52b55a25f635a6f",
+    "question": "Carter has a jar with 20 green M&Ms and 20 red M&Ms. He eats 12 of the green M&Ms, then his sister comes and eats half the red M&Ms and adds 14 yellow M&Ms. If Carter picks an M&M at random now, what is the percentage chance he'll get a green M&M?",
+    "choice": 0,
+    "correct_indices": [
+      0,
+      1
+    ],
+    "candidates": [
+      {
+        "text": "We start with the initial counts:\n\n- Green M&Ms: 20  \n- Red M&Ms: 20  \n\n### Step 1: Carter eats 12 green M&Ms  \nNow, the remaining green M&Ms are:  \n$$ 20 - 12 = 8 $$\n\n### Step 2: His sister eats half the red M&Ms and adds 14 yellow M&Ms  \nThe original red M&Ms are 20, so half of that is:  \n$$ \\frac{20}{2} = 10 $$  \nAfter eating, the red M&Ms become:  \n$$ 20 - 10 = 10 $$  \nThen, adding 14 yellow M&Ms:  \n$$ 10 + 14 = 24 $$\n\nSo now, the total number of M&Ms is:  \n$$ 8 + 24 = 32 $$\n\n### Step 3: Carter picks an M&M at random  \nThe probability of picking a green M&M is:  \n$$ \\frac{8}{32} = \\frac{1}{4} $$\n\n### Step 4: Convert to percentage  \n$$ \\frac{1}{4} \\times 100 = 25\\% $$\n\n### Final Answer:  \n$$ \\boxed{25} $$",
+        "code": null,
+        "index": 0
+      },
+      {
+        "text": "We start with:\n\n- **20 green M&Ms**\n- **20 red M&Ms**\n\n### Step 1: Carter eats 12 green M&Ms\n\n- Remaining green M&Ms: $ 20 - 12 = 8 $\n\n### Step 2: His sister eats half the red M&Ms and adds 14 yellow M&Ms\n\n- Original red M&Ms: 20  \n- Half eaten: $ \\frac{20}{2} = 10 $  \n- Remaining red M&Ms: $ 20 - 10 = 10 $\n\n- Added yellow M&Ms: 14  \n- Total M&Ms now: $ 8 + 10 + 14 = 32 $\n\n### Step 3: Carter picks an M&M at random\n\n- Total M&Ms: 32  \n- Green M&Ms: 8  \n- Probability of picking a green M&M: $ \\frac{8}{32} = \\frac{1}{4} $\n\n### Step 4: Convert to percentage\n\n- $ \\frac{1}{4} = 25\\% $\n\n### Final Answer:\n\n$$\n\\boxed{25}\n$$",
+        "code": null,
+        "index": 1
+      },
+      {
+        "text": "Carter starts with:\n\n- 20 green M&Ms  \n- 20 red M&Ms\n\n### Step 1: He eats 12 green M&Ms  \nNow he has:  \n- 20 green M&Ms - 12 = **8 green M&Ms**\n\n### Step 2: His sister eats half the red M&Ms and adds 14 yellow M&Ms  \nThe original red M&Ms are 20. Half of that is 10. So:  \n- 10 red M&Ms are eaten  \n- 14 yellow M&Ms added\n\nNow he has:  \n- 20 red M&Ms - 10 = **10 red M&Ms**  \n- 14 yellow M&Ms\n\n### Step 3: Carter picks an M&M at random  \nThe total number of M&Ms now is:  \n- 8 green + 10 red + 14 yellow = **32 M&Ms**\n\n### Step 4: Find the percentage chance of picking a green M&M  \nGreen M&Ms: 8  \nTotal: 32\n\n$$\n\\text{Percentage} = \\left(\\frac{8}{32}\\right) \\times 100 = 25\\%\n$$\n\n### ✅ Final Answer: **25**",
+        "code": null,
+        "index": 2
+      },
+      {
+        "text": "We start with:\n\n- 20 green M&Ms  \n- 20 red M&Ms\n\n---\n\n### Step 1: Carter eats 12 green M&Ms\n\nNow, there are:\n\n- **20 - 12 = 8 green M&Ms**\n\n### Step 2: His sister eats half the red M&Ms and adds 14 yellow M&Ms\n\n- The sister eats half of the 20 red M&Ms:  \n  $ \\frac{20}{2} = 10 $ red M&Ms\n\n- After eating 10 red M&Ms, there are $ 20 - 10 = 10 $ red M&Ms left.\n\n- Then she adds 14 yellow M&Ms:  \n  Total M&Ms now: $ 10 + 14 = 24 $\n\n---\n\n### Step 3: Carter picks an M&M at random\n\nThe total number of M&Ms is:\n\n$$\n24 \\text{ (green + red)}\n$$\n\nThe number of green M&Ms is 8.\n\nSo, the probability that Carter picks a green M&M is:\n\n$$\n\\frac{8}{24} = \\frac{1}{3} \\approx 0.3333\n$$\n\nTo convert this to a percentage:\n\n$$\n0.3333 \\times 100\\% = 33.33\\%\n$$\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{33.33}\n$$",
+        "code": null,
+        "index": 3
+      }
+    ],
+    "checks": [
+      [
+        {
+          "left": "20 - 12",
+          "right": "8",
+          "computed_left": "8",
+          "computed_right": "8",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "((20)/(2))",
+          "right": "10",
+          "computed_left": "10",
+          "computed_right": "10",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "20 - 10",
+          "right": "10",
+          "computed_left": "10",
+          "computed_right": "10",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "10 + 14",
+          "right": "24",
+          "computed_left": "24",
+          "computed_right": "24",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "8 + 24",
+          "right": "32",
+          "computed_left": "32",
+          "computed_right": "32",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "((8)/(32))",
+          "right": "((1)/(4))",
+          "computed_left": "1/4",
+          "computed_right": "1/4",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "((1)/(4)) * 100",
+          "right": "(25/100)",
+          "computed_left": "25",
+          "computed_right": "1/4",
+          "tolerance": "0",
+          "inconsistent": true
+        }
+      ],
+      [
+        {
+          "left": "20 - 12",
+          "right": "8",
+          "computed_left": "8",
+          "computed_right": "8",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "((20)/(2))",
+          "right": "10",
+          "computed_left": "10",
+          "computed_right": "10",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "20 - 10",
+          "right": "10",
+          "computed_left": "10",
+          "computed_right": "10",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "8 + 10 + 14",
+          "right": "32",
+          "computed_left": "32",
+          "computed_right": "32",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "((8)/(32))",
+          "right": "((1)/(4))",
+          "computed_left": "1/4",
+          "computed_right": "1/4",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "((1)/(4))",
+          "right": "(25/100)",
+          "computed_left": "1/4",
+          "computed_right": "1/4",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ],
+      [
+        {
+          "left": "(((8)/(32)) ) * 100",
+          "right": "(25/100)",
+          "computed_left": "25",
+          "computed_right": "1/4",
+          "tolerance": "0",
+          "inconsistent": true
+        }
+      ],
+      [
+        {
+          "left": "((20)/(2))",
+          "right": "10",
+          "computed_left": "10",
+          "computed_right": "10",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "20 - 10",
+          "right": "10",
+          "computed_left": "10",
+          "computed_right": "10",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "10 + 14",
+          "right": "24",
+          "computed_left": "24",
+          "computed_right": "24",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "0.3333 * (100/100)",
+          "right": "(33.33/100)",
+          "computed_left": "3333/10000",
+          "computed_right": "3333/10000",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ]
+    ]
+  },
+  {
+    "category": "risk",
+    "id": "gsm8k:d2625023f381a27b6348a420b5458559132641f306935418fd6a09ae85cb1ee2",
+    "question": "Julie wants to give her favorite cousin a $2345 mountain bike for his birthday. So far, she has saved $1500. Since the birthday is still a few weeks away, Julie has time to save even more. She plans on mowing 20 lawns, delivering 600 newspapers, and walking 24 of her neighbors’ dogs. She is paid $20 for each lawn, 40 cents per newspaper, and $15 per dog. After purchasing the bike, how much money will Julie have left?",
+    "choice": 1,
+    "correct_indices": [
+      1
+    ],
+    "candidates": [
+      {
+        "text": "Julie has already saved $1500. She plans to save more by mowing 20 lawns, delivering 600 newspapers, and walking 24 dogs.  \n\n- **Lawn mowing**: $20 per lawn  \n- **Newspaper delivery**: $0.40 per newspaper  \n- **Dog walking**: $15 per dog  \n\n**Total savings from these activities**:  \n$$\n20 \\times 20 + 600 \\times 0.40 + 24 \\times 15 = 400 + 240 + 360 = 1000\n$$\n\n**Remaining money after buying the bike**:  \n$$\n1500 + 1000 = 2500\n$$\n\n#### <numeric answer> 2500",
+        "code": null,
+        "index": 0
+      },
+      {
+        "text": "Julie has already saved $1500. She plans to save more:\n\n- Mowing 20 lawns: $20 × 20 = $400  \n- Delivering 600 newspapers: $0.40 × 600 = $240  \n- Walking 24 dogs: $15 × 24 = $360  \n\nTotal additional money she will save:  \n$400 + $240 + $360 = **$1000**\n\nNow, she will buy the bike for $2345.  \n\nJulie will have:  \n$1500 + $1000 = **$2500**  \n$2500 - $2345 = **$155**\n\n#### <numeric answer> 155",
+        "code": null,
+        "index": 1
+      },
+      {
+        "text": "Julie has already saved $1500. She plans to save more by mowing 20 lawns, delivering 600 newspapers, and walking 24 dogs. Her earnings from these activities are:\n\n- **20 lawns × $20 = $400**\n- **600 newspapers × $0.40 = $240**\n- **24 dogs × $15 = $360**\n\nTotal earnings:  \n$400 + $240 + $360 = **$1000**\n\nAfter purchasing the bike, which costs $2345, Julie will have:\n\n$$\n2345 - 1500 - 1000 = \\boxed{245}\n$$\n\n#### <numeric answer> 245.",
+        "code": null,
+        "index": 2
+      },
+      {
+        "text": "Julie has already saved $1500. She plans to save more by mowing 20 lawns, delivering 600 newspapers, and walking 24 dogs. \n\n- Mowing 20 lawns: $20 × 20 = $400  \n- Delivering 600 newspapers: $0.40 × 600 = $240  \n- Walking 24 dogs: $15 × 24 = $360  \n\nTotal additional savings: $400 + $240 + $360 = **$1000**\n\nNow, she will have $1500 + $1000 = **$2500**.\n\nAfter purchasing the bike, **Julie will have $0 left**.\n\n#### <numeric answer> 0",
+        "code": null,
+        "index": 3
+      }
+    ],
+    "checks": [
+      [
+        {
+          "left": "20 * 20 + 600 * 0.40 + 24 * 15",
+          "right": "400 + 240 + 360",
+          "computed_left": "1000",
+          "computed_right": "1000",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "400 + 240 + 360",
+          "right": "1000",
+          "computed_left": "1000",
+          "computed_right": "1000",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "1500 + 1000",
+          "right": "2500",
+          "computed_left": "2500",
+          "computed_right": "2500",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ],
+      [
+        {
+          "left": "0.40 * 600",
+          "right": "15 * 24",
+          "computed_left": "240",
+          "computed_right": "360",
+          "tolerance": "0",
+          "inconsistent": true
+        },
+        {
+          "left": "15 * 24",
+          "right": "400 +         360",
+          "computed_left": "360",
+          "computed_right": "760",
+          "tolerance": "0",
+          "inconsistent": true
+        }
+      ],
+      [
+        {
+          "left": "2345 - 1500 - 1000",
+          "right": "(245)",
+          "computed_left": "-155",
+          "computed_right": "245",
+          "tolerance": "0",
+          "inconsistent": true
+        },
+        {
+          "left": "0.40",
+          "right": "15",
+          "computed_left": "2/5",
+          "computed_right": "15",
+          "tolerance": "0",
+          "inconsistent": true
+        },
+        {
+          "left": "15",
+          "right": "400 +         360",
+          "computed_left": "15",
+          "computed_right": "760",
+          "tolerance": "0",
+          "inconsistent": true
+        }
+      ],
+      [
+        {
+          "left": "0.40 * 600",
+          "right": "15 * 24",
+          "computed_left": "240",
+          "computed_right": "360",
+          "tolerance": "0",
+          "inconsistent": true
+        },
+        {
+          "left": "15 * 24",
+          "right": "400 +         360",
+          "computed_left": "360",
+          "computed_right": "760",
+          "tolerance": "0",
+          "inconsistent": true
+        }
+      ]
+    ]
+  },
+  {
+    "category": "risk",
+    "id": "gsm8k:2f93a1082dba6320e1674dbcc0de686f95d7d5ba3e5b16335f67b84ab515aa40",
+    "question": "A local restaurant was offering a \"Build Your Own Hot Brownie\" dessert.  The brownie cost $2.50 and each scoop of ice cream costs $1.00.  Any syrup costs $0.50 and nuts cost $1.50.  If Juanita orders the brownie with 2 scoops of ice cream, double syrup, and nuts, how much will her dessert cost?",
+    "choice": 3,
+    "correct_indices": [
+      1,
+      2,
+      3
+    ],
+    "candidates": [
+      {
+        "text": "Juanita orders the brownie with:\n\n- 2 scoops of ice cream  \n- Double syrup  \n- Nuts  \n\nWe are given:\n\n- $2.50 for the brownie  \n- $1.00 per scoop of ice cream  \n- $0.50 per scoop of syrup  \n- $1.50 per nut  \n\n### Step 1: Cost of the brownie\n- $2.50\n\n### Step 2: Cost of ice cream\n- 2 scoops × $1.00 = **$2.00**\n\n### Step 3: Cost of syrup\n- Double syrup = 2 × $0.50 = **$1.00**\n\n### Step 4: Cost of nuts\n- $1.50\n\n### Step 5: Total cost\n- $2.50 (brownie) + $2.00 (ice cream) + $1.00 (syrup) + $1.50 (nuts) = **$6.00**\n\n### Final Answer:\n#### <numeric answer> 6.00",
+        "code": null,
+        "index": 0
+      },
+      {
+        "text": "Juanita orders the brownie with:\n\n- 2 scoops of ice cream  \n- Double syrup  \n- Nuts\n\nLet's calculate the cost:\n\n- **Brownie**: $2.50  \n- **Ice cream**: $2.00 (2 scoops)  \n- **Syrup**: $1.00 (double)  \n- **Nuts**: $1.50  \n\n**Total cost** = $2.50 + $2.00 + $1.00 + $1.50 = **$7.00**\n\n#### <numeric answer> $7.00",
+        "code": null,
+        "index": 1
+      },
+      {
+        "text": "Juanita orders a \"Build Your Own Hot Brownie\" with:\n\n- 2 scoops of ice cream  \n- Double syrup  \n- Nuts\n\nLet's calculate the cost:\n\n- **Brownie**: $2.50  \n- **Ice cream**: 2 scoops × $1.00 = $2.00  \n- **Syrup**: 2 × $0.50 = $1.00  \n- **Nuts**: $1.50  \n\n**Total cost** = $2.50 + $2.00 + $1.00 + $1.50 = **$7.00**\n\n#### <numeric answer> $7.00",
+        "code": null,
+        "index": 2
+      },
+      {
+        "text": "Juanita orders a hot brownie with:\n\n- 2 scoops of ice cream  \n- Double syrup  \n- Nuts  \n\nLet’s calculate the cost step by step:\n\n- **Brownie cost:** $2.50  \n- **Ice cream:** 2 scoops × $1.00 = $2.00  \n- **Syrup:** Double × $0.50 = $1.00  \n- **Nuts:** $1.50  \n\n**Total cost = $2.50 + $2.00 + $1.00 + $1.50 = $7.00**\n\n#### <numeric answer> 7.00",
+        "code": null,
+        "index": 3
+      }
+    ],
+    "checks": [
+      [],
+      [],
+      [
+        {
+          "left": "0.50",
+          "right": "1.50",
+          "computed_left": "1/2",
+          "computed_right": "3/2",
+          "tolerance": "1/200",
+          "inconsistent": true
+        }
+      ],
+      [
+        {
+          "left": "0.50",
+          "right": "1.50",
+          "computed_left": "1/2",
+          "computed_right": "3/2",
+          "tolerance": "1/200",
+          "inconsistent": true
+        }
+      ]
+    ]
+  }
+]

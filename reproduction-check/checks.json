@@ -1,0 +1,9 @@
+{
+  "checkpoint_bytes_identical": true,
+  "all_parameter_differences_zero": true,
+  "validation_correct": 738,
+  "validation_n": 798,
+  "interface_and_parser_tests": 11,
+  "test_rerun": false,
+  "purpose": "Submission-package reproduction, one fixed-model refit; no additional search"
+}

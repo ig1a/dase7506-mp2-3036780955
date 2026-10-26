@@ -1,0 +1,13 @@
+{
+  "training_questions": 4755,
+  "informative_questions": 2114,
+  "positive_negative_pairs": 6516,
+  "C": 0.01,
+  "seed": 17,
+  "iterations": 43,
+  "fit_seconds": 0.16069958300795406,
+  "total_training_seconds": 2.041736958984984,
+  "checkpoint_sha256": "3efecdf40f8420a2b547e4ac49bb67b13cb3873e2a4fc87c73a4042dbe00fc66",
+  "numpy": "2.5.3",
+  "sklearn": "1.9.1"
+}

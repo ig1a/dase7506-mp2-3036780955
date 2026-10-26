@@ -1,0 +1,626 @@
+[
+  {
+    "category": "correct_final",
+    "question_index": 2963,
+    "candidate_index": 0,
+    "id": "gsm8k:e1e6ba25268e72f515fa274ed05eb497df3a375d2cd2fae8949b81a9b92dd459",
+    "question": "The pizzeria sells small pizzas for $2 and large pizzas for $8. They sold $40 in pizzas. If they sold 8 small pizzas, how many large pizzas did they sell?",
+    "text": "We are given:\n\n- Price of a small pizza: $2  \n- Price of a large pizza: $8  \n- Total revenue: $40  \n- Number of small pizzas sold: 8\n\nLet the number of large pizzas sold be $ x $.\n\nThen:\n\n$$\n2 \\times 8 + 8 \\times 8 = 40\n$$\n\n$$\n16 + 64 = 40\n$$\n\n$$\n80 = 40\n$$\n\nThis means the calculation is incorrect. Let's solve it correctly:\n\nLet the number of large pizzas sold be $ x $.\n\n$$\n2 \\times 8 + 8 \\times x = 40\n$$\n\n$$\n16 + 8x = 40\n$$\n\n$$\n8x = 24\n$$\n\n$$\nx = 3\n$$\n\n### Final Answer:\n\n$$\n\\boxed{3}\n$$",
+    "checks": [
+      {
+        "left": "2 * 8 + 8 * 8",
+        "right": "40",
+        "computed_left": "80",
+        "computed_right": "40",
+        "tolerance": "0",
+        "inconsistent": true
+      },
+      {
+        "left": "16 + 64",
+        "right": "40",
+        "computed_left": "80",
+        "computed_right": "40",
+        "tolerance": "0",
+        "inconsistent": true
+      },
+      {
+        "left": "80",
+        "right": "40",
+        "computed_left": "80",
+        "computed_right": "40",
+        "tolerance": "0",
+        "inconsistent": true
+      }
+    ]
+  },
+  {
+    "category": "correct_final",
+    "question_index": 1886,
+    "candidate_index": 3,
+    "id": "gsm8k:a2abdf7c4e9a5685a29fbd31e949e23749ee8847bbaef9f5f0089ed86a6235f8",
+    "question": "Silvio was running a race that had 4 parts. The total length of the race was 74.5 kilometers. The first part of the race is 15.5 kilometers long. The second and third parts are each 21.5 kilometers long. How many kilometers is the last part of the race?",
+    "text": "We are told:\n\n- Total race length = 74.5 km  \n- First part = 15.5 km  \n- Second and third parts = 21.5 km each  \n\nLet the length of the **last part** be $ x $.  \n\nWe know:\n\n$$\n15.5 + 21.5 + 21.5 + x = 74.5\n$$\n\n$$\n15.5 + 43 = 74.5\n$$\n\n$$\n58.5 + x = 74.5\n$$\n\n$$\nx = 74.5 - 58.5 = \\boxed{16}\n$$\n\n### Final Answer:\n$$\n\\boxed{16}\n$$",
+    "checks": [
+      {
+        "left": "15.5 + 43",
+        "right": "74.5",
+        "computed_left": "117/2",
+        "computed_right": "149/2",
+        "tolerance": "1/20",
+        "inconsistent": true
+      },
+      {
+        "left": "74.5 - 58.5",
+        "right": "(16)",
+        "computed_left": "16",
+        "computed_right": "16",
+        "tolerance": "0",
+        "inconsistent": false
+      }
+    ]
+  },
+  {
+    "category": "correct_final",
+    "question_index": 4197,
+    "candidate_index": 2,
+    "id": "gsm8k:6c6c4b07c3d479512d9f1a22ee17198a86d34e7430a8fde034a51a28204ee72d",
+    "question": "An apple tree produces 40 apples in its first year.  The second year the apple tree produces 8 more than double the amount of apples that it produced the first year, and the third year production went down by a fourth due to an insect infestation.  How many apples did the tree produce in total in the first three years?",
+    "text": "We are given the following:\n\n- **First year**: 40 apples  \n- **Second year**: 8 more than double the first year  \n- **Third year**: 1/4 less than the second year  \n\nLet's solve step by step:\n\n### Step 1: Second year\nThe second year produces **8 more than double the first year**:\n\n$$\n2 \\times 40 = 80 \\quad \\text{(double first year)} \\\\\n80 + 8 = 88 \\quad \\text{(second year)}\n$$\n\n### Step 2: Third year\nThe third year produces **1/4 less than the second year**:\n\n$$\n88 - \\frac{1}{4} \\times 88 = \\frac{352}{4} - \\frac{352}{4} = 88 - 22 = 66\n$$\n\n### Step 3: Total production over three years\n\n$$\n40 + 88 + 66 = 194\n$$\n\n### Final Answer:\n\n$$\n\\boxed{194}\n$$",
+    "checks": [
+      {
+        "left": "2 * 40",
+        "right": "80",
+        "computed_left": "80",
+        "computed_right": "80",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "80 + 8",
+        "right": "88",
+        "computed_left": "88",
+        "computed_right": "88",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "88 - ((1)/(4)) * 88",
+        "right": "((352)/(4)) - ((352)/(4))",
+        "computed_left": "66",
+        "computed_right": "0",
+        "tolerance": "0",
+        "inconsistent": true
+      },
+      {
+        "left": "((352)/(4)) - ((352)/(4))",
+        "right": "88 - 22",
+        "computed_left": "0",
+        "computed_right": "66",
+        "tolerance": "0",
+        "inconsistent": true
+      },
+      {
+        "left": "88 - 22",
+        "right": "66",
+        "computed_left": "66",
+        "computed_right": "66",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "40 + 88 + 66",
+        "right": "194",
+        "computed_left": "194",
+        "computed_right": "194",
+        "tolerance": "0",
+        "inconsistent": false
+      }
+    ]
+  },
+  {
+    "category": "correct_final",
+    "question_index": 2772,
+    "candidate_index": 1,
+    "id": "gsm8k:683dbafafa03dfd89a8045a3a780fc87809c1109350bba1b6daa35040a7ca6ef",
+    "question": "Luther designs clothes for a high fashion company. His latest line of clothing uses both silk and cashmere fabrics. There are ten pieces made with silk and half that number made with cashmere. If his latest line has thirteen pieces, how many pieces use a blend of cashmere and silk?",
+    "text": "We are told:\n\n- There are **10 pieces** made with **silk**.\n- There are **half the number** of silk pieces made with **cashmere**, so there are **5 pieces** made with cashmere.\n- The **total number of pieces** is **13**.\n\nTo find how many **pieces use a blend of cashmere and silk**, we subtract the number of silk and cashmere pieces from the total:\n\n$$\n13 - 10 - 5 = 2\n$$\n\n### Final Answer:\n$$\n\\boxed{2}\n$$",
+    "checks": [
+      {
+        "left": "13 - 10 - 5",
+        "right": "2",
+        "computed_left": "-2",
+        "computed_right": "2",
+        "tolerance": "0",
+        "inconsistent": true
+      }
+    ]
+  },
+  {
+    "category": "correct_final",
+    "question_index": 2366,
+    "candidate_index": 3,
+    "id": "gsm8k:bc6b864ececdad692f646b97568990f3cc7d1d074a6bea32f8eeff79256aafe7",
+    "question": "Mary has a mystery book library. She started with 72 mystery books at the beginning of the year. She joined a book club that sent her 1 book each month of the year. She went to a bookstore halfway through the year and bought 5 more books, then bought 2 books at yard sales later. Her daughter gave her another book for her birthday, and her mother gave her a series of 4 books when Mary visited her. She donated 12 books she didn't want to read again to a charity shop and sold 3 to a used book store. How many books did she have at the end of the year?",
+    "text": "We start with 72 mystery books. Let's break down the changes step by step:\n\n- **Initial books**: 72  \n- **Books received from book club**: 1 book per month of the year.  \n  Since there are 12 months in a year, she received **12 books**.  \n- **Books bought at bookstore**: 5  \n- **Books bought at yard sales**: 2  \n- **Books given to daughter**: 1  \n- **Books given to mother**: 4  \n- **Books donated to charity shop**: 12  \n- **Books sold to used book store**: 3  \n\nNow, let's add all these:\n\n$$\n72 + 12 + 5 + 2 + 1 + 4 - 12 - 3 = 72 + 12 + 5 + 2 + 1 + 4 = 96\n$$\n\n$$\n96 - 12 - 3 = 81\n$$\n\n### Final answer:\n\n$$\n\\boxed{81}\n$$",
+    "checks": [
+      {
+        "left": "72 + 12 + 5 + 2 + 1 + 4 - 12 - 3",
+        "right": "72 + 12 + 5 + 2 + 1 + 4",
+        "computed_left": "81",
+        "computed_right": "96",
+        "tolerance": "0",
+        "inconsistent": true
+      },
+      {
+        "left": "72 + 12 + 5 + 2 + 1 + 4",
+        "right": "96",
+        "computed_left": "96",
+        "computed_right": "96",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "96 - 12 - 3",
+        "right": "81",
+        "computed_left": "81",
+        "computed_right": "81",
+        "tolerance": "0",
+        "inconsistent": false
+      }
+    ]
+  },
+  {
+    "category": "correct_final",
+    "question_index": 820,
+    "candidate_index": 2,
+    "id": "gsm8k:0ae518902035dfc25a6d2d5a41fe028aaecfa3389b106c2e7eeebfc0eb905595",
+    "question": "Valerie’s cookie recipe makes 16 dozen cookies and calls for 4 pounds of butter.  She only wants to make 4 dozen cookies for the weekend.  How many pounds of butter will she need?",
+    "text": "We are given:\n\n- 16 dozen cookies require 4 pounds of butter.\n- She wants to make **4 dozen** cookies.\n\nLet's solve step by step:\n\n1. Find out how many **dozens** of cookies 4 dozen corresponds to in terms of the original recipe.\n\n   - 16 dozen = 4 pounds of butter.\n\n2. Find out how many **dozens** of cookies 4 dozen corresponds to.\n\n   - 4 dozen = $ \\frac{4}{16} = 0.25 $ of the original recipe.\n\n3. Use this proportion to find the butter needed for 4 dozen:\n\n   - $ \\frac{4}{16} = \\frac{4}{16} \\times 4 = \\frac{16}{16} = 1 $ pound of butter.\n\n4. So, Valerie will need **1 pound** of butter.\n\n#### ✅ Final answer: **1**",
+    "checks": [
+      {
+        "left": "((4)/(16))",
+        "right": "0.25",
+        "computed_left": "1/4",
+        "computed_right": "1/4",
+        "tolerance": "1/200",
+        "inconsistent": false
+      },
+      {
+        "left": "((4)/(16))",
+        "right": "((4)/(16)) * 4",
+        "computed_left": "1/4",
+        "computed_right": "1",
+        "tolerance": "0",
+        "inconsistent": true
+      },
+      {
+        "left": "((4)/(16)) * 4",
+        "right": "((16)/(16))",
+        "computed_left": "1",
+        "computed_right": "1",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "((16)/(16))",
+        "right": "1",
+        "computed_left": "1",
+        "computed_right": "1",
+        "tolerance": "0",
+        "inconsistent": false
+      }
+    ]
+  },
+  {
+    "category": "correct_final",
+    "question_index": 3186,
+    "candidate_index": 2,
+    "id": "gsm8k:671bdbf32229a0860e919f07f1ab52e862ce2cc4dfc8da695245e417d06da2a6",
+    "question": "Chrystal’s vehicle speed is 30 miles per hour. Ascending the mountain decreases its speed by fifty percent, and descending the mountain increases its speed by twenty percent. If the distance going to the top of the mountain is 60 miles and the distance going down to the foot of the mountain is 72 miles, how many hours will Crystal have to pass the whole mountain?",
+    "text": "We are given:\n\n- Crystal’s vehicle speed is **30 mph**.\n- Ascending the mountain decreases speed by **50%**, so her speed on ascent is:\n  $$\n  30 \\times 0.5 = 15 \\text{ mph}\n  $$\n- Descending the mountain increases speed by **20%**, so her speed on descent is:\n  $$\n  30 \\times 1.2 = 36 \\text{ mph}\n  $$\n\n- Distance going to the top: **60 miles**\n- Distance going down to the foot: **72 miles**\n\n### Total time to pass the whole mountain:\n$$\n\\text{Time} = \\frac{\\text{Total distance}}{\\text{Average speed}} = \\frac{60 + 72}{\\frac{15 + 36}{2}} = \\frac{132}{22.5} = 5.999\\ldots \\text{ hours}\n$$\n\nSo, the total time is approximately:\n\n$$\n\\boxed{6} \\text{ hours}\n$$",
+    "checks": [
+      {
+        "left": "30 * 0.5",
+        "right": "15",
+        "computed_left": "15",
+        "computed_right": "15",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "30 * 1.2",
+        "right": "36",
+        "computed_left": "36",
+        "computed_right": "36",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "((60 + 72)/(((15 + 36)/(2))))",
+        "right": "((132)/(22.5))",
+        "computed_left": "88/17",
+        "computed_right": "88/15",
+        "tolerance": "0",
+        "inconsistent": true
+      }
+    ]
+  },
+  {
+    "category": "correct_final",
+    "question_index": 2917,
+    "candidate_index": 1,
+    "id": "gsm8k:a519b2c48415bea74d7a7abd79ad68d5d76a410cd19d3b5d577ea76221e9cc94",
+    "question": "Four days' temperatures were recorded for Wayupnorth, Canada. The temperatures were: -36 degrees Fahrenheit, +13 degrees Fahrenheit, -15 degrees Fahrenheit, and -10 degrees Fahrenheit. What was the average number of degrees (Fahrenheit) in Wayupnorth, Canada on the 4 days recorded?",
+    "text": "We are given the temperatures for four days:\n\n- $ -36^\\circ \\text{F} $\n- $ +13^\\circ \\text{F} $\n- $ -15^\\circ \\text{F} $\n- $ -10^\\circ \\text{F} $\n\nTo find the **average** temperature, we sum all the temperatures and divide by the number of days (4).\n\n### Step 1: Add the temperatures:\n$$\n-36 + 13 + (-15) + (-10) = -36 + 13 = -23, \\quad -23 - 15 = -38, \\quad -38 - 10 = -48\n$$\n\n### Step 2: Divide by 4:\n$$\n\\frac{-48}{4} = -12\n$$\n\n### Final Answer:\n$$\n\\boxed{-12}\n$$",
+    "checks": [
+      {
+        "left": "-36 + 13 + (-15) + (-10)",
+        "right": "-36 + 13",
+        "computed_left": "-48",
+        "computed_right": "-23",
+        "tolerance": "0",
+        "inconsistent": true
+      },
+      {
+        "left": "((-48)/(4))",
+        "right": "-12",
+        "computed_left": "-12",
+        "computed_right": "-12",
+        "tolerance": "0",
+        "inconsistent": false
+      }
+    ]
+  },
+  {
+    "category": "correct_final",
+    "question_index": 1633,
+    "candidate_index": 0,
+    "id": "gsm8k:a216e1897faa0fd6eaece353f1ee13a5efadb9f082f90e9fde19ff8bd4b272b9",
+    "question": "Aren’s flight from New York to Hawaii will take 11 hours 20 minutes.  He spends 2 hours reading, 4 hours watching two movies, 30 minutes eating his dinner, 40 minutes listening to the radio, and 1 hour 10 minutes playing games.  How many hours does he have left to take a nap?",
+    "text": "We are given:\n\n- Total flight time: **11 hours 20 minutes**\n- Time spent on activities:\n  - Reading: 2 hours\n  - Watching movies: 4 hours\n  - Eating dinner: 30 minutes\n  - Listening to the radio: 40 minutes\n  - Playing games: 1 hour 10 minutes\n- We are to find how many **hours** he has left for **nap**.\n\n### Step 1: Convert all time to minutes to make it easier.\n\n- 1 hour = 60 minutes  \n- 11 hours 20 minutes = $11 \\times 60 + 20 = 660 + 20 = 680$ minutes\n\n### Step 2: Add up the time spent on activities:\n\n- Reading: 2 hours = 120 minutes  \n- Watching movies: 4 hours = 240 minutes  \n- Eating dinner: 30 minutes  \n- Listening to the radio: 40 minutes  \n- Playing games: 1 hour 10 minutes = 70 minutes\n\nNow sum these:\n\n$$\n120 + 240 + 30 + 40 + 70 = 480 \\text{ minutes}\n$$\n\n### Step 3: Subtract from total flight time to find the time left for nap:\n\n$$\n680 - 480 = 200 \\text{ minutes}\n$$\n\nConvert back to hours:\n\n$$\n200 \\div 60 = 3 \\text{ hours}\n$$\n\n### Final Answer:\n\n$$\n\\boxed{3}\n$$",
+    "checks": [
+      {
+        "left": "11 * 60 + 20",
+        "right": "660 + 20",
+        "computed_left": "680",
+        "computed_right": "680",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "660 + 20",
+        "right": "680",
+        "computed_left": "680",
+        "computed_right": "680",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "120 + 240 + 30 + 40 + 70",
+        "right": "480",
+        "computed_left": "500",
+        "computed_right": "480",
+        "tolerance": "0",
+        "inconsistent": true
+      },
+      {
+        "left": "680 - 480",
+        "right": "200",
+        "computed_left": "200",
+        "computed_right": "200",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "200 / 60",
+        "right": "3",
+        "computed_left": "10/3",
+        "computed_right": "3",
+        "tolerance": "0",
+        "inconsistent": true
+      }
+    ]
+  },
+  {
+    "category": "correct_final",
+    "question_index": 2772,
+    "candidate_index": 0,
+    "id": "gsm8k:683dbafafa03dfd89a8045a3a780fc87809c1109350bba1b6daa35040a7ca6ef",
+    "question": "Luther designs clothes for a high fashion company. His latest line of clothing uses both silk and cashmere fabrics. There are ten pieces made with silk and half that number made with cashmere. If his latest line has thirteen pieces, how many pieces use a blend of cashmere and silk?",
+    "text": "We are told:\n\n- There are **10 pieces** made with **silk**.\n- Half the number of silk pieces are made with **cashmere**, so there are **5** pieces made with **cashmere**.\n- The total number of pieces is **13**.\n\nNow, to find how many pieces use **a blend of cashmere and silk**, we subtract the number of silk and cashmere pieces from the total:\n\n$$\n13 - 10 - 5 = 2\n$$\n\n### Final Answer:\n$$\n\\boxed{2}\n$$",
+    "checks": [
+      {
+        "left": "13 - 10 - 5",
+        "right": "2",
+        "computed_left": "-2",
+        "computed_right": "2",
+        "tolerance": "0",
+        "inconsistent": true
+      }
+    ]
+  },
+  {
+    "category": "wrong_final",
+    "question_index": 4491,
+    "candidate_index": 0,
+    "id": "gsm8k:0419672cfc896c6338fa7fdfd68d47c8f2f23bad68e11caada7c0e6961cb2692",
+    "question": "My new house has 12 medium ceiling lights but I have seen small and large ceiling lights in other rooms. The small ones require 1 bulb, the medium ones require 2, and the large ones need 3 bulbs. How many bulbs should I buy if my wife says she saw twice as many large ceiling lights as medium ceiling lights and ten more small lights than medium ones?",
+    "text": "We are told:\n\n- There are 12 **medium** ceiling lights.\n- There are **small** and **large** ceiling lights in other rooms.\n- Small lights = 1 bulb each.\n- Medium lights = 2 bulbs each.\n- Large lights = 3 bulbs each.\n\nLet’s define variables:\n\n- Let $ m $ = number of **medium** lights = 12\n- Let $ s $ = number of **small** lights\n- Let $ l $ = number of **large** lights\n\nWe are told:\n\n- $ s = 2m + 10 $ (10 more small than medium)\n- $ l = 2m $ (twice as many large as medium)\n\nSo:\n\n- $ s = 2(12) + 10 = 34 $\n- $ l = 2(12) = 24 $\n\nNow, total bulbs needed:\n\n- Medium: $ 12 \\times 2 = 24 $\n- Small: $ 34 \\times 1 = 34 $\n- Large: $ 24 \\times 3 = 72 $\n\nTotal bulbs = $ 24 + 34 + 72 = \\boxed{129} $",
+    "checks": [
+      {
+        "left": "12 * 2",
+        "right": "24",
+        "computed_left": "24",
+        "computed_right": "24",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "34 * 1",
+        "right": "34",
+        "computed_left": "34",
+        "computed_right": "34",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "24 * 3",
+        "right": "72",
+        "computed_left": "72",
+        "computed_right": "72",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "24 + 34 + 72",
+        "right": "(129)",
+        "computed_left": "130",
+        "computed_right": "129",
+        "tolerance": "0",
+        "inconsistent": true
+      }
+    ]
+  },
+  {
+    "category": "wrong_final",
+    "question_index": 4160,
+    "candidate_index": 0,
+    "id": "gsm8k:033fb2effee213016aef68ba3401cdd7c325faada6629f0fef84a039520e666c",
+    "question": "Nathan wants to line the inside of a box with velvet. The box has two long sides that measure 8 inches by 6 inches, two short sides that measure 5 inches by six inches and a top and a bottom that each measure 40 square inches. How many square inches of velvet does Nathan need?",
+    "text": "To find the total area of velvet Nathan needs, we need to calculate the area of all the sides and the top and bottom.\n\n- **Two long sides**: 8 inches × 6 inches = 48 square inches  \n- **Two short sides**: 5 inches × 6 inches = 30 square inches  \n- **Top and bottom**: 40 square inches each = 80 square inches  \n\nAdd them up:  \n$$ 48 + 30 + 80 + 80 = 248 $$\n\n**Answer:**  \n$$\n\\boxed{248}\n$$",
+    "checks": [
+      {
+        "left": "48 + 30 + 80 + 80",
+        "right": "248",
+        "computed_left": "238",
+        "computed_right": "248",
+        "tolerance": "0",
+        "inconsistent": true
+      }
+    ]
+  },
+  {
+    "category": "wrong_final",
+    "question_index": 1463,
+    "candidate_index": 1,
+    "id": "gsm8k:f84b9d45eb1d61f2b87c1492b6060647a2af20c34055878cd88355e477822a13",
+    "question": "There are some jelly beans in a jar. Three fourths of the jelly beans are red, and one quarter of the red jelly beans are coconut flavored. If 750 jelly beans are coconut flavored, how many jelly beans are there in the jar?",
+    "text": "We are given:\n\n- $ \\frac{3}{4} $ of the jelly beans are red.\n- $ \\frac{1}{4} $ of the red jelly beans are coconut flavored.\n- There are 750 coconut flavored jelly beans.\n\n---\n\nWe want to find the total number of jelly beans in the jar.\n\nLet the total number of jelly beans be $ x $.\n\n- $ \\frac{3}{4}x $ are red jelly beans.\n- $ \\frac{1}{4} \\times \\frac{3}{4}x = \\frac{3}{16}x $ are coconut flavored.\n\nWe are told there are 750 coconut flavored jelly beans:\n\n$$\n\\frac{3}{16}x = 750\n$$\n\nSolve for $ x $:\n\n$$\nx = 750 \\div \\frac{3}{16} = 750 \\times \\frac{16}{3} = 400 \\times 16 = 6400\n$$\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{6400}\n$$",
+    "checks": [
+      {
+        "left": "750 / ((3)/(16))",
+        "right": "750 * ((16)/(3))",
+        "computed_left": "4000",
+        "computed_right": "4000",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "750 * ((16)/(3))",
+        "right": "400 * 16",
+        "computed_left": "4000",
+        "computed_right": "6400",
+        "tolerance": "0",
+        "inconsistent": true
+      },
+      {
+        "left": "400 * 16",
+        "right": "6400",
+        "computed_left": "6400",
+        "computed_right": "6400",
+        "tolerance": "0",
+        "inconsistent": false
+      }
+    ]
+  },
+  {
+    "category": "wrong_final",
+    "question_index": 813,
+    "candidate_index": 0,
+    "id": "gsm8k:ff4b88e150641ed3425e730bdcd09e1637c72aca9cdec187292c3b550b11eb25",
+    "question": "Four athletes joined a relay race. Athlete 1  ran for 55 seconds, athlete 2 ran 10 seconds more than athlete 1, athlete 3 ran 15 seconds less than athlete 2, and athlete four finished it 25 seconds less than athlete 1. How long, in seconds, did it take them to finish the relay race?",
+    "text": "We are given the following times for four athletes:\n\n- Athlete 1: 55 seconds  \n- Athlete 2: 10 seconds more than athlete 1 → $ 55 + 10 = 65 $ seconds  \n- Athlete 3: 15 seconds less than athlete 2 → $ 65 - 15 = 50 $ seconds  \n- Athlete 4: 25 seconds less than athlete 1 → $ 55 - 25 = 30 $ seconds  \n\nNow, we add up the times:\n\n$$\n55 + 65 + 50 + 30 = 190 \\text{ seconds}\n$$\n\n### Final Answer:\n$$\n\\boxed{190}\n$$",
+    "checks": [
+      {
+        "left": "55 + 10",
+        "right": "65",
+        "computed_left": "65",
+        "computed_right": "65",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "65 - 15",
+        "right": "50",
+        "computed_left": "50",
+        "computed_right": "50",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "55 - 25",
+        "right": "30",
+        "computed_left": "30",
+        "computed_right": "30",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "55 + 65 + 50 + 30",
+        "right": "190",
+        "computed_left": "200",
+        "computed_right": "190",
+        "tolerance": "0",
+        "inconsistent": true
+      }
+    ]
+  },
+  {
+    "category": "wrong_final",
+    "question_index": 3280,
+    "candidate_index": 1,
+    "id": "gsm8k:7adf6154a77c4c394a351155f3cc837dacd8bb6ab46d4566a942ff1891c64cfb",
+    "question": "Kameron has 100 kangaroos on his large farm; Bert has 20 kangaroos on his farm. In how many more days will Bert have the same number of kangaroos as Kameron does now if he buys kangaroos at the same rate of 2 new kangaroos per day?",
+    "text": "We are told:\n\n- Kameron has **100 kangaroos**.\n- Bert has **20 kangaroos**.\n- Bert buys **2 new kangaroos per day**.\n- We want to find **how many more days** it will take for **Bert to have the same number of kangaroos as Kameron now**.\n\n---\n\n### Step 1: Let $ x $ be the number of days.\n\nAfter $ x $ days:\n\n- Kameron will have $ 100 + 2x $ kangaroos.\n- Bert will have $ 20 + 2x $ kangaroos.\n\nWe want to find when **Bert has the same number of kangaroos as Kameron**:\n\n$$\n20 + 2x = 100 + 2x\n$$\n\nSubtract $ 2x $ from both sides:\n\n$$\n20 = 100\n$$\n\nThis is **not true**, so **Bert will never have the same number of kangaroos as Kameron**.\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{0}\n$$",
+    "checks": [
+      {
+        "left": "20",
+        "right": "100",
+        "computed_left": "20",
+        "computed_right": "100",
+        "tolerance": "0",
+        "inconsistent": true
+      }
+    ]
+  },
+  {
+    "category": "wrong_final",
+    "question_index": 4652,
+    "candidate_index": 0,
+    "id": "gsm8k:b4b306e519eac363f978885ef641d397fc443f077f3063e9c5e6219ac9349cb1",
+    "question": "The profit from a business transaction is shared among 2 business partners, Mike and Johnson in the ratio 2:5 respectively. If Johnson got $2500, how much will Mike have after spending some of his share on a shirt that costs $200?",
+    "text": "We are told that the profit is shared in the ratio **2:5** between Mike and Johnson. Since Johnson received $2500, we can find Mike's share by dividing 2500 in the ratio 2:5.\n\n$$\n\\text{Mike's share} = \\frac{2}{2+5} \\times 2500 = \\frac{2}{7} \\times 2500 = 642.86\n$$\n\nMike spends $200 on a shirt. So, the remaining amount he has after buying the shirt is:\n\n$$\n642.86 - 200 = 442.86\n$$\n\n### Final Answer:\n\n$$\n\\boxed{442.86}\n$$",
+    "checks": [
+      {
+        "left": "((2)/(2+5)) * 2500",
+        "right": "((2)/(7)) * 2500",
+        "computed_left": "5000/7",
+        "computed_right": "5000/7",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "((2)/(7)) * 2500",
+        "right": "642.86",
+        "computed_left": "5000/7",
+        "computed_right": "32143/50",
+        "tolerance": "1/200",
+        "inconsistent": true
+      },
+      {
+        "left": "642.86 - 200",
+        "right": "442.86",
+        "computed_left": "22143/50",
+        "computed_right": "22143/50",
+        "tolerance": "1/200",
+        "inconsistent": false
+      }
+    ]
+  },
+  {
+    "category": "wrong_final",
+    "question_index": 1865,
+    "candidate_index": 1,
+    "id": "gsm8k:5a12d2581adb959acd530997a60333e0481438d6edfe73b06d2f9e59f81607a5",
+    "question": "Alfred is storing a tonne of maize each month for the next 2 years.  If 5 tonnes are stolen and 8 tonnes are given to him as a donation, how many tonnes of maize does he have at the end of the 2 years.",
+    "text": "Alfred starts with **1 tonne** of maize each month.  \nFor **2 years**, that's **24 months**.\n\nSo, the total maize he starts with is:  \n$$ 1 \\text{ tonne/month} \\times 24 \\text{ months} = 24 \\text{ tonnes} $$\n\nNow, **5 tonnes are stolen** and **8 tonnes are given as a donation**.  \nSo, the total maize at the end is:  \n$$ 24 - 5 + 8 = 25 $$\n\n### Final Answer:\n$$ \\boxed{25} $$",
+    "checks": [
+      {
+        "left": "24 - 5 + 8",
+        "right": "25",
+        "computed_left": "27",
+        "computed_right": "25",
+        "tolerance": "0",
+        "inconsistent": true
+      }
+    ]
+  },
+  {
+    "category": "wrong_final",
+    "question_index": 4547,
+    "candidate_index": 0,
+    "id": "gsm8k:ddb6d38d940da5aa6ee1bc115c210e4d9b53f133f1acc08899c9c17c790f8fef",
+    "question": "Lola baked 13 mini cupcakes, 10 pop tarts, and 8 blueberry pies. Meanwhile, Lulu made 16 mini cupcakes, 12 pop tarts, and 14 blueberry pies. How many pastries have Lola and Lulu made altogether?",
+    "text": "Lola made:\n- 13 mini cupcakes  \n- 10 pop tarts  \n- 8 blueberry pies  \n\nLulu made:\n- 16 mini cupcakes  \n- 12 pop tarts  \n- 14 blueberry pies  \n\nTotal pastries made altogether:  \n$$\n13 + 10 + 8 + 16 + 12 + 14 = 75\n$$\n\n#### <numeric answer> 75",
+    "checks": [
+      {
+        "left": "13 + 10 + 8 + 16 + 12 + 14",
+        "right": "75",
+        "computed_left": "73",
+        "computed_right": "75",
+        "tolerance": "0",
+        "inconsistent": true
+      }
+    ]
+  },
+  {
+    "category": "wrong_final",
+    "question_index": 3605,
+    "candidate_index": 1,
+    "id": "gsm8k:cbc0950262d1408c949fe265ae86e8f9d9a5740727934e2ea3c31c5042d061ec",
+    "question": "Sam and Jeff had a skipping competition at recess. The competition was split into four rounds. Sam completed 1 more skip than Jeff in the first round. Jeff skipped 3 fewer times than Sam in the second round. Jeff skipped 4 more times than Sam in the third round. Jeff got tired and only completed half the number of skips as Sam in the last round. If Sam skipped 16 times in each round, what is the average number of skips per round completed by Jeff?",
+    "text": "We are given the following information:\n\n- Sam skipped **16 times in each round**.\n- In **each round**, **Jeff skipped**:\n\n  - 1 more than Sam in the **first round**  \n  - 3 fewer than Sam in the **second round**  \n  - 4 more than Sam in the **third round**  \n  - Half the number of skips as Sam in the **fourth round**\n\nWe are to find the **average number of skips per round completed by Jeff**.\n\n---\n\n### Step-by-step:\n\n#### Round 1:\n- Sam: 16  \n- Jeff: 16 + 1 = **17**\n\n#### Round 2:\n- Sam: 16  \n- Jeff: 16 - 3 = **13**\n\n#### Round 3:\n- Sam: 16  \n- Jeff: 16 + 4 = **20**\n\n#### Round 4:\n- Sam: 16  \n- Jeff: 16 / 2 = **8**\n\n---\n\n### Total skips by Jeff:\n\n$$\n17 + 13 + 20 + 8 = 68\n$$\n\n---\n\n### Average skips per round:\n\n$$\n\\frac{68}{4} = 17\n$$\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{17}\n$$",
+    "checks": [
+      {
+        "left": "17 + 13 + 20 + 8",
+        "right": "68",
+        "computed_left": "58",
+        "computed_right": "68",
+        "tolerance": "0",
+        "inconsistent": true
+      },
+      {
+        "left": "((68)/(4))",
+        "right": "17",
+        "computed_left": "17",
+        "computed_right": "17",
+        "tolerance": "0",
+        "inconsistent": false
+      }
+    ]
+  },
+  {
+    "category": "wrong_final",
+    "question_index": 3745,
+    "candidate_index": 0,
+    "id": "gsm8k:b820c0706f3132a4a647243bb30b39c5317be0d3fe3ba61d73ce7855d5c1e63c",
+    "question": "Sally took 342 pens to her class of 44 students. If she gave 7 pens to each student, left half of the remainder in her locker, and took the rest home, how many did she take home?",
+    "text": "We are given:\n\n- Total pens: 342  \n- Number of students: 44  \n- Pens given to each student: 7  \n- Pens left in the locker: half of the remainder  \n- Pens taken home: the rest  \n\n---\n\n### Step 1: Calculate the total pens given to students\n\n$$\n7 \\text{ pens/ student} \\times 44 \\text{ students} = 308 \\text{ pens}\n$$\n\n---\n\n### Step 2: Find the remainder after giving pens to students\n\n$$\n342 - 308 = 34 \\text{ pens}\n$$\n\n---\n\n### Step 3: Half of the remainder is left in the locker\n\n$$\n\\frac{34}{2} = 17 \\text{ pens}\n$$\n\n---\n\n### Step 4: Calculate the pens taken home\n\n$$\n342 - 308 - 17 = 147 \\text{ pens}\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{147}\n$$",
+    "checks": [
+      {
+        "left": "342 - 308",
+        "right": "34",
+        "computed_left": "34",
+        "computed_right": "34",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "((34)/(2))",
+        "right": "17",
+        "computed_left": "17",
+        "computed_right": "17",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "342 - 308 - 17",
+        "right": "147",
+        "computed_left": "17",
+        "computed_right": "147",
+        "tolerance": "0",
+        "inconsistent": true
+      }
+    ]
+  }
+]

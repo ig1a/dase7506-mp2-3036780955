@@ -1,0 +1,137 @@
+{
+  "plan": {
+    "seed": 17,
+    "hidden": 32,
+    "activation": "tanh",
+    "input_dimensions": 1028,
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "epsilon": 1e-08,
+    "batch_questions": 64,
+    "max_epochs": 100,
+    "validation_every_epochs": 5,
+    "early_stopping_patience_epochs": 20,
+    "selection": "highest hard validation correct count; ties keep earliest epoch",
+    "l2_lambda": 0.001,
+    "l2_definition": "0.5 * lambda * (sum(w1^2) + sum(w2^2)); no bias penalty",
+    "objective": "mean over informative questions of mean correct-vs-valid-wrong pair softplus(-(s_pos-s_neg)), plus L2",
+    "dtype": "float32",
+    "threads": 4,
+    "configurations": 1,
+    "fits": 1,
+    "dropout": 0,
+    "scaler": "Reuse identical train-only scaler from pairwise C=0.01; features unchanged",
+    "test_accessed": false,
+    "baseline": "artifacts/pairwise-C001-20261026.npz",
+    "source": "https://www.microsoft.com/en-us/research/wp-content/uploads/2005/08/icml_ranking.pdf (pairwise objective, section 3; not exact reproduction)"
+  },
+  "parameter_count": 32960,
+  "informative_questions": 2114,
+  "pairs_per_epoch": 6516,
+  "epochs_run": 30,
+  "best_epoch": 10,
+  "validation_checks": 6,
+  "stopped_early": true,
+  "train": {
+    "correct": 4684,
+    "n": 4755,
+    "accuracy": 98.5068349106204,
+    "hard_correct": 2043,
+    "hard_n": 2114,
+    "hard_accuracy": 96.6414380321665
+  },
+  "validation": {
+    "correct": 734,
+    "n": 798,
+    "accuracy": 91.97994987468672,
+    "hard_correct": 291,
+    "hard_n": 355,
+    "hard_accuracy": 81.97183098591549
+  },
+  "baseline_validation": {
+    "correct": 735,
+    "n": 798,
+    "accuracy": 92.10526315789474,
+    "hard_correct": 292,
+    "hard_n": 355,
+    "hard_accuracy": 82.25352112676056
+  },
+  "last_check": {
+    "epoch": 30,
+    "train": {
+      "correct": 4754,
+      "n": 4755,
+      "accuracy": 99.97896950578338,
+      "hard_correct": 2113,
+      "hard_n": 2114,
+      "hard_accuracy": 99.9526963103122
+    },
+    "validation": {
+      "correct": 731,
+      "n": 798,
+      "accuracy": 91.60401002506265,
+      "hard_correct": 288,
+      "hard_n": 355,
+      "hard_accuracy": 81.12676056338029
+    },
+    "train_objective": 0.06502461433410645
+  },
+  "paired": {
+    "recovered": 8,
+    "regressed": 9,
+    "both_wrong": 55
+  },
+  "training_update_seconds": 0.18884583192993887,
+  "fit_wall_including_validation_seconds": 0.23657429200829938,
+  "processes": [
+    {
+      "command": [
+        "$PROJECT_ROOT/.venv/bin/python",
+        "-B",
+        "$PROJECT_ROOT/upstream/code/predict.py",
+        "--method",
+        "$PROJECT_ROOT/submission_mlp.py",
+        "--checkpoint",
+        "$PROJECT_ROOT/artifacts/mlp32-20261026.npz",
+        "--split",
+        "validation",
+        "--output",
+        "$PROJECT_ROOT/results/predictions/mlp32-20261026.json"
+      ],
+      "seconds": 0.15684424998471513,
+      "stdout": "{\"protocol\": \"dase7506-mp2-open-hard-verifier-v5\", \"split\": \"validation\", \"prediction_seconds\": 0.0951612499775365}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "$PROJECT_ROOT/.venv/bin/python",
+        "-B",
+        "$PROJECT_ROOT/upstream/code/score_predictions.py",
+        "--split",
+        "validation",
+        "--predictions",
+        "$PROJECT_ROOT/results/predictions/mlp32-20261026.json",
+        "--output",
+        "$PROJECT_ROOT/results/mlp32-20261026/official-score.json"
+      ],
+      "seconds": 0.06865516598918475,
+      "stdout": "{\n  \"protocol\": \"dase7506-mp2-open-hard-verifier-v5\",\n  \"split\": \"validation\",\n  \"correct\": 734,\n  \"n\": 798,\n  \"accuracy\": 91.97994987468671,\n  \"scoring_seconds\": 0.01710316599928774\n}\n",
+      "stderr": ""
+    }
+  ],
+  "fresh_prediction_and_scoring_seconds": 0.22549941597389989,
+  "asset_bytes": 149500,
+  "asset_uncompressed_bytes": 148928,
+  "checkpoint_sha256": "4e7e7589cef29d4890e16d66ee248fb5a2d498397a06df045ac86449bfea04f0",
+  "export_max_error": 0.0,
+  "candidate_permutation_check": "passed",
+  "baseline_unchanged": true,
+  "hardware": "Apple M5; local CPU, not reference Xeon qualification",
+  "numpy": "2.5.3",
+  "test_accessed": false,
+  "interpretation_limit": "One nonlinear recipe versus fixed linear baseline; optimizer, regularization and validation early selection also differ."
+}

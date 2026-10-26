@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+output/
+teacher-source/
+upstream/code/data/*
+!upstream/code/data/LICENSE.txt
+!upstream/code/data/NOTICE.txt
+!upstream/code/data/manifest.json

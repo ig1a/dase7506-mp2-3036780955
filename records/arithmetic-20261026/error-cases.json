@@ -1,0 +1,158 @@
+[
+  {
+    "category": "recovered",
+    "id": "gsm8k:a5296009775135e3b0626a1f4a24ed920c33e4a7052c18add2e5a3e43a5557cf",
+    "question": "A snail kite is a kind of bird that eats apple snails. On the first day, a snail kite ate 3 snails. Then it eats 2 more snails than it did the day before. How many apple snails in all did a snail kite eat for 5 days?",
+    "answers": [
+      "31",
+      "36",
+      "35",
+      "36"
+    ],
+    "correct_indices": [
+      2
+    ],
+    "old_choice": 3,
+    "new_choice": 2,
+    "candidates": [
+      "We are told:\n\n- On **Day 1**, the snail kite eats **3** apple snails.\n- On **Day 2**, it eats **2 more snails** than the previous day.\n- On **Day 3**, it eats **1 more snail** than the previous day.\n- This pattern continues.\n\nLet's calculate the number of apple snails eaten each day:\n\n- Day 1: 3  \n- Day 2: 3 + 2 = **5**  \n- Day 3: 5 + 1 = **6**  \n- Day 4: 6 + 2 = **8**  \n- Day 5: 8 + 1 = **9**\n\nNow, sum all these up:\n\n$$\n3 + 5 + 6 + 8 + 9 = \\boxed{31}\n$$\n\n### ✅ Final Answer: **31** apple snails.",
+      "We are told:\n\n- On **Day 1**, the snail kite eats **3** apple snails.\n- On **Day 2**, it eats **2 more** than Day 1: $3 + 2 = 5$ apple snails.\n- On **Day 3**, it eats **2 more** than Day 2: $5 + 2 = 7$ apple snails.\n- On **Day 4**, it eats **2 more** than Day 3: $7 + 2 = 9$ apple snails.\n- On **Day 5**, it eats **2 more** than Day 4: $9 + 2 = 11$ apple snails.\n\n### Total apple snails eaten:\n$$\n3 + 5 + 7 + 9 + 11 = 36\n$$\n\n### Final answer:\n$$\n\\boxed{36}\n$$",
+      "We are told:\n\n- On the **first day**, the snail kite eats **3 apple snails**.\n- On the **second day**, it eats **2 more snails** than the first day.\n- On the **third day**, it eats **2 more snails** than the second day.\n- On the **fourth day**, it eats **2 more snails** than the third day.\n- On the **fifth day**, it eats **2 more snails** than the fourth day.\n\n---\n\n### Step-by-step:\n\n- Day 1: 3 snails  \n- Day 2: 3 + 2 = **5**  \n- Day 3: 5 + 2 = **7**  \n- Day 4: 7 + 2 = **9**  \n- Day 5: 9 + 2 = **11**\n\n---\n\n### Total number of apple snails eaten:\n\n$$\n3 + 5 + 7 + 9 + 11 = 35\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{35}\n$$",
+      "We are told:\n\n- On the **first day**, the snail kite eats **3** apple snails.\n- On the **second day**, it eats **2 more** snails than the first day.\n- On the **third day**, it eats **2 more** than the second day.\n- And so on for **5 days**.\n\nLet's calculate the number of apple snails eaten each day:\n\n- Day 1: 3\n- Day 2: 3 + 2 = **5**\n- Day 3: 5 + 2 = **7**\n- Day 4: 7 + 2 = **9**\n- Day 5: 9 + 2 = **11**\n\nNow, add these up:\n\n$$\n3 + 5 + 7 + 9 + 11 = 36\n$$\n\n### Final Answer:\n\n$$\n\\boxed{36}\n$$"
+    ]
+  },
+  {
+    "category": "recovered",
+    "id": "gsm8k:c31e09bdf43ea35e72ca5b1be86e0e488ad112c58a0a4e4b566c793d7dd5f575",
+    "question": "Robby doesn't like the color brown and will not eat the brown M&M's.  On his first bag, he sets aside  9 brown M&M's.  On the second bag, he sets aside 12.  On his third & fourth bag, there are 8 brown M&M's that he doesn't eat. On his fifth bag, there are only 3 brown M&M's that he doesn't eat.  What's the average number of brown M&M's in a bag?",
+    "answers": [
+      null,
+      "38/5",
+      "32/5",
+      "8"
+    ],
+    "correct_indices": [
+      3
+    ],
+    "old_choice": 1,
+    "new_choice": 3,
+    "candidates": [
+      "Robby doesn't like brown M&M's, so he eats the other colors. Let's calculate the average number of brown M&M's per bag:\n\n- First bag: 9  \n- Second bag: 12  \n- Third and fourth bags: 8 each  \n- Fifth bag: 3  \n\nTotal brown M&M's = $9 + 12 + 8 + 8 + 3 = 30$\n\nNumber of bags = 5\n\nAverage = $ \\frac{30}{5} = 6 $\n\n### Final Answer: **6**",
+      "Robby doesn't like the color brown and will not eat the brown M&M's.  \nOn his first bag, he sets aside **9** brown M&M's.  \nOn the second bag, he sets aside **12**.  \nOn his third and fourth bags, he sets aside **8** each.  \nOn the fifth bag, he sets aside **3**.  \n\nWe are to find the **average number of brown M&M's in a bag**.  \n\n### Step-by-step calculation:\n- Total brown M&M's in all bags:  \n  $ 9 + 12 + 8 + 8 + 3 = 38 $  \n- Number of bags: 5  \n\n### Average = Total / Number of bags  \n$$\n\\text{Average} = \\frac{38}{5} = 7.6\n$$\n\n### Final Answer:\n$$\n\\boxed{7.6}\n$$",
+      "We are given:\n\n- On the **first bag**, he sets aside **9 brown M&M's**.\n- On the **second bag**, he sets aside **12 brown M&M's**.\n- On the **third and fourth bags**, he sets aside **8 brown M&M's**.\n- On the **fifth bag**, he sets aside **3 brown M&M's**.\n- He **does not eat** the brown M&M's in the **third and fourth bags**.\n\n### Step 1: Find the total number of brown M&M's he sets aside\n\n$$\n9 + 12 + 8 + 8 + 3 = 32\n$$\n\n### Step 2: Find the number of bags he sets aside brown M&M's\n\n$$\n5 \\text{ bags}\n$$\n\n### Step 3: Calculate the average number of brown M&M's per bag\n\n$$\n\\text{Average} = \\frac{32}{5} = 6.4\n$$\n\n### Final Answer:\n\n$$\n\\boxed{6.4}\n$$",
+      "Robby eats 9 + 12 = 21 brown M&M's on the first two bags, and eats 8 + 3 = 11 on the third and fourth bags.  \n\nSo, the total number of brown M&M's he eats is $21 + 11 = 32$.  \n\nSince he sets aside 9 + 12 + 8 + 3 = 32 brown M&M's, the average number of brown M&M's in a bag is:\n\n$$\n\\frac{32}{4} = 8\n$$\n\n#### <numeric answer> 8"
+    ]
+  },
+  {
+    "category": "recovered",
+    "id": "gsm8k:0bb6fb7e5936964cba28c2366129c6bb473129da8cdd873ba394164824c9e6fd",
+    "question": "Wade has a hot dog food truck.  He makes $2.00 in tips per customer.  On Friday he served 28 customers.  He served three times that amount of customers on Saturday.  On Sunday, he served 36 customers. How many dollars did he make in tips between the 3 days?",
+    "answers": [
+      "296",
+      "300",
+      "300",
+      "296"
+    ],
+    "correct_indices": [
+      0,
+      3
+    ],
+    "old_choice": 1,
+    "new_choice": 3,
+    "candidates": [
+      "We are given:\n\n- Tips per customer: $2.00  \n- Number of customers served on **Friday**: 28  \n- Number of customers served on **Saturday**: 3 × 28 = 84  \n- Number of customers served on **Sunday**: 36  \n\n### Total tips made:\n\n$$\n2.00 \\times (28 + 84 + 36) = 2.00 \\times 148 = 296\n$$\n\n### Final answer:\n\n$$\n\\boxed{296}\n$$",
+      "We are given the following information:\n\n- **Tips per customer**: $2.00  \n- **Number of customers served on each day**:  \n  - Friday: 28 customers  \n  - Saturday: 3 × 28 = 84 customers  \n  - Sunday: 36 customers  \n\n### Step 1: Calculate tips for each day  \n- **Friday**: $2.00 × 28 = 56 dollars  \n- **Saturday**: $2.00 × 84 = 168 dollars  \n- **Sunday**: $2.00 × 36 = 72 dollars  \n\n### Step 2: Add tips from all three days  \n$$\n56 + 168 + 72 = 300\n$$\n\n### Final Answer:  \n$$\n\\boxed{300}\n$$",
+      "We are given the following information:\n\n- **Tips per customer:** $2.00  \n- **Number of customers served on Friday:** 28  \n- **Number of customers served on Saturday:** 3 × 28 = 84  \n- **Number of customers served on Sunday:** 36  \n\n### Step 1: Calculate total tips for each day\n\n- **Friday:** $2.00 × 28 = 56  \n- **Saturday:** $2.00 × 84 = 168  \n- **Sunday:** $2.00 × 36 = 72  \n\n### Step 2: Add tips from all three days\n\n$$\n56 + 168 + 72 = 300\n$$\n\n### Final answer:\n\n$$\n\\boxed{300}\n$$",
+      "We are given the following information:\n\n- Wade makes $2.00 in tips per customer.\n- On **Friday**, he served 28 customers.\n- On **Saturday**, he served **3 times** the number of customers on Friday, so $3 \\times 28 = 84$ customers.\n- On **Sunday**, he served 36 customers.\n\n### Step 1: Calculate total number of customers over the 3 days\n$$\n28 + 84 + 36 = 148 \\text{ customers}\n$$\n\n### Step 2: Calculate total tips made\n$$\n148 \\text{ customers} \\times 2.00 \\text{ dollars per customer} = 296 \\text{ dollars}\n$$\n\n### Final Answer:\n$$\n\\boxed{296}\n$$"
+    ]
+  },
+  {
+    "category": "recovered",
+    "id": "gsm8k:3034336136ee237cb096c3018367a2bee328ed40dddef9105f9f07440e8aac70",
+    "question": "After trick-or-treating, Brent dumped his candy on the table.  He had received 5 Kit-Kat bars, three times that amount in Hershey kisses, 8 boxes of Nerds,  and 11 lollipops.  He also had 10 Baby Ruths and half that amount in Reese Peanut butter cups.  After giving his little sister 5 lollipops, how many pieces of candy did Brent have left?",
+    "answers": [
+      "53",
+      "49",
+      "58",
+      "58"
+    ],
+    "correct_indices": [
+      1
+    ],
+    "old_choice": 2,
+    "new_choice": 1,
+    "candidates": [
+      "Let's solve step by step:\n\n1. **Kit-Kats**: 5  \n2. **Hershey kisses**: 3 × 5 = **15**  \n3. **Nerds**: 8  \n4. **Lollipops**: 11  \n5. **Baby Ruths**: 10  \n6. **Reese Peanut butter cups**: 10 × 1/2 = **5**\n\nNow, subtract the given candies from the total:\n\n$$\n5 + 15 + 8 + 11 + 10 + 5 = 58\n$$\n\nAfter giving his sister **5 lollipops**, the remaining candies are:\n\n$$\n58 - 5 = \\boxed{53}\n$$\n\n#### Final answer: **53**.",
+      "Let's solve step by step:\n\n- **Kit-Kats**: 5  \n- **Hershey kisses**: 3 × 5 = **15**  \n- **Nerds**: 8  \n- **Lollipops**: 11  \n- **Baby Ruths**: 10  \n- **Reese Peanut butter cups**: 10 × 1/2 = **5**\n\nNow, subtract the given candies from the total:\n\n$$\n\\text{Total candy} = 5 + 15 + 8 + 11 + 10 + 5 = 54\n$$\n\n$$\n\\text{Candy left} = 54 - 5 = \\boxed{49}\n$$\n\n**Final answer:** $\\boxed{49}$",
+      "Let's break down the candy Brent had and then subtract the 5 lollipops he gave to his sister.\n\n- **Kit-Kats**: 5  \n- **Hershey kisses**: 3 × 5 = 15  \n- **Nerds**: 8  \n- **Lollipops**: 11  \n- **Baby Ruths**: 10  \n- **Reese Peanut butter cups**: 10 × 0.5 = 5\n\nNow, add all the candies together:\n\n$$\n5 + 15 + 8 + 11 + 10 + 5 = 63\n$$\n\nAfter giving his sister 5 lollipops, the total candies left are:\n\n$$\n63 - 5 = \\boxed{58}\n$$\n\n#### <numeric answer> = 58",
+      "Let's solve step by step:\n\n1. **Kit-Kats**: 5  \n2. **Hershey kisses**: 3 × 5 = **15**  \n3. **Nerds**: 8  \n4. **Lollipops**: 11  \n5. **Baby Ruths**: 10  \n6. **Reese Peanut butter cups**: 10 × 1/2 = **5**\n\nNow, subtract the given candies from the total:\n\n$$\n5 + 15 + 8 + 11 + 10 + 5 = 63\n$$\n\nAfter giving 5 lollipops to his sister:\n\n$$\n63 - 5 = \\boxed{58}\n$$\n\n### Final Answer:\n$$\n\\boxed{58}\n$$"
+    ]
+  },
+  {
+    "category": "recovered",
+    "id": "gsm8k:2034d638483acc432406059ee65a7e93530aa82dc3a663f6a72e54f98dbdc5b8",
+    "question": "Salem is 15 times the size of Leesburg. Leesburg has 58940 people. If 130000 people move out of Salem, and half of Salem's population is women, how many women live in Salem?",
+    "answers": [
+      "376550",
+      "377050",
+      "376550",
+      "376550"
+    ],
+    "correct_indices": [
+      1
+    ],
+    "old_choice": 3,
+    "new_choice": 1,
+    "candidates": [
+      "We are given:\n\n- Salem is **15 times** the size of Leesburg.\n- Leesburg has **58,940** people.\n- **13,0000** people move out of Salem.\n- **Half of Salem's population is women**.\n\n---\n\n### Step 1: Find Salem's population\n\nSince Salem is 15 times the size of Leesburg:\n\n$$\n\\text{Salem's population} = 15 \\times 58,940 = 883,100\n$$\n\n---\n\n### Step 2: Subtract the number of people who moved out\n\n$$\n\\text{Remaining people in Salem} = 883,100 - 130,000 = 753,100\n$$\n\n---\n\n### Step 3: Find the number of women in Salem\n\nHalf of Salem's population is women:\n\n$$\n\\text{Women in Salem} = \\frac{1}{2} \\times 753,100 = 376,550\n$$\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{376550}\n$$",
+      "We are given:\n\n- Salem has **15 times** the size of Leesburg.\n- Leesburg has **58,940** people.\n- **130,000** people **move out** of Salem.\n- **Half of Salem's population is women**.\n\n---\n\n### Step 1: Find Salem's population\n\nSince Salem is 15 times larger than Leesburg:\n\n$$\n\\text{Salem's population} = 15 \\times 58,940 = 884,100\n$$\n\n---\n\n### Step 2: Subtract people moving out\n\n$$\n\\text{Remaining population} = 884,100 - 130,000 = 754,100\n$$\n\n---\n\n### Step 3: Find the number of women in Salem\n\nHalf of Salem's population is women:\n\n$$\n\\text{Number of women} = \\frac{1}{2} \\times 754,100 = 377,050\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{377050}\n$$",
+      "We are given:\n\n- Leesburg has **58,940** people.\n- Salem is **15 times** the size of Leesburg: $15 \\times 58,940 = 883,100$.\n- **13,0000** people move out of Salem.\n- Half of Salem's population is women.\n\n---\n\n### Step 1: Find the current population of Salem\n\n$$\n\\text{Salem's current population} = 15 \\times 58,940 = 883,100\n$$\n\n---\n\n### Step 2: Subtract the people who moved out\n\n$$\n\\text{Salem's population after removal} = 883,100 - 130,000 = 753,100\n$$\n\n---\n\n### Step 3: Find the number of women in Salem\n\nHalf of Salem's population is women:\n\n$$\n\\text{Women in Salem} = \\frac{1}{2} \\times 753,100 = 376,550\n$$\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{376550}\n$$",
+      "We are given the following:\n\n- Salem has **15 times** the size of Leesburg.\n- Leesburg has **58,940** people.\n- **13,0000** people move out of Salem.\n- **Half of Salem's population is women**.\n\n---\n\n### Step 1: Find the population of Salem\n\nSince Salem is **15 times** larger than Leesburg:\n\n$$\n\\text{Population of Salem} = 15 \\times 58,940 = 883,100\n$$\n\n---\n\n### Step 2: Subtract the number of people who moved out\n\n$$\n\\text{Remaining population of Salem} = 883,100 - 130,000 = 753,100\n$$\n\n---\n\n### Step 3: Find the number of women in Salem\n\nSince **half of Salem's population is women**:\n\n$$\n\\text{Number of women in Salem} = \\frac{1}{2} \\times 753,100 = 376,550\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{376550}\n$$"
+    ]
+  },
+  {
+    "category": "regressed",
+    "id": "gsm8k:ee954cbd153024b83262f2b64c23230f42bf938eb603d1c26129470fa626718b",
+    "question": "Tara has a shoebox that is 4 inches tall and 6 inches wide. She puts a square block inside that is 4 inches per side. How many square inches of the box are left uncovered?",
+    "answers": [
+      "32",
+      "8",
+      "32",
+      "8"
+    ],
+    "correct_indices": [
+      1,
+      3
+    ],
+    "old_choice": 1,
+    "new_choice": 2,
+    "candidates": [
+      "We are given:\n\n- The shoebox has dimensions: **4 in × 6 in × 4 in**.\n- A square block is placed inside: **4 in × 4 in × 4 in**.\n\n---\n\n### Step 1: Find the volume of the shoebox\n\n$$\n\\text{Volume of shoebox} = 4 \\times 6 \\times 4 = 96 \\text{ in}^3\n$$\n\n---\n\n### Step 2: Find the volume of the block\n\n$$\n\\text{Volume of block} = 4 \\times 4 \\times 4 = 64 \\text{ in}^3\n$$\n\n---\n\n### Step 3: Find the remaining volume\n\n$$\n\\text{Remaining volume} = 96 - 64 = 32 \\text{ in}^3\n$$\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{32}\n$$",
+      "We are given:\n\n- The shoebox is **4 inches tall** and **6 inches wide**.\n- A square block is **4 inches per side**, meaning it is **4x4**.\n\n---\n\n### Step 1: Calculate the total area of the shoebox\n\nThe area of the shoebox is:\n\n$$\n\\text{Area}_{\\text{shoebox}} = \\text{height} \\times \\text{width} = 4 \\times 6 = 24 \\text{ square inches}\n$$\n\n---\n\n### Step 2: Calculate the total area of the square block\n\nThe area of the square block is:\n\n$$\n\\text{Area}_{\\text{block}} = 4 \\times 4 = 16 \\text{ square inches}\n$$\n\n---\n\n### Step 3: Subtract the block's area from the shoebox's area to find the uncovered area\n\n$$\n\\text{Uncovered area} = \\text{Area}_{\\text{shoebox}} - \\text{Area}_{\\text{block}} = 24 - 16 = \\boxed{8}\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{8}\n$$",
+      "We are given:\n\n- The **shoebox** has dimensions: **4 in × 6 in × 4 in**.\n- The **square block** has dimensions: **4 in × 4 in × 4 in**.\n\n---\n\n### Step 1: Calculate the total volume of the shoebox\n\n$$\n\\text{Volume of shoebox} = 4 \\times 6 \\times 4 = 96 \\text{ cubic inches}\n$$\n\n---\n\n### Step 2: Calculate the volume of the square block\n\n$$\n\\text{Volume of square block} = 4 \\times 4 \\times 4 = 64 \\text{ cubic inches}\n$$\n\n---\n\n### Step 3: Subtract the volume of the block from the volume of the shoebox\n\n$$\n\\text{Uncovered volume} = 96 - 64 = 32 \\text{ cubic inches}\n$$\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{32}\n$$",
+      "We are given:\n\n- The shoebox is **4 inches tall and 6 inches wide**.\n- The square block is **4 inches per side**.\n\n### Step 1: Find the area of the shoebox\nThe shoebox is a rectangular box with:\n- Height = 4 inches\n- Width = 6 inches\n\nSo, the area of the shoebox is:\n$$\n\\text{Area}_{\\text{shoebox}} = \\text{length} \\times \\text{width} = 6 \\times 4 = 24 \\text{ square inches}\n$$\n\n### Step 2: Find the area of the square block\nEach side of the square block is 4 inches, so the area is:\n$$\n\\text{Area}_{\\text{block}} = 4 \\times 4 = 16 \\text{ square inches}\n$$\n\n### Step 3: Subtract the area of the block from the area of the shoebox\n$$\n\\text{Uncovered area} = \\text{Area}_{\\text{shoebox}} - \\text{Area}_{\\text{block}} = 24 - 16 = \\boxed{8}\n$$\n\n### Final Answer:\n$$\n\\boxed{8}\n$$"
+    ]
+  },
+  {
+    "category": "regressed",
+    "id": "gsm8k:6a1446307d930d42294dcb38d969cafc9dd9c1aec77d4c4dfd1d109c58662cd5",
+    "question": "Jebb buys $50 worth of food at a restaurant with a service fee of 12%. After paying, he gives a $5 tip. How much money did he spend at the restaurant?",
+    "answers": [
+      "56",
+      null,
+      "61",
+      "55"
+    ],
+    "correct_indices": [
+      2
+    ],
+    "old_choice": 2,
+    "new_choice": 0,
+    "candidates": [
+      "Let's solve step by step:\n\n1. **Total amount paid**:  \n   He spends $50 at the restaurant.\n\n2. **Service fee**:  \n   The restaurant charges a 12% service fee on the amount he spent.  \n   So, the service fee is:  \n   $ 50 \\times 0.12 = 6 $.\n\n3. **Total amount spent**:  \n   He pays the $50, plus the 12% service fee:  \n   $ 50 + 6 = 56 $.\n\n4. **Final answer**:  \n   He spent **$56** at the restaurant.\n\n#### <numeric answer> 56",
+      "Let's solve the problem step by step:\n\n1. **Total amount spent**: $50.\n\n2. **Service fee**: 12% of $50 is $50 × 0.12 = $6.\n\n3. **Tip**: $5.\n\n4. **Total amount spent**: $50 + $6 + $5 = $61.\n\n### Final Answer:\n**$61**.",
+      "Jebb buys $50 worth of food at a restaurant with a 12% service fee. After paying, he gives a $5 tip.\n\n1. **Cost of food**: $50  \n2. **Service fee**: $50 × 12% = $6  \n3. **Total cost before tip**: $50 + $6 = $56  \n4. **Tip**: $5  \n5. **Total amount spent**: $56 + $5 = **$61**\n\n**Final Answer:**  \n#### $61",
+      "Let's solve step by step:\n\n1. The total amount he paid is the cost of the food plus the tip:\n   $$\n   \\text{Total cost} = \\text{Food cost} + \\text{Tip}\n   $$\n\n2. The food cost is $50, and the tip is $5.\n\n3. So, the total amount he spent is:\n   $$\n   50 + 5 = 55\n   $$\n\n### Final Answer:\n$$\n\\boxed{55}\n$$"
+    ]
+  }
+]

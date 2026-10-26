@@ -1,0 +1,23 @@
+{
+  "feature_set": "arithmetic",
+  "C": 0.01,
+  "solver": "lbfgs",
+  "max_iter": 2000,
+  "tol": 1e-06,
+  "fit_intercept": false,
+  "seed": 17,
+  "fits": 1,
+  "threads": 4,
+  "pairs": "Every valid correct/incorrect pair within each training question; no positive-positive pairs",
+  "weighting": "Each informative question total weight 1; each pair represented by +/- difference, each with weight 1/(2 * pairs_in_question)",
+  "objective": "sum_q mean_pairs softplus(-(s_correct-s_wrong)) + ||w||^2/(2*C)",
+  "scaler": "StandardScaler fit on all train candidates, same as previous round",
+  "selection": "One configuration only; compare complete validation and hard subset; no test scoring",
+  "frozen_baseline": {
+    "artifacts/pairwise-C001-20261026.npz": "fb2354bbd24598833f63bd05c6eb0d020a7af535e361edca59b223a4e9c51ef4",
+    "submission.py": "f9e704ece2503b4df34ff43a1e4cee72895203c62e157e86f72705491230c10f",
+    "run_round.py": "75d07b7a854d210ace81da96f1cfb8feba4fc132545ab4668c6420ba8b4ab3d6",
+    "arithmetic_evidence.py": "6bb09c53193763b02a59ce7141845a88cc9dec9a3a3056ff6e63bf14df67d650",
+    "submission_arithmetic.py": "f030a7a33407a44edfb2c15eab98f96bc26ac3da42b5c6f506f24be726f998f6"
+  }
+}

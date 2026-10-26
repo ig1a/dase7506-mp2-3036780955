@@ -1,0 +1,666 @@
+[
+  {
+    "category": "correct_final",
+    "question_index": 2963,
+    "candidate_index": 0,
+    "id": "gsm8k:e1e6ba25268e72f515fa274ed05eb497df3a375d2cd2fae8949b81a9b92dd459",
+    "question": "The pizzeria sells small pizzas for $2 and large pizzas for $8. They sold $40 in pizzas. If they sold 8 small pizzas, how many large pizzas did they sell?",
+    "text": "We are given:\n\n- Price of a small pizza: $2  \n- Price of a large pizza: $8  \n- Total revenue: $40  \n- Number of small pizzas sold: 8\n\nLet the number of large pizzas sold be $ x $.\n\nThen:\n\n$$\n2 \\times 8 + 8 \\times 8 = 40\n$$\n\n$$\n16 + 64 = 40\n$$\n\n$$\n80 = 40\n$$\n\nThis means the calculation is incorrect. Let's solve it correctly:\n\nLet the number of large pizzas sold be $ x $.\n\n$$\n2 \\times 8 + 8 \\times x = 40\n$$\n\n$$\n16 + 8x = 40\n$$\n\n$$\n8x = 24\n$$\n\n$$\nx = 3\n$$\n\n### Final Answer:\n\n$$\n\\boxed{3}\n$$",
+    "checks": [
+      {
+        "left": "2 * 8 + 8 * 8",
+        "right": "40",
+        "computed_left": "80",
+        "computed_right": "40",
+        "tolerance": "0",
+        "inconsistent": true
+      },
+      {
+        "left": "16 + 64",
+        "right": "40",
+        "computed_left": "80",
+        "computed_right": "40",
+        "tolerance": "0",
+        "inconsistent": true
+      },
+      {
+        "left": "80",
+        "right": "40",
+        "computed_left": "80",
+        "computed_right": "40",
+        "tolerance": "0",
+        "inconsistent": true
+      }
+    ]
+  },
+  {
+    "category": "correct_final",
+    "question_index": 1886,
+    "candidate_index": 3,
+    "id": "gsm8k:a2abdf7c4e9a5685a29fbd31e949e23749ee8847bbaef9f5f0089ed86a6235f8",
+    "question": "Silvio was running a race that had 4 parts. The total length of the race was 74.5 kilometers. The first part of the race is 15.5 kilometers long. The second and third parts are each 21.5 kilometers long. How many kilometers is the last part of the race?",
+    "text": "We are told:\n\n- Total race length = 74.5 km  \n- First part = 15.5 km  \n- Second and third parts = 21.5 km each  \n\nLet the length of the **last part** be $ x $.  \n\nWe know:\n\n$$\n15.5 + 21.5 + 21.5 + x = 74.5\n$$\n\n$$\n15.5 + 43 = 74.5\n$$\n\n$$\n58.5 + x = 74.5\n$$\n\n$$\nx = 74.5 - 58.5 = \\boxed{16}\n$$\n\n### Final Answer:\n$$\n\\boxed{16}\n$$",
+    "checks": [
+      {
+        "left": "15.5 + 43",
+        "right": "74.5",
+        "computed_left": "117/2",
+        "computed_right": "149/2",
+        "tolerance": "1/20",
+        "inconsistent": true
+      },
+      {
+        "left": "74.5 - 58.5",
+        "right": "(16)",
+        "computed_left": "16",
+        "computed_right": "16",
+        "tolerance": "0",
+        "inconsistent": false
+      }
+    ]
+  },
+  {
+    "category": "correct_final",
+    "question_index": 4197,
+    "candidate_index": 2,
+    "id": "gsm8k:6c6c4b07c3d479512d9f1a22ee17198a86d34e7430a8fde034a51a28204ee72d",
+    "question": "An apple tree produces 40 apples in its first year.  The second year the apple tree produces 8 more than double the amount of apples that it produced the first year, and the third year production went down by a fourth due to an insect infestation.  How many apples did the tree produce in total in the first three years?",
+    "text": "We are given the following:\n\n- **First year**: 40 apples  \n- **Second year**: 8 more than double the first year  \n- **Third year**: 1/4 less than the second year  \n\nLet's solve step by step:\n\n### Step 1: Second year\nThe second year produces **8 more than double the first year**:\n\n$$\n2 \\times 40 = 80 \\quad \\text{(double first year)} \\\\\n80 + 8 = 88 \\quad \\text{(second year)}\n$$\n\n### Step 2: Third year\nThe third year produces **1/4 less than the second year**:\n\n$$\n88 - \\frac{1}{4} \\times 88 = \\frac{352}{4} - \\frac{352}{4} = 88 - 22 = 66\n$$\n\n### Step 3: Total production over three years\n\n$$\n40 + 88 + 66 = 194\n$$\n\n### Final Answer:\n\n$$\n\\boxed{194}\n$$",
+    "checks": [
+      {
+        "left": "2 * 40",
+        "right": "80",
+        "computed_left": "80",
+        "computed_right": "80",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "80 + 8",
+        "right": "88",
+        "computed_left": "88",
+        "computed_right": "88",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "88 - ((1)/(4)) * 88",
+        "right": "((352)/(4)) - ((352)/(4))",
+        "computed_left": "66",
+        "computed_right": "0",
+        "tolerance": "0",
+        "inconsistent": true
+      },
+      {
+        "left": "((352)/(4)) - ((352)/(4))",
+        "right": "88 - 22",
+        "computed_left": "0",
+        "computed_right": "66",
+        "tolerance": "0",
+        "inconsistent": true
+      },
+      {
+        "left": "88 - 22",
+        "right": "66",
+        "computed_left": "66",
+        "computed_right": "66",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "40 + 88 + 66",
+        "right": "194",
+        "computed_left": "194",
+        "computed_right": "194",
+        "tolerance": "0",
+        "inconsistent": false
+      }
+    ]
+  },
+  {
+    "category": "correct_final",
+    "question_index": 2772,
+    "candidate_index": 1,
+    "id": "gsm8k:683dbafafa03dfd89a8045a3a780fc87809c1109350bba1b6daa35040a7ca6ef",
+    "question": "Luther designs clothes for a high fashion company. His latest line of clothing uses both silk and cashmere fabrics. There are ten pieces made with silk and half that number made with cashmere. If his latest line has thirteen pieces, how many pieces use a blend of cashmere and silk?",
+    "text": "We are told:\n\n- There are **10 pieces** made with **silk**.\n- There are **half the number** of silk pieces made with **cashmere**, so there are **5 pieces** made with cashmere.\n- The **total number of pieces** is **13**.\n\nTo find how many **pieces use a blend of cashmere and silk**, we subtract the number of silk and cashmere pieces from the total:\n\n$$\n13 - 10 - 5 = 2\n$$\n\n### Final Answer:\n$$\n\\boxed{2}\n$$",
+    "checks": [
+      {
+        "left": "13 - 10 - 5",
+        "right": "2",
+        "computed_left": "-2",
+        "computed_right": "2",
+        "tolerance": "0",
+        "inconsistent": true
+      }
+    ]
+  },
+  {
+    "category": "correct_final",
+    "question_index": 2366,
+    "candidate_index": 3,
+    "id": "gsm8k:bc6b864ececdad692f646b97568990f3cc7d1d074a6bea32f8eeff79256aafe7",
+    "question": "Mary has a mystery book library. She started with 72 mystery books at the beginning of the year. She joined a book club that sent her 1 book each month of the year. She went to a bookstore halfway through the year and bought 5 more books, then bought 2 books at yard sales later. Her daughter gave her another book for her birthday, and her mother gave her a series of 4 books when Mary visited her. She donated 12 books she didn't want to read again to a charity shop and sold 3 to a used book store. How many books did she have at the end of the year?",
+    "text": "We start with 72 mystery books. Let's break down the changes step by step:\n\n- **Initial books**: 72  \n- **Books received from book club**: 1 book per month of the year.  \n  Since there are 12 months in a year, she received **12 books**.  \n- **Books bought at bookstore**: 5  \n- **Books bought at yard sales**: 2  \n- **Books given to daughter**: 1  \n- **Books given to mother**: 4  \n- **Books donated to charity shop**: 12  \n- **Books sold to used book store**: 3  \n\nNow, let's add all these:\n\n$$\n72 + 12 + 5 + 2 + 1 + 4 - 12 - 3 = 72 + 12 + 5 + 2 + 1 + 4 = 96\n$$\n\n$$\n96 - 12 - 3 = 81\n$$\n\n### Final answer:\n\n$$\n\\boxed{81}\n$$",
+    "checks": [
+      {
+        "left": "72 + 12 + 5 + 2 + 1 + 4 - 12 - 3",
+        "right": "72 + 12 + 5 + 2 + 1 + 4",
+        "computed_left": "81",
+        "computed_right": "96",
+        "tolerance": "0",
+        "inconsistent": true
+      },
+      {
+        "left": "72 + 12 + 5 + 2 + 1 + 4",
+        "right": "96",
+        "computed_left": "96",
+        "computed_right": "96",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "96 - 12 - 3",
+        "right": "81",
+        "computed_left": "81",
+        "computed_right": "81",
+        "tolerance": "0",
+        "inconsistent": false
+      }
+    ]
+  },
+  {
+    "category": "correct_final",
+    "question_index": 820,
+    "candidate_index": 2,
+    "id": "gsm8k:0ae518902035dfc25a6d2d5a41fe028aaecfa3389b106c2e7eeebfc0eb905595",
+    "question": "Valerie’s cookie recipe makes 16 dozen cookies and calls for 4 pounds of butter.  She only wants to make 4 dozen cookies for the weekend.  How many pounds of butter will she need?",
+    "text": "We are given:\n\n- 16 dozen cookies require 4 pounds of butter.\n- She wants to make **4 dozen** cookies.\n\nLet's solve step by step:\n\n1. Find out how many **dozens** of cookies 4 dozen corresponds to in terms of the original recipe.\n\n   - 16 dozen = 4 pounds of butter.\n\n2. Find out how many **dozens** of cookies 4 dozen corresponds to.\n\n   - 4 dozen = $ \\frac{4}{16} = 0.25 $ of the original recipe.\n\n3. Use this proportion to find the butter needed for 4 dozen:\n\n   - $ \\frac{4}{16} = \\frac{4}{16} \\times 4 = \\frac{16}{16} = 1 $ pound of butter.\n\n4. So, Valerie will need **1 pound** of butter.\n\n#### ✅ Final answer: **1**",
+    "checks": [
+      {
+        "left": "((4)/(16))",
+        "right": "0.25",
+        "computed_left": "1/4",
+        "computed_right": "1/4",
+        "tolerance": "1/200",
+        "inconsistent": false
+      },
+      {
+        "left": "((4)/(16))",
+        "right": "((4)/(16)) * 4",
+        "computed_left": "1/4",
+        "computed_right": "1",
+        "tolerance": "0",
+        "inconsistent": true
+      },
+      {
+        "left": "((4)/(16)) * 4",
+        "right": "((16)/(16))",
+        "computed_left": "1",
+        "computed_right": "1",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "((16)/(16))",
+        "right": "1",
+        "computed_left": "1",
+        "computed_right": "1",
+        "tolerance": "0",
+        "inconsistent": false
+      }
+    ]
+  },
+  {
+    "category": "correct_final",
+    "question_index": 3186,
+    "candidate_index": 2,
+    "id": "gsm8k:671bdbf32229a0860e919f07f1ab52e862ce2cc4dfc8da695245e417d06da2a6",
+    "question": "Chrystal’s vehicle speed is 30 miles per hour. Ascending the mountain decreases its speed by fifty percent, and descending the mountain increases its speed by twenty percent. If the distance going to the top of the mountain is 60 miles and the distance going down to the foot of the mountain is 72 miles, how many hours will Crystal have to pass the whole mountain?",
+    "text": "We are given:\n\n- Crystal’s vehicle speed is **30 mph**.\n- Ascending the mountain decreases speed by **50%**, so her speed on ascent is:\n  $$\n  30 \\times 0.5 = 15 \\text{ mph}\n  $$\n- Descending the mountain increases speed by **20%**, so her speed on descent is:\n  $$\n  30 \\times 1.2 = 36 \\text{ mph}\n  $$\n\n- Distance going to the top: **60 miles**\n- Distance going down to the foot: **72 miles**\n\n### Total time to pass the whole mountain:\n$$\n\\text{Time} = \\frac{\\text{Total distance}}{\\text{Average speed}} = \\frac{60 + 72}{\\frac{15 + 36}{2}} = \\frac{132}{22.5} = 5.999\\ldots \\text{ hours}\n$$\n\nSo, the total time is approximately:\n\n$$\n\\boxed{6} \\text{ hours}\n$$",
+    "checks": [
+      {
+        "left": "30 * 0.5",
+        "right": "15",
+        "computed_left": "15",
+        "computed_right": "15",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "30 * 1.2",
+        "right": "36",
+        "computed_left": "36",
+        "computed_right": "36",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "((60 + 72)/(((15 + 36)/(2))))",
+        "right": "((132)/(22.5))",
+        "computed_left": "88/17",
+        "computed_right": "88/15",
+        "tolerance": "0",
+        "inconsistent": true
+      }
+    ]
+  },
+  {
+    "category": "correct_final",
+    "question_index": 2917,
+    "candidate_index": 1,
+    "id": "gsm8k:a519b2c48415bea74d7a7abd79ad68d5d76a410cd19d3b5d577ea76221e9cc94",
+    "question": "Four days' temperatures were recorded for Wayupnorth, Canada. The temperatures were: -36 degrees Fahrenheit, +13 degrees Fahrenheit, -15 degrees Fahrenheit, and -10 degrees Fahrenheit. What was the average number of degrees (Fahrenheit) in Wayupnorth, Canada on the 4 days recorded?",
+    "text": "We are given the temperatures for four days:\n\n- $ -36^\\circ \\text{F} $\n- $ +13^\\circ \\text{F} $\n- $ -15^\\circ \\text{F} $\n- $ -10^\\circ \\text{F} $\n\nTo find the **average** temperature, we sum all the temperatures and divide by the number of days (4).\n\n### Step 1: Add the temperatures:\n$$\n-36 + 13 + (-15) + (-10) = -36 + 13 = -23, \\quad -23 - 15 = -38, \\quad -38 - 10 = -48\n$$\n\n### Step 2: Divide by 4:\n$$\n\\frac{-48}{4} = -12\n$$\n\n### Final Answer:\n$$\n\\boxed{-12}\n$$",
+    "checks": [
+      {
+        "left": "-36 + 13 + (-15) + (-10)",
+        "right": "-36 + 13",
+        "computed_left": "-48",
+        "computed_right": "-23",
+        "tolerance": "0",
+        "inconsistent": true
+      },
+      {
+        "left": "((-48)/(4))",
+        "right": "-12",
+        "computed_left": "-12",
+        "computed_right": "-12",
+        "tolerance": "0",
+        "inconsistent": false
+      }
+    ]
+  },
+  {
+    "category": "correct_final",
+    "question_index": 1633,
+    "candidate_index": 0,
+    "id": "gsm8k:a216e1897faa0fd6eaece353f1ee13a5efadb9f082f90e9fde19ff8bd4b272b9",
+    "question": "Aren’s flight from New York to Hawaii will take 11 hours 20 minutes.  He spends 2 hours reading, 4 hours watching two movies, 30 minutes eating his dinner, 40 minutes listening to the radio, and 1 hour 10 minutes playing games.  How many hours does he have left to take a nap?",
+    "text": "We are given:\n\n- Total flight time: **11 hours 20 minutes**\n- Time spent on activities:\n  - Reading: 2 hours\n  - Watching movies: 4 hours\n  - Eating dinner: 30 minutes\n  - Listening to the radio: 40 minutes\n  - Playing games: 1 hour 10 minutes\n- We are to find how many **hours** he has left for **nap**.\n\n### Step 1: Convert all time to minutes to make it easier.\n\n- 1 hour = 60 minutes  \n- 11 hours 20 minutes = $11 \\times 60 + 20 = 660 + 20 = 680$ minutes\n\n### Step 2: Add up the time spent on activities:\n\n- Reading: 2 hours = 120 minutes  \n- Watching movies: 4 hours = 240 minutes  \n- Eating dinner: 30 minutes  \n- Listening to the radio: 40 minutes  \n- Playing games: 1 hour 10 minutes = 70 minutes\n\nNow sum these:\n\n$$\n120 + 240 + 30 + 40 + 70 = 480 \\text{ minutes}\n$$\n\n### Step 3: Subtract from total flight time to find the time left for nap:\n\n$$\n680 - 480 = 200 \\text{ minutes}\n$$\n\nConvert back to hours:\n\n$$\n200 \\div 60 = 3 \\text{ hours}\n$$\n\n### Final Answer:\n\n$$\n\\boxed{3}\n$$",
+    "checks": [
+      {
+        "left": "11 * 60 + 20",
+        "right": "660 + 20",
+        "computed_left": "680",
+        "computed_right": "680",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "660 + 20",
+        "right": "680",
+        "computed_left": "680",
+        "computed_right": "680",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "120 + 240 + 30 + 40 + 70",
+        "right": "480",
+        "computed_left": "500",
+        "computed_right": "480",
+        "tolerance": "0",
+        "inconsistent": true
+      },
+      {
+        "left": "680 - 480",
+        "right": "200",
+        "computed_left": "200",
+        "computed_right": "200",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "200 / 60",
+        "right": "3",
+        "computed_left": "10/3",
+        "computed_right": "3",
+        "tolerance": "0",
+        "inconsistent": true
+      }
+    ]
+  },
+  {
+    "category": "correct_final",
+    "question_index": 2772,
+    "candidate_index": 0,
+    "id": "gsm8k:683dbafafa03dfd89a8045a3a780fc87809c1109350bba1b6daa35040a7ca6ef",
+    "question": "Luther designs clothes for a high fashion company. His latest line of clothing uses both silk and cashmere fabrics. There are ten pieces made with silk and half that number made with cashmere. If his latest line has thirteen pieces, how many pieces use a blend of cashmere and silk?",
+    "text": "We are told:\n\n- There are **10 pieces** made with **silk**.\n- Half the number of silk pieces are made with **cashmere**, so there are **5** pieces made with **cashmere**.\n- The total number of pieces is **13**.\n\nNow, to find how many pieces use **a blend of cashmere and silk**, we subtract the number of silk and cashmere pieces from the total:\n\n$$\n13 - 10 - 5 = 2\n$$\n\n### Final Answer:\n$$\n\\boxed{2}\n$$",
+    "checks": [
+      {
+        "left": "13 - 10 - 5",
+        "right": "2",
+        "computed_left": "-2",
+        "computed_right": "2",
+        "tolerance": "0",
+        "inconsistent": true
+      }
+    ]
+  },
+  {
+    "category": "wrong_final",
+    "question_index": 1349,
+    "candidate_index": 1,
+    "id": "gsm8k:1b89ff90e782da1c51f674722c5ead60c5419930ebd20bf3cd1583f56f430d9d",
+    "question": "Miriam spent 30 minutes doing laundry, 15 minutes cleaning the bathroom, a certain amount of time cleaning her room, and 40 minutes doing homework. If she spent a total of two hours on these tasks, how long, in minutes, did she spend cleaning her room?",
+    "text": "Miriam spent:\n\n- 30 minutes doing laundry  \n- 15 minutes cleaning the bathroom  \n- $ x $ minutes cleaning her room  \n- 40 minutes doing homework  \n\nTotal time = 2 hours = 120 minutes\n\n$$\n30 + 15 + x + 40 = 120\n$$\n\n$$\nx = 120 - 30 - 15 - 40 = 55\n$$\n\n### Final answer:\n\n$$\n\\boxed{55}\n$$",
+    "checks": [
+      {
+        "left": "120 - 30 - 15 - 40",
+        "right": "55",
+        "computed_left": "35",
+        "computed_right": "55",
+        "tolerance": "0",
+        "inconsistent": true
+      }
+    ]
+  },
+  {
+    "category": "wrong_final",
+    "question_index": 2139,
+    "candidate_index": 2,
+    "id": "gsm8k:76119557c206b4d7df08f780c74db0aede0e73fd7c4e4308b7ea03f532b63f0a",
+    "question": "A movie theater charges $5 for matinee tickets, $7 for evening tickets, and $10 for opening night tickets. A bucket of popcorn costs $10. On Friday, they had 32 matinee customers, 40 evening customers, and 58 customers for an opening night showing of a movie. If half the customers bought popcorn, how much money in dollars did the theater make on Friday night?",
+    "text": "We are given the following information:\n\n- Matinee tickets: $5  \n- Evening tickets: $7  \n- Opening night tickets: $10  \n- Popcorn: $10  \n- Number of customers:  \n  - Matinee: 32  \n  - Evening: 40  \n  - Opening night: 58  \n- Half the customers bought popcorn → 29 customers bought popcorn\n\nWe need to calculate the **total revenue** on Friday night.\n\n### Step-by-step calculation:\n\n1. **Revenue from matinee tickets**:\n   $$\n   32 \\times 5 = 160 \\text{ dollars}\n   $$\n\n2. **Revenue from evening tickets**:\n   $$\n   40 \\times 7 = 280 \\text{ dollars}\n   $$\n\n3. **Revenue from opening night tickets**:\n   $$\n   58 \\times 10 = 580 \\text{ dollars}\n   $$\n\n4. **Revenue from popcorn**:\n   $$\n   29 \\times 10 = 290 \\text{ dollars}\n   $$\n\n5. **Total revenue**:\n   $$\n   160 + 280 + 580 + 290 = 1290 \\text{ dollars}\n   $$\n\n### Final Answer:\n\n$$\n\\boxed{1290}\n$$",
+    "checks": [
+      {
+        "left": "32 * 5",
+        "right": "160",
+        "computed_left": "160",
+        "computed_right": "160",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "40 * 7",
+        "right": "280",
+        "computed_left": "280",
+        "computed_right": "280",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "58 * 10",
+        "right": "580",
+        "computed_left": "580",
+        "computed_right": "580",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "29 * 10",
+        "right": "290",
+        "computed_left": "290",
+        "computed_right": "290",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "160 + 280 + 580 + 290",
+        "right": "1290",
+        "computed_left": "1310",
+        "computed_right": "1290",
+        "tolerance": "0",
+        "inconsistent": true
+      }
+    ]
+  },
+  {
+    "category": "wrong_final",
+    "question_index": 1633,
+    "candidate_index": 3,
+    "id": "gsm8k:a216e1897faa0fd6eaece353f1ee13a5efadb9f082f90e9fde19ff8bd4b272b9",
+    "question": "Aren’s flight from New York to Hawaii will take 11 hours 20 minutes.  He spends 2 hours reading, 4 hours watching two movies, 30 minutes eating his dinner, 40 minutes listening to the radio, and 1 hour 10 minutes playing games.  How many hours does he have left to take a nap?",
+    "text": "We are given the total flight time: **11 hours 20 minutes**.\n\nNext, we calculate the time spent on activities:\n\n- Reading: 2 hours  \n- Watching movies: 4 hours  \n- Eating dinner: 30 minutes  \n- Listening to the radio: 40 minutes  \n- Playing games: 1 hour 10 minutes  \n\nLet’s convert everything to minutes for easier addition:\n\n- Reading: 2 × 60 = 120 minutes  \n- Watching movies: 4 × 60 = 240 minutes  \n- Eating: 30 minutes  \n- Listening to the radio: 40 minutes  \n- Playing games: 1 × 60 + 10 = 70 minutes\n\nNow add these times:\n\n$$\n120 + 240 + 30 + 40 + 70 = 560 \\text{ minutes}\n$$\n\nConvert back to hours:\n\n$$\n560 \\div 60 = 9 \\text{ hours}\n$$\n\n**He has 9 hours left to take a nap.**\n\n#### <numeric answer> 9",
+    "checks": [
+      {
+        "left": "120 + 240 + 30 + 40 + 70",
+        "right": "560",
+        "computed_left": "500",
+        "computed_right": "560",
+        "tolerance": "0",
+        "inconsistent": true
+      },
+      {
+        "left": "560 / 60",
+        "right": "9",
+        "computed_left": "28/3",
+        "computed_right": "9",
+        "tolerance": "0",
+        "inconsistent": true
+      }
+    ]
+  },
+  {
+    "category": "wrong_final",
+    "question_index": 3444,
+    "candidate_index": 3,
+    "id": "gsm8k:ab690994df5dd6e0bd404633777947977a127fdf674c133d64b2f234e5155f63",
+    "question": "Heather is going to sew 150 aprons that are to be used for a kiddie crew program. She already was able to sew  13 aprons, and today, she sewed three times as many aprons. How many aprons should she sew tomorrow if she wants to sew half of the remaining number of aprons needed?",
+    "text": "We are given:\n\n- Total aprons needed: **150**\n- Already sewed: **13**\n- Today, she sewed **3 times as many as** what she already sewed.\n- She wants to sew **half of the remaining number** of aprons tomorrow.\n\n---\n\n### Step 1: Calculate the number of aprons sewed today\n\nShe sewed **3 times as many aprons** as she already sewed:\n\n$$\n\\text{Aprons sewed today} = 3 \\times 13 = 39\n$$\n\n---\n\n### Step 2: Find the remaining aprons\n\n$$\n\\text{Remaining aprons} = 150 - 13 - 39 = 108\n$$\n\n---\n\n### Step 3: Calculate how many aprons she should sew tomorrow\n\nShe wants to sew **half** of the remaining aprons:\n\n$$\n\\text{Aprons to sew tomorrow} = \\frac{108}{2} = 54\n$$\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{54}\n$$",
+    "checks": [
+      {
+        "left": "3 * 13",
+        "right": "39",
+        "computed_left": "39",
+        "computed_right": "39",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "150 - 13 - 39",
+        "right": "108",
+        "computed_left": "98",
+        "computed_right": "108",
+        "tolerance": "0",
+        "inconsistent": true
+      },
+      {
+        "left": "((108)/(2))",
+        "right": "54",
+        "computed_left": "54",
+        "computed_right": "54",
+        "tolerance": "0",
+        "inconsistent": false
+      }
+    ]
+  },
+  {
+    "category": "wrong_final",
+    "question_index": 1014,
+    "candidate_index": 0,
+    "id": "gsm8k:534cae445c86bff1bd1212233ed63a8beb3782a7536670018c8fee17530e5e13",
+    "question": "There were 50 people on the city bus. At the first stop, 15 people got off. At the next stop 8 people got off and 2 got on. At the third stop, 4 people got off and 3 people got on. How many people are on the bus after the third stop?",
+    "text": "We start with 50 people on the bus. Let's go step by step:\n\n- **First stop**: 15 people got off, so the number of people on the bus is:\n  $$\n  50 - 15 = 35\n  $$\n\n- **Second stop**: 8 people got off and 2 got on. So the number of people on the bus is:\n  $$\n  35 - 8 + 2 = 30\n  $$\n\n- **Third stop**: 4 people got off and 3 people got on. So the number of people on the bus is:\n  $$\n  30 - 4 + 3 = 29\n  $$\n\n**Final answer:**\n$$\n\\boxed{29}\n$$",
+    "checks": [
+      {
+        "left": "50 - 15",
+        "right": "35",
+        "computed_left": "35",
+        "computed_right": "35",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "35 - 8 + 2",
+        "right": "30",
+        "computed_left": "29",
+        "computed_right": "30",
+        "tolerance": "0",
+        "inconsistent": true
+      },
+      {
+        "left": "30 - 4 + 3",
+        "right": "29",
+        "computed_left": "29",
+        "computed_right": "29",
+        "tolerance": "0",
+        "inconsistent": false
+      }
+    ]
+  },
+  {
+    "category": "wrong_final",
+    "question_index": 1907,
+    "candidate_index": 3,
+    "id": "gsm8k:afdd131eaa92334a1c00f4420ef688256842c219756b1805ce234538e69e27fb",
+    "question": "The total number of years in a century is the same as the number of marbles Gideon has. If he gives 3/4 of the marbles to his sister and multiples the number of remaining marbles by 2, he gets his age five years from now. How old is Gideon now?",
+    "text": "We are told:\n\n- A **century** has 100 years.\n- Gideon has the **same number of marbles** as a century: **100 marbles**.\n- He gives **3/4** of the marbles to his sister.\n- Then, **multiplying the remaining marbles by 2** gives him **5 years from now**.\n\nLet’s solve step by step:\n\n1. **Total marbles = 100**\n\n2. He gives **3/4** of the marbles to his sister:\n   $$\n   \\text{Marbles given to sister} = \\frac{3}{4} \\times 100 = 75\n   $$\n\n3. Remaining marbles:\n   $$\n   100 - 75 = 25\n   $$\n\n4. He then **multiplies the remaining marbles by 2**:\n   $$\n   25 \\times 2 = 50\n   $$\n\n5. This equals **5 years from now**, so:\n   $$\n   50 = 5 \\text{ years from now}\n   $$\n\n6. Therefore, **Gideon is now 5 years old**.\n\n### ✅ Final Answer:\n\n$$\n\\boxed{5}\n$$",
+    "checks": [
+      {
+        "left": "((3)/(4)) * 100",
+        "right": "75",
+        "computed_left": "75",
+        "computed_right": "75",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "100 - 75",
+        "right": "25",
+        "computed_left": "25",
+        "computed_right": "25",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "25 * 2",
+        "right": "50",
+        "computed_left": "50",
+        "computed_right": "50",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "50",
+        "right": "5",
+        "computed_left": "50",
+        "computed_right": "5",
+        "tolerance": "0",
+        "inconsistent": true
+      }
+    ]
+  },
+  {
+    "category": "wrong_final",
+    "question_index": 1857,
+    "candidate_index": 3,
+    "id": "gsm8k:d21f7b193bb3e6f75b7cc8dfa34124e9a29d7438f69db7b8ca82e83134cf70fd",
+    "question": "A certain school bought 10 cases of bottled water for their athletes. There are 20 bottles in each case. Seventy bottles of water were used during the first game. After the second game, only 20 bottles of water were left. How many bottles of water were used during the second game?",
+    "text": "We are given:\n\n- 10 cases of bottled water, each with 20 bottles.\n- 70 bottles used during the first game.\n- 20 bottles left after the second game.\n\nLet’s solve step by step:\n\n1. Total bottles initially:  \n   $ 10 \\text{ cases} \\times 20 \\text{ bottles/case} = 200 \\text{ bottles} $\n\n2. Bottles used during the first game:  \n   $ 70 \\text{ bottles} $\n\n3. Bottles remaining after the second game:  \n   $ 20 \\text{ bottles} $\n\n4. Bottles used during the second game:  \n   $ 200 - 70 - 20 = \\boxed{90} $\n\n### Final Answer:\n#### <numeric answer> 90",
+    "checks": [
+      {
+        "left": "200 - 70 - 20",
+        "right": "(90)",
+        "computed_left": "110",
+        "computed_right": "90",
+        "tolerance": "0",
+        "inconsistent": true
+      }
+    ]
+  },
+  {
+    "category": "wrong_final",
+    "question_index": 2005,
+    "candidate_index": 1,
+    "id": "gsm8k:e2d254e6c071703d7c7233d41278d240e41051375ae76ab345f8ab9d4579f9ed",
+    "question": "If Jade earns $1600 per month and spent 75% of it on living expenses, one-fifth on insurance, and saves the rest, how much does she save per month?",
+    "text": "Jade earns $1600 per month.\n\n- She spends 75% of it on living expenses:  \n  $ 0.75 \\times 1600 = 1200 $\n\n- She spends 1/5 of it on insurance:  \n  $ \\frac{1}{5} \\times 1600 = 320 $\n\n- She saves the remaining amount:  \n  $ 1600 - 1200 - 320 = 960 $\n\n**Answer:** $960\n\n#### <numeric answer> 960",
+    "checks": [
+      {
+        "left": "0.75 * 1600",
+        "right": "1200",
+        "computed_left": "1200",
+        "computed_right": "1200",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "((1)/(5)) * 1600",
+        "right": "320",
+        "computed_left": "320",
+        "computed_right": "320",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "1600 - 1200 - 320",
+        "right": "960",
+        "computed_left": "80",
+        "computed_right": "960",
+        "tolerance": "0",
+        "inconsistent": true
+      }
+    ]
+  },
+  {
+    "category": "wrong_final",
+    "question_index": 2583,
+    "candidate_index": 0,
+    "id": "gsm8k:59ba412621e73d07b3a6774e12f8b9c8978f163b2764e973621bcb5b951a9430",
+    "question": "Paige bought some new stickers and wanted to share them with 3 of her friends. She decided to share a sheet of 100 space stickers and a sheet of 50 cat stickers equally among her 3 friends. How many stickers will she have left?",
+    "text": "We are told:\n\n- Paige buys 100 space stickers and 50 cat stickers.\n- She wants to **share them equally among 3 friends**.\n- Each sheet is split **equally**.\n\n### Step 1: Calculate the number of stickers per friend\n- 100 space stickers ÷ 3 friends = **33 1/3** stickers per friend.\n- 50 cat stickers ÷ 3 friends = **16 1/3** stickers per friend.\n\nSo, each friend gets **33.33...** stickers from the space stickers and **16.33...** from the cat stickers.\n\n### Step 2: Add the total number of stickers given to friends\n- Space stickers: $33.33 + 16.33 = 50$\n- Cat stickers: $33.33 + 16.33 = 50$\n\n### Step 3: Subtract total given from total stickers\n- Total stickers: $100 + 50 = 150$\n- Total given to friends: $50$\n- Stickers left: $150 - 50 = \\boxed{100}$\n\n#### Final answer:  \n**100**",
+    "checks": [
+      {
+        "left": "33.33 + 16.33",
+        "right": "50",
+        "computed_left": "2483/50",
+        "computed_right": "50",
+        "tolerance": "0",
+        "inconsistent": true
+      },
+      {
+        "left": "33.33 + 16.33",
+        "right": "50",
+        "computed_left": "2483/50",
+        "computed_right": "50",
+        "tolerance": "0",
+        "inconsistent": true
+      },
+      {
+        "left": "100 + 50",
+        "right": "150",
+        "computed_left": "150",
+        "computed_right": "150",
+        "tolerance": "0",
+        "inconsistent": false
+      },
+      {
+        "left": "150 - 50",
+        "right": "(100)",
+        "computed_left": "100",
+        "computed_right": "100",
+        "tolerance": "0",
+        "inconsistent": false
+      }
+    ]
+  },
+  {
+    "category": "wrong_final",
+    "question_index": 940,
+    "candidate_index": 0,
+    "id": "gsm8k:0e60a4e8f3ec6e97313e6e8e37c3dd8e0cd912a3db9685e20395520f545a5752",
+    "question": "Porche has 3 hours to get all her homework done. Her math homework takes her 45 minutes. Her English homework takes her 30 minutes. Her science homework takes her 50 minutes. Her history homework takes her 25 minutes. She also has a special project due the next day. How much time does she have left to get that project done?",
+    "text": "We are told that **Porche has 3 hours to get all her homework done**. Let's convert this to minutes to match the durations:\n\n- Math: 45 minutes  \n- English: 30 minutes  \n- Science: 50 minutes  \n- History: 25 minutes  \n- Special project: unknown time  \n\nWe are to find how much time she has **left** to complete the special project.\n\n### Step-by-step:\n\n- Total time available: 3 hours = 180 minutes  \n- Time spent on homework:  \n  $ 45 + 30 + 50 + 25 = 140 $ minutes  \n- Time left for the special project:  \n  $ 180 - 140 = 40 $ minutes\n\n### Final Answer:\n\n$$\n\\boxed{40}\n$$",
+    "checks": [
+      {
+        "left": "45 + 30 + 50 + 25",
+        "right": "140",
+        "computed_left": "150",
+        "computed_right": "140",
+        "tolerance": "0",
+        "inconsistent": true
+      },
+      {
+        "left": "180 - 140",
+        "right": "40",
+        "computed_left": "40",
+        "computed_right": "40",
+        "tolerance": "0",
+        "inconsistent": false
+      }
+    ]
+  }
+]

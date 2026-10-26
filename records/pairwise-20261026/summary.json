@@ -1,0 +1,146 @@
+{
+  "plan": {
+    "feature_set": "context",
+    "C": 1.0,
+    "solver": "lbfgs",
+    "max_iter": 2000,
+    "tol": 1e-06,
+    "fit_intercept": false,
+    "seed": 17,
+    "fits": 1,
+    "threads": 4,
+    "pairs": "Every valid correct/incorrect pair within each training question; no positive-positive pairs",
+    "weighting": "Each informative question total weight 1; each pair represented by +/- difference, each with weight 1/(2 * pairs_in_question)",
+    "objective": "sum_q mean_pairs softplus(-(s_correct-s_wrong)) + ||w||^2/(2*C)",
+    "scaler": "StandardScaler fit on all train candidates, same as previous round",
+    "selection": "One configuration only; compare complete validation and hard subset; no test scoring",
+    "frozen_baseline": {
+      "artifacts/context-C10.npz": "a6009c40bb612741b6dddcb140f8f400cf5edc79a3a2d8f16f1d608ade79ed82",
+      "submission.py": "f9e704ece2503b4df34ff43a1e4cee72895203c62e157e86f72705491230c10f",
+      "run_round.py": "75d07b7a854d210ace81da96f1cfb8feba4fc132545ab4668c6420ba8b4ab3d6"
+    }
+  },
+  "train": {
+    "correct": 4568,
+    "n": 4755,
+    "accuracy": 96.06729758149316,
+    "hard_correct": 1927,
+    "hard_n": 2114,
+    "hard_accuracy": 91.15421002838221
+  },
+  "baseline_validation": {
+    "correct": 724,
+    "n": 798,
+    "accuracy": 90.72681704260651,
+    "hard_correct": 281,
+    "hard_n": 355,
+    "hard_accuracy": 79.15492957746478
+  },
+  "pairwise_validation": {
+    "correct": 730,
+    "n": 798,
+    "accuracy": 91.47869674185463,
+    "hard_correct": 287,
+    "hard_n": 355,
+    "hard_accuracy": 80.84507042253522
+  },
+  "paired": {
+    "recovered": 21,
+    "regressed": 15,
+    "both_wrong": 53
+  },
+  "wrong_unique_plurality_chosen": {
+    "old": 54,
+    "new": 34
+  },
+  "by_answer_pattern": {
+    "2,1,1": {
+      "n": 88,
+      "old_correct": 59,
+      "new_correct": 63
+    },
+    "1,1,1,1": {
+      "n": 20,
+      "old_correct": 15,
+      "new_correct": 14
+    },
+    "2,1": {
+      "n": 28,
+      "old_correct": 24,
+      "new_correct": 24
+    },
+    "2,2": {
+      "n": 34,
+      "old_correct": 31,
+      "new_correct": 29
+    },
+    "3,1": {
+      "n": 151,
+      "old_correct": 129,
+      "new_correct": 135
+    },
+    "1,1,1": {
+      "n": 20,
+      "old_correct": 13,
+      "new_correct": 11
+    },
+    "1,1": {
+      "n": 14,
+      "old_correct": 10,
+      "new_correct": 11
+    }
+  },
+  "fit_seconds": 0.7353269580053166,
+  "iterations": 239,
+  "pair_count": 6516,
+  "informative_questions": 2114,
+  "fresh_prediction_and_scoring_seconds": 0.23058058402966708,
+  "processes": [
+    {
+      "command": [
+        "$PROJECT_ROOT/.venv/bin/python",
+        "-B",
+        "$PROJECT_ROOT/upstream/code/predict.py",
+        "--method",
+        "$PROJECT_ROOT/submission.py",
+        "--checkpoint",
+        "$PROJECT_ROOT/artifacts/pairwise-C1-20261026.npz",
+        "--split",
+        "validation",
+        "--output",
+        "$PROJECT_ROOT/results/predictions/pairwise-C1-20261026.json"
+      ],
+      "seconds": 0.16219087500940077,
+      "stdout": "{\"protocol\": \"dase7506-mp2-open-hard-verifier-v5\", \"split\": \"validation\", \"prediction_seconds\": 0.09479750000173226}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "$PROJECT_ROOT/.venv/bin/python",
+        "-B",
+        "$PROJECT_ROOT/upstream/code/score_predictions.py",
+        "--split",
+        "validation",
+        "--predictions",
+        "$PROJECT_ROOT/results/predictions/pairwise-C1-20261026.json",
+        "--output",
+        "$PROJECT_ROOT/results/pairwise-20261026/official-score.json"
+      ],
+      "seconds": 0.06838970902026631,
+      "stdout": "{\n  \"protocol\": \"dase7506-mp2-open-hard-verifier-v5\",\n  \"split\": \"validation\",\n  \"correct\": 730,\n  \"n\": 798,\n  \"accuracy\": 91.47869674185463,\n  \"scoring_seconds\": 0.016624707990558818\n}\n",
+      "stderr": ""
+    }
+  ],
+  "asset_bytes": 25956,
+  "asset_uncompressed_bytes": 25348,
+  "checkpoint_sha256": "d2c1e025fd8c3b11fa4acb4f0444496e1b8bc598ab129dd47f25f6c4f0ea785a",
+  "numpy_export_max_error": 2.353672812205332e-14,
+  "permutation_check": "passed",
+  "baseline_unchanged": true,
+  "hardware": "Apple M5; not reference Xeon qualification",
+  "test_accessed": false,
+  "dependencies": {
+    "numpy": "2.5.3",
+    "sklearn": "1.9.1"
+  }
+}

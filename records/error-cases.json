@@ -1,0 +1,232 @@
+[
+  {
+    "category": "context_regression",
+    "id": "gsm8k:d41771a33607bdaf7b3e00726d01e899fdd0d6e8b013369a93bcc90248c0c46b",
+    "question": "Tom buys 20 shares of a stock that costs $3 each.  He sells 10 of those shares for $4 each.  The rest of the shares end up doubling in value.  How much profit does he make?",
+    "reference_answer": "40",
+    "parsed_candidate_answers": [
+      "100",
+      "80",
+      "40",
+      "100"
+    ],
+    "selected": {
+      "majority": 0,
+      "embedding": 2,
+      "context": 3
+    },
+    "candidates": [
+      "We are given:\n\n- Tom buys **20 shares** of a stock that costs **$3 each**.\n- He sells **10 shares** for **$4 each**.\n- The remaining **10 shares** double in value.\n\n---\n\n### Step 1: Calculate the profit from selling the 10 shares\n\n- Each share sells for **$4**, so:\n  $$\n  10 \\times 4 = 40 \\text{ dollars}\n  $$\n\n---\n\n### Step 2: Calculate the profit from the remaining 10 shares\n\n- Each share doubles in value, so the total value is:\n  $$\n  10 \\times 3 \\times 2 = 60 \\text{ dollars}\n  $$\n\n---\n\n### Step 3: Total profit\n\n- Profit from the 10 shares: **$40**\n- Profit from the remaining 10 shares: **$60**\n- Total profit:\n  $$\n  40 + 60 = \\boxed{100}\n  $$\n\n---\n\n### ✅ Final Answer:\n#### **$100**.",
+      "Tom buys 20 shares at $3 each, so the total cost is:\n\n$$\n20 \\times 3 = 60 \\text{ dollars}\n$$\n\nHe sells 10 shares at $4 each, so the proceeds are:\n\n$$\n10 \\times 4 = 40 \\text{ dollars}\n$$\n\nThe remaining 10 shares end up doubling in value, so their value becomes:\n\n$$\n10 \\times 3 \\times 2 = 60 \\text{ dollars}\n$$\n\nNow, calculate the total profit:\n\n$$\n\\text{Profit} = \\text{Total Cost} - \\text{Total Sale} + \\text{Value of Doubled Shares}\n$$\n\n$$\n\\text{Profit} = 60 - 40 + 60 = 80 \\text{ dollars}\n$$\n\n### Final Answer:\n$$\n\\boxed{80}\n$$",
+      "Tom buys 20 shares of a stock that costs $3 each, so the total cost is:\n\n$$\n20 \\times 3 = 60 \\text{ dollars}\n$$\n\nHe sells 10 shares for $4 each, so the proceeds from the sale are:\n\n$$\n10 \\times 4 = 40 \\text{ dollars}\n$$\n\nThe remaining shares (10 shares) end up doubling in value. Let’s assume the price doubles to $6 each. Then the value of the remaining 10 shares is:\n\n$$\n10 \\times 6 = 60 \\text{ dollars}\n$$\n\nNow, calculate his total profit:\n\n$$\n\\text{Total profit} = \\text{Sale proceeds} + \\text{Value of remaining shares} - \\text{Original cost}\n$$\n$$\n= 40 + 60 - 60 = 40 \\text{ dollars}\n$$\n\n### Final Answer:\n$$\n\\boxed{40}\n$$",
+      "We are given:\n\n- Tom buys **20 shares** at **$3 each**, for a total of **$60**.\n- He sells **10 shares** at **$4 each**, for a total of **$40**.\n- The **remaining 10 shares** double in value, so they now cost **$3 × 2 = $6 each**.\n\nNow calculate the total profit:\n\n- Total profit = (Selling price - Cost price) × number of shares sold  \n  = ($40 - $30) × 10  \n  = $10 × 10  \n  = **$100**\n\n### Final Answer:\n#### $100."
+    ]
+  },
+  {
+    "category": "context_regression",
+    "id": "gsm8k:b4dc0fdfacb68de5097fa404c8c8d455bd99dfbd4bbfb1d393dd5c04d7356c0f",
+    "question": "Tanika is selling boxes of crackers for her scout troop's fund-raiser. On Saturday, she sold 60 boxes. On Sunday, she sold 50% more than on Saturday. How many boxes did she sell, in total, over the two days?",
+    "reference_answer": "150",
+    "parsed_candidate_answers": [
+      "90",
+      "90",
+      "90",
+      "150"
+    ],
+    "selected": {
+      "majority": 0,
+      "embedding": 3,
+      "context": 0
+    },
+    "candidates": [
+      "We are given:\n\n- On **Saturday**, Tanika sold **60** boxes.\n- On **Sunday**, she sold **50% more** than on Saturday.\n\n### Step 1: Calculate the number of boxes sold on Sunday\n\nSince she sold **50% more** than Saturday, we calculate:\n\n$$\n50\\% \\text{ of } 60 = 0.5 \\times 60 = 30\n$$\n\nSo, she sold **30 more** boxes on Sunday than on Saturday.\n\n### Step 2: Add the boxes sold on both days\n\n$$\n60 + 30 = 90\n$$\n\n### Final Answer:\n\n$$\n\\boxed{90}\n$$",
+      "We are given:\n\n- On Saturday, Tanika sold **60** boxes.\n\n- On Sunday, she sold **50% more** than on Saturday.\n\nTo find the total number of boxes sold over the two days:\n\n1. Calculate the number of boxes sold on Sunday:\n   $$\n   50\\% \\text{ of } 60 = 0.5 \\times 60 = 30\n   $$\n   So, she sold **30 more boxes** on Sunday than Saturday.\n\n2. Total boxes sold over two days:\n   $$\n   60 + 30 = 90\n   $$\n\n**Final answer:**\n\n$$\n\\boxed{90}\n$$",
+      "We are given:\n\n- On **Saturday**, Tanika sold **60** boxes.\n- On **Sunday**, she sold **50% more** than on Saturday.\n\n### Step 1: Calculate Sunday sales\n50% more than 60 means:\n\n$$\n50\\% \\text{ of } 60 = 0.5 \\times 60 = 30\n$$\n\nSo, on Sunday, she sold **30 more boxes** than on Saturday.\n\n### Step 2: Add Saturday and Sunday sales\n\n$$\n60 + 30 = 90\n$$\n\n### Final answer:\n\n$$\n\\boxed{90}\n$$",
+      "We are given:\n\n- On **Saturday**, Tanika sold **60** boxes.\n- On **Sunday**, she sold **50% more** than on Saturday.\n\n### Step 1: Calculate Sunday sales\n\nSince she sold **50% more** than Saturday, we calculate:\n\n$$\n50\\% \\text{ of } 60 = 0.5 \\times 60 = 30\n$$\n\nSo, on Sunday, she sold:\n\n$$\n60 + 30 = 90 \\text{ boxes}\n$$\n\n### Step 2: Total sales over two days\n\n$$\n60 + 90 = 150\n$$\n\n### Final answer:\n\n$$\n\\boxed{150}\n$$"
+    ]
+  },
+  {
+    "category": "context_regression",
+    "id": "gsm8k:d6a8fbf8728cec1b7e77b51e1121a769e7d91903bd79516ba5c0483dac297fa3",
+    "question": "A football club has a balance of $100 million. The club then sells 2 of its players at $10 million each, and buys 4 more at $15 million each. How much money is left in the club register in millions of dollars?",
+    "reference_answer": "60",
+    "parsed_candidate_answers": [
+      "20",
+      "60",
+      "20",
+      "20"
+    ],
+    "selected": {
+      "majority": 0,
+      "embedding": 1,
+      "context": 2
+    },
+    "candidates": [
+      "We start with a balance of **100 million**.\n\n1. **Sells 2 players at $10 million each**:  \n   $ 2 \\times 10 = 20 $ million.\n\n2. **Buys 4 players at $15 million each**:  \n   $ 4 \\times 15 = 60 $ million.\n\n3. **Total change in balance**:  \n   $ 20 + 60 = 80 $ million.\n\n4. **Final balance**:  \n   $ 100 - 80 = 20 $ million.\n\n#### Final answer:  \n**20**",
+      "We start with a balance of **100 million**.\n\n1. The club sells **2 players at $10 million each**:  \n   $ 2 \\times 10 = 20 $ million.\n\n2. The club buys **4 players at $15 million each**:  \n   $ 4 \\times 15 = 60 $ million.\n\n3. The total change in balance is:  \n   $ 20 - 60 = -40 $ million.\n\n4. The club's balance is now:  \n   $ 100 - 40 = \\boxed{60} $ million.\n\n**Final answer:**  \n#### <numeric answer> 60.",
+      "We start with the initial balance of **$100 million**.\n\n1. The club sells **2 players at $10 million each**:  \n   $ 2 \\times 10 = 20 $ million\n\n2. The club buys **4 players at $15 million each**:  \n   $ 4 \\times 15 = 60 $ million\n\n3. Total change:  \n   $ 20 + 60 = 80 $ million\n\n4. Final balance:  \n   $ 100 - 80 = 20 $ million\n\n**Answer:**  \n#### <numeric answer> 20",
+      "We start with the initial balance of **$100 million**.\n\n1. The club sells **2 players** at **$10 million each**:  \n   $$\n   2 \\times 10 = 20 \\text{ million dollars}\n   $$\n\n2. The club buys **4 players** at **$15 million each**:  \n   $$\n   4 \\times 15 = 60 \\text{ million dollars}\n   $$\n\n3. Total change in the club register:  \n   $$\n   20 + 60 = 80 \\text{ million dollars}\n   $$\n\n4. Final balance:  \n   $$\n   100 - 80 = 20 \\text{ million dollars}\n   $$\n\n#### <numeric answer> = 20"
+    ]
+  },
+  {
+    "category": "context_recovery",
+    "id": "gsm8k:4ba7df16b233b5dfee1e33cd5aacce9ff23be68fae0e800100b1d5652abc2ab6",
+    "question": "John takes 3 naps a week.  Each nap is 2 hours long.  In 70 days how many hours of naps does he take?",
+    "reference_answer": "60",
+    "parsed_candidate_answers": [
+      "60",
+      "420",
+      "420",
+      "60"
+    ],
+    "selected": {
+      "majority": 0,
+      "embedding": 2,
+      "context": 0
+    },
+    "candidates": [
+      "John takes **3 naps a week** and each nap is **2 hours long**.\n\n### Step 1: Calculate the total hours of naps per week  \n$$\n3 \\text{ naps/week} \\times 2 \\text{ hours/nap} = 6 \\text{ hours/week}\n$$\n\n### Step 2: Calculate the total hours of naps in 70 days  \nSince there are **7 days in a week**, we divide the weekly naps by 7:\n\n$$\n\\frac{6 \\text{ hours/week}}{7 \\text{ days/week}} \\times 70 \\text{ days} = 60 \\text{ hours}\n$$\n\n### Final Answer:\n$$\n\\boxed{60}\n$$",
+      "John takes 3 naps a week, and each nap is 2 hours long. In 70 days, how many hours of naps does he take?\n\n1. **Number of naps per week**: 3  \n2. **Hours per nap**: 2  \n3. **Total hours per week**: $ 3 \\times 2 = 6 $ hours  \n4. **Total days**: 70  \n5. **Total hours in 70 days**: $ 6 \\times 70 = 420 $ hours\n\n### Final Answer:\n#### <numeric answer> 420",
+      "John takes **3 naps a week** and each nap is **2 hours long**.  \n\nIn **70 days**, the total number of naps is:  \n$$ 3 \\text{ naps/week} \\times 70 \\text{ days} = 210 \\text{ naps} $$\n\nEach nap is **2 hours**, so the total hours of naps is:  \n$$ 210 \\text{ naps} \\times 2 \\text{ hours/nap} = 420 \\text{ hours} $$\n\n### Final Answer:\n$$ \\boxed{420} $$",
+      "John takes **3 naps a week** and each nap is **2 hours long**. We need to find out how many hours of naps he takes in **70 days**.\n\n- 3 naps per week × 2 hours per nap = **6 hours per week**\n- In 70 days, we can calculate the total hours as:\n\n$$\n6 \\text{ hours/week} \\times \\frac{70}{7} = 6 \\times 10 = 60 \\text{ hours}\n$$\n\n### Final Answer:\n$$\n\\boxed{60}\n$$"
+    ]
+  },
+  {
+    "category": "context_recovery",
+    "id": "gsm8k:8278949f5804b3684c922e60454437d60504a36370de6ec93d69445f5bfadb74",
+    "question": "Eddy’s spider plant produces 2 baby plants 2 times a year.  After 4 years, how many baby plants will the mother plant have produced?",
+    "reference_answer": "16",
+    "parsed_candidate_answers": [
+      "8",
+      "16",
+      "4",
+      "4"
+    ],
+    "selected": {
+      "majority": 2,
+      "embedding": 0,
+      "context": 1
+    },
+    "candidates": [
+      "We are told that Eddy’s spider plant produces **2 baby plants 2 times a year**.\n\n### Step 1: Calculate the number of baby plants per year\n- 2 baby plants per year.\n\n### Step 2: Multiply by the number of years\n- After 4 years:  \n  $ 2 \\text{ baby plants/year} \\times 4 \\text{ years} = 8 \\text{ baby plants} $\n\n### Final Answer:  \n$$\n\\boxed{8}\n$$",
+      "We are told:\n\n- Eddy’s spider plant produces **2 baby plants 2 times a year**.\n- After **4 years**, how many baby plants will the mother plant have produced?\n\n### Step-by-step:\n\n- Each year, the plant produces 2 baby plants.\n- After 1 year: 2 baby plants  \n- After 2 years: 2 × 2 = 4 baby plants  \n- After 3 years: 2 × 4 = 8 baby plants  \n- After 4 years: 2 × 8 = **16 baby plants**\n\n### Final answer:\n\n#### <numeric answer> 16",
+      "Eddy’s spider plant produces 2 baby plants 2 times a year. After 4 years, the mother plant will have produced:\n\n$$\n2 \\text{ plants/year} \\times 2 \\text{ years} = \\boxed{4} \\text{ baby plants}\n$$\n\n#### <numeric answer> 4.",
+      "Eddy’s spider plant produces 2 baby plants 2 times a year. After 4 years, the mother plant will have produced:\n\n$$\n2 \\text{ plants/year} \\times 2 \\text{ years} = \\boxed{4} \\text{ baby plants}\n$$\n\n#### <numeric answer> 4."
+    ]
+  },
+  {
+    "category": "context_recovery",
+    "id": "gsm8k:c7e31f077e16c06ce1854ed8edc5aaf8be1c629e558c151b7d32b78cb867f158",
+    "question": "Megan bought 2 dozen eggs. As she was walking to her car, she dropped a tray of eggs. 3 eggs broke, and twice as many cracked. What is the difference between the eggs that are still in perfect condition and those that are cracked?",
+    "reference_answer": "9",
+    "parsed_candidate_answers": [
+      "9",
+      "18",
+      "6",
+      null
+    ],
+    "selected": {
+      "majority": 0,
+      "embedding": 2,
+      "context": 0
+    },
+    "candidates": [
+      "Megan bought **2 dozen** eggs, which is **24 eggs**.\n\nShe dropped a tray of eggs, and:\n\n- **3 eggs** broke.\n- **Twice as many cracked** = $2 \\times 3 = 6$ eggs cracked.\n\nSo, the **perfect condition** eggs = $24 - 3 - 6 = 15$.\n\nThe **difference** between perfect condition and cracked eggs = $15 - 6 = 9$.\n\n#### <numeric answer> 9",
+      "Megan bought **2 dozen** eggs, which is **24 eggs**.  \nShe dropped a tray of eggs, and **3 eggs broke**, and **twice as many cracked**.\n\nSo, **3 cracked eggs**.  \nThe number of eggs still in **perfect condition** is:\n\n$$\n24 - 3 = 21\n$$\n\nThe difference between the eggs still in perfect condition and those cracked is:\n\n$$\n21 - 3 = 18\n$$\n\n#### <numeric answer> 18",
+      "Megan bought 2 dozen eggs, which is **24 eggs**. She dropped a tray of eggs, and **3 eggs broke**, and **twice as many cracked**, meaning **6 eggs cracked**.\n\n- Perfect condition: $ 24 - 3 - 6 = 15 $ eggs.\n- Cracked: $ 3 + 6 = 9 $ eggs.\n\nThe difference between the eggs that are still in perfect condition and those that are cracked is:\n\n$$\n15 - 9 = \\boxed{6}\n$$\n\n#### <numeric answer> 6",
+      "Megan bought **2 dozen** eggs, which is **24 eggs**.\n\nShe dropped a **tray of eggs**, and:\n\n- **3 eggs** broke.\n- **Twice as many cracked**, so **6 cracked eggs**.\n\nNow, we need to find the **difference between the perfect condition eggs** and the **cracked eggs**.\n\n- Perfect condition eggs: $ 24 - 3 - 6 = 15 $ eggs.\n- Cracked eggs: $ 6 $ eggs.\n- Perfect condition eggs: $ 15 $ eggs.\n\n### Final answer:  \n**15**"
+    ]
+  },
+  {
+    "category": "majority_only_correct",
+    "id": "gsm8k:733c2ed7820a3d0de5448744f970515a50ffbbcad6769f064efc78c7f15280a3",
+    "question": "You can buy 4 apples or 1 watermelon for the same price. You bought 36 fruits evenly split between oranges, apples and watermelons, and the price of 1 orange is $0.50. How much does 1 apple cost if your total bill was $66?",
+    "reference_answer": "1",
+    "parsed_candidate_answers": [
+      null,
+      "1",
+      "133/100",
+      "1/10"
+    ],
+    "selected": {
+      "majority": 1,
+      "embedding": 3,
+      "context": 3
+    },
+    "candidates": [
+      "We are told:\n\n- You can buy **4 apples = 1 watermelon**\n- You bought **36 fruits evenly split between oranges, apples, and watermelons**\n- The **price of 1 orange is $0.50**\n- The **total bill was $66**\n\n---\n\n### Step 1: Find how many of each fruit you bought\n\nYou bought 36 fruits in total, split between:\n\n- **Oranges**\n- **Apples**\n- **Watermelons**\n\nLet the number of each type be $ x $, $ y $, and $ z $ respectively.\n\n$$\nx + y + z = 36\n$$\n\nAlso, since the price of 4 apples = 1 watermelon, the price of 1 apple = $ \\frac{1}{4} $ the price of 1 watermelon.\n\nLet’s define the price of 1 apple as $ a $, then the price of 1 watermelon is $ 4a $.\n\n---\n\n### Step 2: Write equations for total cost\n\nLet’s define:\n\n- Price of 1 orange = $ 0.50 $\n- Price of 1 apple = $ a $\n- Price of 1 watermelon = $ 4a $\n\nYou bought:\n\n- $ x $ oranges\n- $ y $ apples\n- $ z $ watermelons\n\nSo:\n\n$$\nx + y + z = 36\n$$\n\nThe total cost is:\n\n$$\n0.50x + a y + 4a z = 66\n$$\n\n---\n\n### Step 3: Use the fact that the apples and watermelons are in the same ratio\n\nFrom the problem: **4 apples = 1 watermelon**\n\nSo, the number of apples and watermelons are proportional to 1:4\n\nLet’s assume the number",
+      "We are given:\n\n- 1 orange = $0.50  \n- 4 apples = 1 watermelon  \n- 36 fruits are split evenly between oranges, apples, and watermelons  \n- Total bill = $66\n\nLet’s define the cost of 1 apple as $a$. Then:\n\n- 4 apples = 1 watermelon ⇒ 1 watermelon = $4a$  \n- 1 watermelon = 4 apples ⇒ 1 apple = $a$ (already defined)  \n- 1 orange = $0.50\n\nWe are told 36 fruits are split evenly:\n\n- Number of oranges = 36 / 3 = 12  \n- Number of apples = 12  \n- Number of watermelons = 12\n\nSo, the total cost is:\n\n- Cost of oranges: 12 × $0.50 = $6  \n- Cost of apples: 12 × $a = $12a  \n- Cost of watermelons: 12 × $4a = $48a  \n\nTotal bill = $6 + $12a + $48a = $6 + $60a = $66\n\nSolve for $a$:\n\n$$\n6 + 60a = 66 \\\\\n60a = 60 \\\\\na = 1\n$$\n\n### Final Answer:\n$$\n\\boxed{1}\n$$",
+      "We are told:\n\n- 4 apples = 1 watermelon  \n- 36 fruits split between oranges, apples, and watermelons  \n- Price of 1 orange = $0.50  \n- Total bill = $66\n\n---\n\n### Step 1: Let’s define variables\n\nLet:\n\n- $ x $ = cost of 1 apple  \n- $ y $ = cost of 1 watermelon  \n- $ z $ = cost of 1 orange = $0.50\n\nWe are told:\n\n- 4 apples = 1 watermelon → $ 4x = y $  \n- 36 fruits = $ x $ (apples) + $ y $ (watermelon) + $ z $ (oranges)  \n- Total bill = $ 66 = 36x + 36z $\n\n---\n\n### Step 2: Substitute values\n\nFrom earlier:\n\n- $ y = 4x $\n- $ z = 0.50 $\n\nNow plug into the total bill:\n\n$$\n66 = 36x + 36(0.50) = 36x + 18\n$$\n\n$$\n66 - 18 = 36x \\Rightarrow 48 = 36x \\Rightarrow x = \\frac{48}{36} = \\frac{4}{3}\n$$\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{1.33}\n$$",
+      "We are told:\n\n- You can buy **4 apples = 1 watermelon**\n- You bought **36 fruits** evenly split between **oranges, apples, and watermelons**\n- The price of **1 orange = $0.50**\n- Your **total bill = $66**\n\n---\n\n### Step 1: Determine how many of each fruit you bought\n\nSince the fruits are split **evenly**, we divide 36 by 3:\n\n$$\n\\frac{36}{3} = 12 \\text{ oranges}\n$$\n\nSo:\n\n- 12 oranges\n- 12 apples\n- 12 watermelons\n\n---\n\n### Step 2: Calculate the total cost\n\n- Cost of 1 orange = $0.50\n- Cost of 1 apple = $x (what we need to find)\n- Cost of 1 watermelon = 4 apples = $4x\n\nSo total cost:\n\n$$\n\\text{Total cost} = 12 \\times 0.50 + 12 \\times x + 12 \\times 4x = 60 + 12x + 48x = 60 + 60x\n$$\n\nWe are told the total bill is $66:\n\n$$\n60 + 60x = 66\n$$\n\n---\n\n### Step 3: Solve for $x$\n\n$$\n60x = 6\n$$\n$$\nx = \\frac{6}{60} = 0.10\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{0.10}\n$$"
+    ]
+  },
+  {
+    "category": "majority_only_correct",
+    "id": "gsm8k:53720078a6bffa4e141a7bf22a1e6a86239cb349bca7fe908c4fbccd6c1bc290",
+    "question": "Jason and Jeremy want to paint their wall white and agreed to split the cost of the paint. A gallon of paint costs $45 and can cover up to 400 square feet. How much will each of them contribute to the cost of the paint if their walls have a total area of 1600 square feet and will need a second coat?",
+    "reference_answer": "180",
+    "parsed_candidate_answers": [
+      null,
+      "180",
+      "90",
+      "45"
+    ],
+    "selected": {
+      "majority": 1,
+      "embedding": 2,
+      "context": 2
+    },
+    "candidates": [
+      "We are given:\n\n- **Total area of walls**: 1600 square feet  \n- **Paint cost per gallon**: $45  \n- **Paint coverage per gallon**: 400 square feet  \n- **Paint split cost**: Each person contributes equally  \n- **Second coat**: This means each wall requires an additional **1 square foot** of paint (since a gallon covers 400 square feet, and the wall is 1600 square feet, we need 1600 - 400 = 1200 square feet of paint for the first coat, and 1200 + 1 = 1201 square feet for the second coat)\n\n### Step 1: Calculate the total paint needed\n\n- First coat: 1600 - 400 = 1200 square feet  \n- Second coat: 1200 + 1 = 1201 square feet  \n- **Total paint needed**: 1200 + 1201 = 2401 square feet\n\n### Step 2: Calculate the number of gallons needed\n\n- Each gallon covers 400 square feet  \n- Total paint needed: 2401 square feet  \n- Number of gallons: $ \\frac{2401}{400} = 6.0025 $  \n- Since paint is sold in whole gallons, we round up to **7 gallons**\n\n### Step 3: Calculate cost per gallon\n\n- Cost per gallon: $45  \n- Total cost: 7 × 45 = $315\n\n### Step 4: Calculate cost per person\n\n- Each person contributes equally:  \n  $ \\frac{315}{2} = 157.5 $\n\n### Final Answer:\n\n",
+      "We are given:\n\n- **Total area of walls**: 1600 square feet  \n- **Paint cost per gallon**: $45  \n- **Paint coverage per gallon**: 400 square feet  \n- **Paint cost per square foot**: $45 / 400 = \\$0.1125 per square foot  \n- **Number of coats**: 2 (since they need a second coat)  \n- **Total cost of paint**:  \n  $$\n  1600 \\times 0.1125 \\times 2 = 360 \\text{ dollars}\n  $$\n\nEach person contributes:  \n$$\n\\frac{360}{2} = 180 \\text{ dollars}\n$$\n\n### Final Answer:\n$$\n\\boxed{180}\n$$",
+      "We are given:\n\n- A gallon of paint costs **$45**.\n- A gallon covers **400 square feet**.\n- Jason and Jeremy want to paint a **total wall area of 1600 square feet**.\n- They will need a **second coat**.\n\n---\n\n### Step 1: Find how many gallons are needed\n\nWe need to calculate how many gallons of paint are required to cover the wall.\n\n$$\n\\text{Gallons} = \\frac{\\text{Total area}}{\\text{Coverage per gallon}} = \\frac{1600}{400} = 4 \\text{ gallons}\n$$\n\n---\n\n### Step 2: Find the cost of 4 gallons\n\n$$\n\\text{Cost} = 4 \\times 45 = 180 \\text{ dollars}\n$$\n\n---\n\n### Step 3: Determine how much each person contributes\n\nSince the total cost is **$180**, and there are 2 people:\n\n$$\n\\text{Each person's contribution} = \\frac{180}{2} = 90 \\text{ dollars}\n$$\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{90}\n$$",
+      "We are given:\n\n- Total area of the walls: 1600 square feet  \n- Each wall needs a **second coat**, so we need **2 more coats** than the first one  \n- Each gallon of paint covers **400 square feet**  \n- A gallon costs **$45**  \n- Jason and Jeremy **split the cost equally**\n\n---\n\n### Step 1: Calculate the total paint required\n\nSince each wall needs **2 coats**, the total paint required is:\n\n$$\n2 \\text{ coats} \\times 400 \\text{ square feet per coat} = 800 \\text{ square feet}\n$$\n\n---\n\n### Step 2: Calculate the number of gallons needed\n\n$$\n\\frac{800 \\text{ square feet}}{400 \\text{ square feet per gallon}} = 2 \\text{ gallons}\n$$\n\n---\n\n### Step 3: Calculate the cost of the paint\n\n$$\n2 \\text{ gallons} \\times \\$45 = \\$90\n$$\n\n---\n\n### Step 4: Split the cost equally between Jason and Jeremy\n\n$$\n\\frac{\\$90}{2} = \\$45\n$$\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{\\$45}\n$$"
+    ]
+  },
+  {
+    "category": "all_three_wrong",
+    "id": "gsm8k:a43ceff49caf15e088df74a262ff9e052dd2007849dae692d80b5056583ef20f",
+    "question": "Yun had 20 paperclips initially, but then lost 12. Marion has 1/4 more than what Yun currently has, plus 7. How many paperclips does Marion have?",
+    "reference_answer": "9",
+    "parsed_candidate_answers": [
+      "9",
+      "17",
+      "17",
+      "17"
+    ],
+    "selected": {
+      "majority": 1,
+      "embedding": 3,
+      "context": 3
+    },
+    "candidates": [
+      "We are given the following information:\n\n- Yun had **20 paperclips initially**.\n- Yun **lost 12**, so Yun now has:  \n  $$\n  20 - 12 = 8 \\text{ paperclips}\n  $$\n\n- Marion has:  \n  $$\n  \\frac{1}{4} \\text{ more than what Yun currently has, plus } 7\n  $$  \n  So,  \n  $$\n  \\frac{1}{4} \\times 8 + 7 = 2 + 7 = 9\n  $$\n\n### Final Answer:\n$$\n\\boxed{9}\n$$",
+      "Yun had 20 paperclips initially, then lost 12. So, he currently has:\n\n$$\n20 - 12 = 8 \\text{ paperclips}\n$$\n\nMarion has:\n\n$$\n\\frac{1}{4} \\text{ more than what Yun currently has, plus 7}\n$$\n\nSo, Marion has:\n\n$$\n8 + \\frac{1}{4} \\times 8 + 7 = 8 + 2 + 7 = 17 \\text{ paperclips}\n$$\n\n### Final Answer:\n$$\n\\boxed{17}\n$$",
+      "We are given:\n\n- Yun had **20** paperclips initially.\n- Yun **lost 12**, so he now has:  \n  $ 20 - 12 = 8 $ paperclips.\n\nMarion has:  \n$ \\frac{1}{4} \\text{ more than what Yun currently has, plus } 7 $.\n\nSo:  \nMarion has:  \n$ 8 + \\frac{1}{4} \\times 8 + 7 = 8 + 2 + 7 = 17 $ paperclips.\n\n### Final Answer:\n#### <numeric answer> 17.",
+      "We are given the following:\n\n- Yun had **20 paperclips** initially.\n- Then lost **12**, so **Yun currently has** $ 20 - 12 = 8 $ paperclips.\n\n- Marion has **$ \\frac{1}{4} $ more than what Yun currently has, plus 7**.\n\nSo, we calculate:\n\n$$\n\\text{Marion's paperclips} = 8 + \\left( \\frac{1}{4} \\times 8 \\right) + 7\n$$\n\n$$\n= 8 + 2 + 7 = 17\n$$\n\n### Final Answer:\n$$\n\\boxed{17}\n$$"
+    ]
+  },
+  {
+    "category": "all_three_wrong",
+    "id": "gsm8k:02e6a3586d4118e71421fdc68390a128f9deffd2e36cf200f9d29105c4e0e3e0",
+    "question": "Three different 6th grade classes are combining for a square dancing unit.  If possible, the teachers would like each male student to partner with a female student for the unit.  The first class has 17 males and 13 females, while the second class has 14 males and 18 females, and the third class has 15 males and 17 females.  When the classes are combined, how many students will be unable to partner with a student of the opposite gender?",
+    "reference_answer": "2",
+    "parsed_candidate_answers": [
+      "48",
+      "48",
+      "45",
+      "2"
+    ],
+    "selected": {
+      "majority": 0,
+      "embedding": 0,
+      "context": 0
+    },
+    "candidates": [
+      "We are told that each male student must partner with a female student, and we need to find how many students **cannot** partner with a student of the opposite gender when all three classes are combined.\n\n### Step 1: Total number of students\n\n- **Class 1:** 17 males + 13 females = 30 students  \n- **Class 2:** 14 males + 18 females = 32 students  \n- **Class 3:** 15 males + 17 females = 32 students  \n\n**Total students = 30 + 32 + 32 = 94 students**\n\n---\n\n### Step 2: Total number of possible pairings\n\n- Each student must pair with exactly one student of the opposite gender.  \n- So, the total number of possible pairings is the **minimum** of the total number of males and females, since we can't pair more than one person with each gender.\n\n- **Males: 17 + 14 + 15 = 46**  \n- **Females: 13 + 18 + 17 = 48**\n\nSo, the **maximum number of possible pairings** is **46** (the number of males).\n\n---\n\n### Step 3: Find how many students are unable to partner\n\nWe subtract the number of students who can partner from the total number of students:\n\n$$\n94 - 46 = 48\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{48}\n$$",
+      "We are given the number of males and females in each class:\n\n- **Class 1**: 17 males, 13 females  \n- **Class 2**: 14 males, 18 females  \n- **Class 3**: 15 males, 17 females  \n\nWe are told that **each male student should partner with a female student** for the unit, and we are to find how many **students will be unable to partner with a student of the opposite gender**.\n\n### Step 1: Total number of students\n\n- **Males**: $17 + 14 + 15 = 46$\n- **Females**: $13 + 18 + 17 = 48$\n\nSo, **total students = 46 + 48 = 94**\n\n### Step 2: Total number of possible partnerings\n\nEach male student can partner with **1 female**. Since there are 46 males, the maximum number of possible partnerings is:\n\n$$\n\\text{Maximum partnerings} = 46 \\times 1 = 46\n$$\n\n### Step 3: Number of students who **cannot partner**  \nWe subtract the number of students who can partner from the total number of students:\n\n$$\n\\text{Students who cannot partner} = 94 - 46 = \\boxed{48}\n$$\n\n### ✅ Final Answer: **48**",
+      "We are given:\n\n- **Class 1**: 17 males, 13 females  \n- **Class 2**: 14 males, 18 females  \n- **Class 3**: 15 males, 17 females  \n\nWe need to find how many students **cannot partner with a student of the opposite gender** when all students are combined.\n\n### Step 1: Total number of students\n$$\n17 + 14 + 15 + 13 + 18 + 17 = 94 \\text{ students}\n$$\n\n### Step 2: Total number of pairs (opposite gender)\n\nTo form a valid pairing, each student must partner with someone of the opposite gender. So, we need to pair **13 + 14 + 15** = **42 students** in total (since each male is paired with a female, and each female is paired with a male).\n\n### Step 3: Total number of students who can partner with someone of the opposite gender\n\n- 13 females = 13 students who can partner  \n- 14 males = 14 students who can partner  \n- 15 males = 15 students who can partner  \n- 17 females = 17 students who can partner  \n- 18 females = 18 students who can partner  \n\nSo, total students who can partner:  \n$$\n13 + 14 + 15 + 17 + 18 = 87 \\text{ students}\n$$\n\n### Step 4: Number of students who **cannot** partner with someone of the opposite gender\n\n$$\n87 - 42 = 45\n$$\n\n### ✅ Final Answer:\n\n$$\n\\boxed{45}\n$$",
+      "We are told that:\n\n- **Class A**: 17 males, 13 females  \n- **Class B**: 14 males, 18 females  \n- **Class C**: 15 males, 17 females  \n\nWe need to determine how many students **cannot partner with a student of the opposite gender** when all three classes are combined.\n\n---\n\n### Step 1: Total number of students\n\n$$\n17 + 14 + 15 = 46 \\text{ students}\n$$\n\n$$\n13 + 18 + 17 = 48 \\text{ students}\n$$\n\nSo, **48 students** are in total.\n\n---\n\n### Step 2: Partnering\n\nWe need to pair **male students** with **female students**, and vice versa. So:\n\n- Total male students = 17 + 14 + 15 = **46**\n- Total female students = 13 + 18 + 17 = **48**\n\nSince each male student must partner with one female student, and each female student can partner with one male student, the maximum number of valid pairings is the minimum of the total male and female students.\n\nSo, the **maximum number of students who can partner** is:\n\n$$\n\\min(46, 48) = 46\n$$\n\nThis means **46 students** can partner with a student of the opposite gender.\n\n---\n\n### Step 3: Number of students who cannot partner\n\n$$\n48 - 46 = 2\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{2}\n$$"
+    ]
+  }
+]

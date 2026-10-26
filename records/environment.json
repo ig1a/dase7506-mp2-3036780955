@@ -1,0 +1,47 @@
+{
+  "python": "3.12.13 (main, Mar  3 2026, 12:39:30) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "hardware": "Apple M5; 10 CPU cores; 16 GiB RAM",
+  "dependencies": {
+    "numpy": "2.5.3",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "joblib": "1.6.0",
+    "threadpoolctl": "3.7.0",
+    "narwhals": "2.27.1",
+    "cloudpickle": "3.1.2"
+  },
+  "threads": {
+    "OMP_NUM_THREADS": "4",
+    "OPENBLAS_NUM_THREADS": "4",
+    "MKL_NUM_THREADS": "4",
+    "VECLIB_MAXIMUM_THREADS": "4",
+    "NUMEXPR_NUM_THREADS": "4"
+  },
+  "training_threadpools": [
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 4,
+      "prefix": "libomp",
+      "filepath": "$PROJECT_ROOT/.venv/lib/python3.12/site-packages/sklearn/.dylibs/libomp.dylib",
+      "version": null
+    }
+  ],
+  "source": {
+    "repository": "https://github.com/xudongwu-0/DASE7506-MP2",
+    "commit": "bb801f4f2e7629d270df765ab12c333b2dc616bb",
+    "source_files": "upstream/",
+    "protocol": "dase7506-mp2-open-hard-verifier-v5"
+  },
+  "seed": 17,
+  "C_values": [
+    0.1,
+    1.0,
+    10.0
+  ],
+  "solver": "lbfgs",
+  "max_iter": 2000,
+  "tol": 1e-06,
+  "formal_test_scored": false
+}

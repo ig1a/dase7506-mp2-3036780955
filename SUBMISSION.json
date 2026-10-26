@@ -1,0 +1,10 @@
+{
+  "student_id": "3036780955",
+  "accuracy": 81.15631691648822,
+  "correct": 379,
+  "n": 467,
+  "report": "REPORT.pdf",
+  "checkpoint": "checkpoint.npz",
+  "repository": "https://github.com/ig1a/dase7506-mp2-3036780955",
+  "checkpoint_sha256": "3efecdf40f8420a2b547e4ac49bb67b13cb3873e2a4fc87c73a4042dbe00fc66"
+}

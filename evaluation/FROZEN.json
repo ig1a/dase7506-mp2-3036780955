@@ -1,0 +1,76 @@
+{
+  "frozen_before_test_utc": "2026-10-26T05:59:32.782251+00:00",
+  "git_base_commit": "bf0bad310f0eea99d0e773d44a4357e889d29afa",
+  "note": "New method source is not committed; exact tested source snapshot and hashes preserved.",
+  "model": "arithmetic-C001-20261026",
+  "selection_basis": "Current best validation after one arithmetic-augmented C=0.01 fit; no test-based changes",
+  "validation": {
+    "correct": 738,
+    "n": 798,
+    "accuracy": 92.4812030075188,
+    "hard_correct": 295,
+    "hard_n": 355,
+    "hard_accuracy": 83.09859154929578
+  },
+  "model_sha256": "3efecdf40f8420a2b547e4ac49bb67b13cb3873e2a4fc87c73a4042dbe00fc66",
+  "source_sha256": {
+    "submission_arithmetic.py": "f030a7a33407a44edfb2c15eab98f96bc26ac3da42b5c6f506f24be726f998f6",
+    "submission.py": "f9e704ece2503b4df34ff43a1e4cee72895203c62e157e86f72705491230c10f",
+    "arithmetic_evidence.py": "6bb09c53193763b02a59ce7141845a88cc9dec9a3a3056ff6e63bf14df67d650",
+    "upstream/code/predict.py": "e7a627fbdc9ef8d4ab3189a6fa5ac02d56ae703ccd1a81507aea0bd66e042162",
+    "upstream/code/score_predictions.py": "fe12b809b82117aea722e5dfef7a55a88950a7cf50c49ec2ea007ea847959960",
+    "upstream/code/common.py": "aecd10f7ff2e9e82ac5673d34d576e122caac51d2caaa7c7a8aa05906da51f6c"
+  },
+  "upstream": {
+    "repository": "https://github.com/xudongwu-0/DASE7506-MP2",
+    "commit": "bb801f4f2e7629d270df765ab12c333b2dc616bb",
+    "source_files": "upstream/",
+    "protocol": "dase7506-mp2-open-hard-verifier-v5"
+  },
+  "assets": {
+    "file_bytes": 26064,
+    "archive_uncompressed_bytes": 25456,
+    "limit_bytes": 16777216,
+    "counted_bytes": 26064
+  },
+  "hardware": {
+    "cpu": "Apple M5",
+    "platform": "macOS-27.0.1-arm64-arm-64bit",
+    "reference_cpu": "Xeon Platinum 8457C",
+    "reference_cpu_tested": false
+  },
+  "threads": {
+    "OMP_NUM_THREADS": "4",
+    "OPENBLAS_NUM_THREADS": "4",
+    "MKL_NUM_THREADS": "4",
+    "VECLIB_MAXIMUM_THREADS": "4",
+    "NUMEXPR_NUM_THREADS": "4"
+  },
+  "commands": [
+    [
+      "$PROJECT_ROOT/.venv/bin/python",
+      "-B",
+      "$PROJECT_ROOT/upstream/code/predict.py",
+      "--method",
+      "$PROJECT_ROOT/results/final-test-arithmetic-20261026/source/submission_arithmetic.py",
+      "--checkpoint",
+      "$PROJECT_ROOT/artifacts/arithmetic-C001-20261026.npz",
+      "--split",
+      "test",
+      "--output",
+      "$PROJECT_ROOT/results/predictions/formal-test-arithmetic-20261026.json"
+    ],
+    [
+      "$PROJECT_ROOT/.venv/bin/python",
+      "-B",
+      "$PROJECT_ROOT/upstream/code/score_predictions.py",
+      "--split",
+      "test",
+      "--predictions",
+      "$PROJECT_ROOT/results/predictions/formal-test-arithmetic-20261026.json",
+      "--output",
+      "$PROJECT_ROOT/results/final-test-arithmetic-20261026/official-score.json"
+    ]
+  ],
+  "course_submission_authorized": false
+}

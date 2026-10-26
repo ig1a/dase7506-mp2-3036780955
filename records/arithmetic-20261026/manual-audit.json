@@ -1,0 +1,132 @@
+{
+  "method": "Manual review of deterministic train-only stratified sample; 10 correct-final, 10 wrong-final flagged candidates. Not an unbiased prevalence or recall estimate.",
+  "parser_sha256": "6bb09c53193763b02a59ce7141845a88cc9dec9a3a3056ff6e63bf14df67d650",
+  "reviewer": "Codex",
+  "reviewed": 20,
+  "clear_literal_inconsistency": 19,
+  "rounding_ambiguity": 1,
+  "gate_passed": true,
+  "notes": "Case18 has 33.33+16.33=50: literal inequality but implicit whole-number rounding is plausible. Other flags are genuine literal inconsistencies, including self-corrected or loose chained reasoning; not necessarily wrong final answers.",
+  "cases": [
+    {
+      "question_index": 2963,
+      "candidate_index": 0,
+      "category": "correct_final",
+      "judgment": "literal numeric inconsistency confirmed"
+    },
+    {
+      "question_index": 1886,
+      "candidate_index": 3,
+      "category": "correct_final",
+      "judgment": "literal numeric inconsistency confirmed"
+    },
+    {
+      "question_index": 4197,
+      "candidate_index": 2,
+      "category": "correct_final",
+      "judgment": "literal numeric inconsistency confirmed"
+    },
+    {
+      "question_index": 2772,
+      "candidate_index": 1,
+      "category": "correct_final",
+      "judgment": "literal numeric inconsistency confirmed"
+    },
+    {
+      "question_index": 2366,
+      "candidate_index": 3,
+      "category": "correct_final",
+      "judgment": "literal numeric inconsistency confirmed"
+    },
+    {
+      "question_index": 820,
+      "candidate_index": 2,
+      "category": "correct_final",
+      "judgment": "literal numeric inconsistency confirmed"
+    },
+    {
+      "question_index": 3186,
+      "candidate_index": 2,
+      "category": "correct_final",
+      "judgment": "literal numeric inconsistency confirmed"
+    },
+    {
+      "question_index": 2917,
+      "candidate_index": 1,
+      "category": "correct_final",
+      "judgment": "literal numeric inconsistency confirmed"
+    },
+    {
+      "question_index": 1633,
+      "candidate_index": 0,
+      "category": "correct_final",
+      "judgment": "literal numeric inconsistency confirmed"
+    },
+    {
+      "question_index": 2772,
+      "candidate_index": 0,
+      "category": "correct_final",
+      "judgment": "literal numeric inconsistency confirmed"
+    },
+    {
+      "question_index": 1349,
+      "candidate_index": 1,
+      "category": "wrong_final",
+      "judgment": "literal numeric inconsistency confirmed"
+    },
+    {
+      "question_index": 2139,
+      "candidate_index": 2,
+      "category": "wrong_final",
+      "judgment": "literal numeric inconsistency confirmed"
+    },
+    {
+      "question_index": 1633,
+      "candidate_index": 3,
+      "category": "wrong_final",
+      "judgment": "literal numeric inconsistency confirmed"
+    },
+    {
+      "question_index": 3444,
+      "candidate_index": 3,
+      "category": "wrong_final",
+      "judgment": "literal numeric inconsistency confirmed"
+    },
+    {
+      "question_index": 1014,
+      "candidate_index": 0,
+      "category": "wrong_final",
+      "judgment": "literal numeric inconsistency confirmed"
+    },
+    {
+      "question_index": 1907,
+      "candidate_index": 3,
+      "category": "wrong_final",
+      "judgment": "literal numeric inconsistency confirmed"
+    },
+    {
+      "question_index": 1857,
+      "candidate_index": 3,
+      "category": "wrong_final",
+      "judgment": "literal numeric inconsistency confirmed"
+    },
+    {
+      "question_index": 2005,
+      "candidate_index": 1,
+      "category": "wrong_final",
+      "judgment": "literal numeric inconsistency confirmed"
+    },
+    {
+      "question_index": 2583,
+      "candidate_index": 0,
+      "category": "wrong_final",
+      "judgment": "ambiguous rounding"
+    },
+    {
+      "question_index": 940,
+      "candidate_index": 0,
+      "category": "wrong_final",
+      "judgment": "literal numeric inconsistency confirmed"
+    }
+  ]
+}

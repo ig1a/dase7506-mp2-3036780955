@@ -1,0 +1,225 @@
+[
+  {
+    "category": "recovered",
+    "id": "gsm8k:b4dc0fdfacb68de5097fa404c8c8d455bd99dfbd4bbfb1d393dd5c04d7356c0f",
+    "question": "Tanika is selling boxes of crackers for her scout troop's fund-raiser. On Saturday, she sold 60 boxes. On Sunday, she sold 50% more than on Saturday. How many boxes did she sell, in total, over the two days?",
+    "answers": [
+      "90",
+      "90",
+      "90",
+      "150"
+    ],
+    "correct_indices": [
+      3
+    ],
+    "old_choice": 0,
+    "new_choice": 3,
+    "candidates": [
+      "We are given:\n\n- On **Saturday**, Tanika sold **60** boxes.\n- On **Sunday**, she sold **50% more** than on Saturday.\n\n### Step 1: Calculate the number of boxes sold on Sunday\n\nSince she sold **50% more** than Saturday, we calculate:\n\n$$\n50\\% \\text{ of } 60 = 0.5 \\times 60 = 30\n$$\n\nSo, she sold **30 more** boxes on Sunday than on Saturday.\n\n### Step 2: Add the boxes sold on both days\n\n$$\n60 + 30 = 90\n$$\n\n### Final Answer:\n\n$$\n\\boxed{90}\n$$",
+      "We are given:\n\n- On Saturday, Tanika sold **60** boxes.\n\n- On Sunday, she sold **50% more** than on Saturday.\n\nTo find the total number of boxes sold over the two days:\n\n1. Calculate the number of boxes sold on Sunday:\n   $$\n   50\\% \\text{ of } 60 = 0.5 \\times 60 = 30\n   $$\n   So, she sold **30 more boxes** on Sunday than Saturday.\n\n2. Total boxes sold over two days:\n   $$\n   60 + 30 = 90\n   $$\n\n**Final answer:**\n\n$$\n\\boxed{90}\n$$",
+      "We are given:\n\n- On **Saturday**, Tanika sold **60** boxes.\n- On **Sunday**, she sold **50% more** than on Saturday.\n\n### Step 1: Calculate Sunday sales\n50% more than 60 means:\n\n$$\n50\\% \\text{ of } 60 = 0.5 \\times 60 = 30\n$$\n\nSo, on Sunday, she sold **30 more boxes** than on Saturday.\n\n### Step 2: Add Saturday and Sunday sales\n\n$$\n60 + 30 = 90\n$$\n\n### Final answer:\n\n$$\n\\boxed{90}\n$$",
+      "We are given:\n\n- On **Saturday**, Tanika sold **60** boxes.\n- On **Sunday**, she sold **50% more** than on Saturday.\n\n### Step 1: Calculate Sunday sales\n\nSince she sold **50% more** than Saturday, we calculate:\n\n$$\n50\\% \\text{ of } 60 = 0.5 \\times 60 = 30\n$$\n\nSo, on Sunday, she sold:\n\n$$\n60 + 30 = 90 \\text{ boxes}\n$$\n\n### Step 2: Total sales over two days\n\n$$\n60 + 90 = 150\n$$\n\n### Final answer:\n\n$$\n\\boxed{150}\n$$"
+    ]
+  },
+  {
+    "category": "recovered",
+    "id": "gsm8k:e1a448fc97adfc051048e67d04be7d84e47ae58857cdada3a3a8c27ea8036ffe",
+    "question": "My cat's empty bowl weighs 420 grams. If I give my cat 60 grams per day and I always fill her bowl every 3 days, how much does her bowl weigh if after I ended up refilling her empty bowl she only ate 14 grams?",
+    "answers": [
+      "434",
+      "406",
+      "406",
+      "586"
+    ],
+    "correct_indices": [
+      3
+    ],
+    "old_choice": 1,
+    "new_choice": 3,
+    "candidates": [
+      "We are given:\n\n- The **empty bowl weight** is **420 grams**.\n- The **cat eats 60 grams per day**.\n- The **bowl is refilled every 3 days**.\n- After refilling, the **cat only ate 14 grams**, and the **empty bowl weighs the same**.\n\n---\n\n### Step 1: Find how much the bowl was filled\n\nThe cat was **refilled every 3 days**, and **after refilling**, she only ate **14 grams**.\n\nSo, the **total weight of the bowl** after refilling is:\n\n$$\n420 \\text{ grams} + 14 \\text{ grams} = 434 \\text{ grams}\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{434}\n$$",
+      "We are told:\n\n- The empty bowl weighs **420 grams**.\n- The cat eats **60 grams per day**.\n- The cat is filled every **3 days**.\n- After refilling, the bowl only weighs **14 grams**.\n\n---\n\n### Step 1: Find the amount of food eaten in 3 days\n\nSince the cat is filled every 3 days, and she eats 60 grams per day, in 3 days she eats:\n\n$$\n60 \\, \\text{g/day} \\times 3 \\, \\text{days} = 180 \\, \\text{grams}\n$$\n\n---\n\n### Step 2: Find the total weight of the bowl after refilling\n\nWe know the bowl was initially empty (420 grams), and after refilling, it only has 14 grams. This means the cat ate:\n\n$$\n420 \\, \\text{g} - 14 \\, \\text{g} = 406 \\, \\text{g}\n$$\n\nThis is the total weight of food the cat ate over the 3 days.\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{406}\n$$",
+      "We are told:\n\n- The **empty bowl weight** is **420 grams**.\n- The **cat eats 60 grams per day**.\n- The **cat is filled every 3 days**.\n- After refilling, **only 14 grams** of the bowl was eaten.\n\n---\n\n### Step 1: Find the **total weight of the bowl** after refilling\n\n- The cat was **empty** and then **filled**.\n- She **only ate 14 grams**, so the **remaining weight** is:\n\n$$\n420 \\, \\text{g} - 14 \\, \\text{g} = 406 \\, \\text{g}\n$$\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{406}\n$$",
+      "We are given:\n\n- The **empty bowl weight** is **420 grams**.\n- The **daily weight given** to the cat is **60 grams**.\n- The **refilling interval** is **3 days**.\n- After refilling, the **cat only ate 14 grams**.\n\n### Step-by-step:\n\n1. **Calculate the total weight the cat would have consumed in 3 days:**\n   $$\n   60 \\text{ grams/day} \\times 3 = 180 \\text{ grams}\n   $$\n\n2. **Determine the total weight the bowl would have carried over:**\n   $$\n   420 \\text{ grams} + 180 \\text{ grams} = 600 \\text{ grams}\n   $$\n\n3. **Add the weight the cat ate (14 grams):**\n   $$\n   600 \\text{ grams} - 14 \\text{ grams} = 586 \\text{ grams}\n   $$\n\n### Final Answer:\n$$\n\\boxed{586}\n$$"
+    ]
+  },
+  {
+    "category": "recovered",
+    "id": "gsm8k:7cf4c418bd04bcf969c4061eeee6c991fed8bcf08b4489bd5d5d584b39e14a4f",
+    "question": "Mr. Rainwater has some goats, 9 cows and some chickens. He has 4 times as many goats as cows and 2 times as many goats as chickens. How many chickens does he have?",
+    "answers": [
+      "2",
+      "18",
+      "4",
+      "2"
+    ],
+    "correct_indices": [
+      1
+    ],
+    "old_choice": 0,
+    "new_choice": 1,
+    "candidates": [
+      "Let’s solve the problem step by step:\n\n---\n\nLet:\n- $ g $ = number of goats  \n- $ c $ = number of cows  \n- $ h $ = number of chickens\n\nWe are told:\n\n1. He has 4 times as many goats as cows:  \n   $ g = 4c $\n\n2. He has 2 times as many goats as chickens:  \n   $ g = 2h $\n\n---\n\nWe now have two equations:\n\n1. $ g = 4c $\n2. $ g = 2h $\n\n---\n\nSet the two expressions for $ g $ equal to each other:\n\n$$\n4c = 2h \\Rightarrow 2c = h\n$$\n\n---\n\nSo, the number of chickens is:\n\n$$\n\\boxed{2c}\n$$\n\nSince we don’t know the number of cows $ c $, we cannot give a numerical answer.\n\nBut if we assume $ c = 1 $, then:\n\n$$\nh = 2 \\times 1 = 2\n$$\n\n---\n\nSo the final answer is:\n\n$$\n\\boxed{2}\n$$",
+      "We are given:\n\n- Mr. Rainwater has **9 cows**.\n- He has **4 times as many goats as cows**.\n- He has **2 times as many goats as chickens**.\n\nLet’s define:\n\n- Let $ x $ be the number of chickens.\n- Then, the number of goats is $ 2x $ (since he has twice as many goats as chickens).\n- The number of goats is also $ 4 \\times \\text{number of cows} $, which is $ 4 \\times 9 = 36 $.\n\nSo:\n\n$$\n2x = 36 \\Rightarrow x = \\frac{36}{2} = 18\n$$\n\n### Final Answer:\n$$\n\\boxed{18}\n$$",
+      "Let’s define the variables:\n\n- Let $ g $ be the number of goats.\n- Let $ c $ be the number of cows.\n- Let $ h $ be the number of chickens.\n\nFrom the problem:\n\n- Mr. Rainwater has 4 times as many goats as cows:  \n  $ g = 4c $\n\n- He has 2 times as many goats as chickens:  \n  $ g = 2h $\n\nNow we can solve the system of equations:\n\n1. $ g = 4c $\n2. $ g = 2h $\n\nSet the two expressions for $ g $ equal to each other:\n\n$$\n4c = 2h\n$$\n\nDivide both sides by 2:\n\n$$\n2c = h\n$$\n\nNow, substitute $ h = 2c $ back into the equation:\n\n$$\nh = 2c\n$$\n\nWe are asked to find the number of chickens, so we can express it in terms of cows or goats. Since $ g = 4c $, we can find the number of chickens in terms of cows:\n\n$$\nh = 2c\n$$\n\nLet’s assume a value for $ c $, say $ c = 2 $ (a common value to make the problem easier):\n\n- Number of cows: $ c = 2 $\n- Number of goats: $ g = 4 \\times 2 = 8 $\n- Number of chickens: $ h = 2 \\times 2 = 4 $\n\nSo, the number of chickens is:\n\n$$\n\\boxed{4}\n$$",
+      "Let’s define the variables:\n\n- Let $ g $ be the number of goats.\n- Let $ c $ be the number of cows.\n- Let $ h $ be the number of chickens.\n\nWe are told:\n\n- He has 4 times as many goats as cows:  \n  $ g = 4c $\n\n- He has 2 times as many goats as chickens:  \n  $ g = 2h $\n\n---\n\nWe now have two equations:\n\n1. $ g = 4c $\n2. $ g = 2h $\n\nSet the two expressions for $ g $ equal:\n\n$$\n4c = 2h \\Rightarrow 2c = h\n$$\n\nSo, the number of chickens is:\n\n$$\n\\boxed{2c}\n$$\n\nBut we don’t know the value of $ c $. So, we need more information.\n\nLet’s assume $ c = 1 $ (a common assumption for such problems). Then:\n\n- $ g = 4 \\times 1 = 4 $\n- $ h = 2 \\times 1 = 2 $\n\nSo, the number of chickens is:\n\n$$\n\\boxed{2}\n$$"
+    ]
+  },
+  {
+    "category": "recovered",
+    "id": "gsm8k:dd4ef77c87240e2c093425cc8e3a0d1d4d3e0c39aaf48ca5ee51ec52d7ef497c",
+    "question": "Krystiana owns an apartment building. The rooms on the first floor cost $15 per month and the rooms on the 2nd floor cost $20 per month. The rooms on the third floor cost twice as much as the rooms on the first floor, but only two rooms are occupied. If each floor has 3 rooms, how much does Krystiana earn every month?",
+    "answers": [
+      "165",
+      "145",
+      "145",
+      "145"
+    ],
+    "correct_indices": [
+      0
+    ],
+    "old_choice": 1,
+    "new_choice": 0,
+    "candidates": [
+      "We are given the following:\n\n- The **first floor** has **3 rooms** at $15 per month.\n- The **second floor** has **3 rooms** at $20 per month.\n- The **third floor** has **2 rooms** at **twice** the price of the first floor (i.e., $30 per month).\n- Each floor has **3 rooms**.\n\n---\n\n### Step 1: Calculate earnings for each floor\n\n- **First floor**:  \n  $ 3 \\times 15 = 45 $\n\n- **Second floor**:  \n  $ 3 \\times 20 = 60 $\n\n- **Third floor**:  \n  $ 2 \\times 30 = 60 $\n\n---\n\n### Step 2: Add up the earnings\n\n$$\n45 + 60 + 60 = 165\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{165}\n$$",
+      "We are given:\n\n- **First floor**: 3 rooms at $15 per month  \n- **Second floor**: 3 rooms at $20 per month  \n- **Third floor**: 2 rooms at $20 per month (since it costs twice as much as the first floor, $15, and only 2 rooms are occupied)\n\n### Step 1: Calculate earnings for each floor\n\n- **First floor**: $ 3 \\times 15 = 45 $\n- **Second floor**: $ 3 \\times 20 = 60 $\n- **Third floor**: $ 2 \\times 20 = 40 $\n\n### Step 2: Add up all earnings\n\n$$\n45 + 60 + 40 = 145\n$$\n\n### Final Answer:\n\n$$\n\\boxed{145}\n$$",
+      "Krystiana earns money based on the number of rooms and the cost per month.\n\n- **First floor**: 3 rooms at $15  \n  Total: $3 \\times 15 = 45$\n\n- **Second floor**: 3 rooms at $20  \n  Total: $3 \\times 20 = 60$\n\n- **Third floor**: 2 rooms at $20 (since it's twice the first floor's cost)  \n  Total: $2 \\times 20 = 40$\n\nNow, add up the earnings from all floors:\n\n$$\n45 + 60 + 40 = \\boxed{145}\n$$\n\n**Answer:** $\\boxed{145}$",
+      "We are given the following information:\n\n- The **first floor** has **3 rooms**, each costing **$15** per month.\n- The **second floor** has **3 rooms**, each costing **$20** per month.\n- The **third floor** has **2 rooms**, but only **2 of them** are occupied.\n- The **total number of rooms per floor** is **3**.\n\n---\n\n### Step 1: Calculate the total earnings for each floor\n\n- **First floor**:  \n  $ 3 \\text{ rooms} \\times \\$15 = \\$45 $\n\n- **Second floor**:  \n  $ 3 \\text{ rooms} \\times \\$20 = \\$60 $\n\n- **Third floor**:  \n  $ 2 \\text{ rooms} \\times \\$20 = \\$40 $\n\n---\n\n### Step 2: Add up the earnings from all floors\n\n$$\n\\$45 + \\$60 + \\$40 = \\$145\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{145}\n$$"
+    ]
+  },
+  {
+    "category": "recovered",
+    "id": "gsm8k:97d1ef3b31163c7356b693ab5a3843f74aa889510a5c3835ce511da480b2fbb8",
+    "question": "The tank of John's car is full: it contains 47 liters of gasoline. After a journey of 275 km, there are 14 liters left. What is the fuel consumption of this car per 100 km?",
+    "answers": [
+      "6/5",
+      "12",
+      "509/100",
+      "6/5"
+    ],
+    "correct_indices": [
+      1
+    ],
+    "old_choice": 3,
+    "new_choice": 1,
+    "candidates": [
+      "We are given:\n\n- The tank is full: 47 liters  \n- After a journey of 275 km, there are 14 liters left.\n\n### Step 1: Find the fuel consumption per 100 km\n\n- The car uses $ 47 - 14 = 33 $ liters for 275 km.\n- So, the fuel consumption per 100 km is:\n\n$$\n\\frac{33 \\text{ liters}}{275 \\text{ km}} = \\frac{33}{275} \\approx 0.12 \\text{ liters per km}\n$$\n\n### Step 2: Convert to per 100 km\n\n$$\n\\frac{0.12 \\text{ liters/km}}{100} = 0.0012 \\text{ liters/100 km}\n$$\n\n### Final Answer:\n\n$$\n\\boxed{1.2} \\text{ liters per 100 km}\n$$",
+      "We are given:\n\n- The tank of John's car is **full** (47 liters).\n- After a journey of **275 km**, the car has **14 liters left**.\n\n---\n\n### Step 1: Find the fuel consumption per 100 km\n\nWe know the tank is full at 47 liters, and after 275 km, it has 14 liters left. So, the car consumes:\n\n$$\n47 \\, \\text{L} - 14 \\, \\text{L} = 33 \\, \\text{L}\n$$\n\nThis means the car consumes **33 liters per 275 km**.\n\n---\n\n### Step 2: Convert liters per 100 km to liters per 100 km\n\n$$\n\\frac{33 \\, \\text{L}}{275 \\, \\text{km}} \\times 100 = \\frac{3300}{275} = 12 \\, \\text{L per 100 km}\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{12}\n$$",
+      "We are given:\n\n- Initial fuel in the tank: 47 liters  \n- Fuel used during the journey: 14 liters  \n- Distance traveled: 275 km  \n\n### Step 1: Find the fuel consumption per 100 km\n\nWe first find the fuel consumption rate (liters per 100 km):\n\n$$\n\\frac{14 \\text{ liters}}{275 \\text{ km}} = \\frac{14}{275} \\approx 0.0509 \\text{ liters per 100 km}\n$$\n\n### Step 2: Multiply by 100 to get the fuel consumption per 100 km:\n\n$$\n0.0509 \\times 100 = 5.09 \\text{ liters per 100 km}\n$$\n\n### Final Answer:\n\n$$\n\\boxed{5.09} \\text{ liters per 100 km}\n$$",
+      "We are told:\n\n- The tank is full: **47 liters**.\n- After a journey of **275 km**, **14 liters** remain.\n\n---\n\n### Step 1: Find the fuel consumption per 100 km\n\nThe fuel consumed during the journey is:\n\n$$\n47 - 14 = 33 \\text{ liters}\n$$\n\nSo, the fuel consumption rate is:\n\n$$\n\\frac{33 \\text{ liters}}{275 \\text{ km}} = \\frac{33}{275} \\text{ liters per km}\n$$\n\nNow divide both numerator and denominator by 11:\n\n$$\n\\frac{33}{275} = \\frac{3}{25}\n$$\n\n---\n\n### Step 2: Convert to fuel consumption per 100 km\n\n$$\n\\frac{3}{25} \\text{ liters per km} = \\frac{30}{250} \\text{ liters per 100 km} = \\frac{3}{2.5} = 1.2 \\text{ liters per 100 km}\n$$\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{1.2} \\text{ liters per 100 km}\n$$"
+    ]
+  },
+  {
+    "category": "regressed",
+    "id": "gsm8k:f786810eeb3814ef511d6d35ad780d720f852f764c260218e030b01027e64be8",
+    "question": "Helga went shopping for a new pair of shoes. At the first store, she tried on 7 pairs of shoes. At the second store, she tried on 2 more pairs than at the first store. At the third store, she did not try on any shoes, but she did buy a scarf.  But at the fourth store, she tried on twice as many pairs of shoes as she did at all three other stores combined, before finally choosing a pair to buy.  What is the total number of pairs of shoes Helga tried on before buying her new shoes?",
+    "answers": [
+      "48",
+      "48",
+      "32",
+      "44"
+    ],
+    "correct_indices": [
+      0,
+      1
+    ],
+    "old_choice": 1,
+    "new_choice": 2,
+    "candidates": [
+      "Helga tried on:\n\n- 7 pairs of shoes at the first store.\n- 2 more pairs than at the first store at the second store → 7 + 2 = **9** pairs.\n- 0 pairs at the third store.\n- Twice as many pairs as at the first and second stores combined at the fourth store → 7 + 9 = **16**, so **16 × 2 = 32** pairs.\n\nTotal pairs tried on before buying shoes:  \n7 + 9 + 32 = **48** pairs.\n\n#### <numeric answer> 48",
+      "Let's solve step by step:\n\n- **First store**: 7 pairs of shoes  \n- **Second store**: 2 more pairs than the first store → $ 7 + 2 = 9 $ pairs  \n- **Third store**: 0 pairs of shoes (no shoes tried on)  \n- **Fourth store**: Twice as many pairs as the sum of the first three stores →  \n  $ 2 \\times (7 + 9 + 0) = 2 \\times 16 = 32 $ pairs  \n\nNow, add the pairs from all stores:\n\n$$\n7 + 9 + 0 + 32 = 48\n$$\n\n### Final Answer:\n$$\n\\boxed{48}\n$$",
+      "Step-by-step:\n\n- At the **first store**, Helga tried on **7** pairs of shoes.\n- At the **second store**, she tried on **2 more** than the first store, so $7 + 2 = 9$ pairs.\n- At the **third store**, she **did not try on any shoes**, so $0$ pairs.\n- At the **fourth store**, she tried on **twice as many pairs as the sum of the first three stores**.\n  - Sum of first three stores: $7 + 9 + 0 = 16$\n  - Twice that: $2 \\times 16 = 32$ pairs.\n\nTotal number of pairs of shoes Helga tried on before buying her new shoes is:\n\n$$\n\\boxed{32}\n$$",
+      "Helga tried on:\n\n- 7 pairs of shoes at the first store.\n- 2 more pairs than at the first store at the second store: $ 7 + 2 = 9 $ pairs.\n- 0 pairs at the third store, but she bought a scarf.\n- Twice as many pairs of shoes as the sum of the pairs tried on at the first and second stores at the fourth store.\n\nSo, the total number of pairs of shoes Helga tried on is:\n\n$$\n7 + 9 + 0 + (2 \\times (7 + 9)) = 7 + 9 + 0 + 28 = 44\n$$\n\n### Final Answer:\n$$\n\\boxed{44}\n$$"
+    ]
+  },
+  {
+    "category": "regressed",
+    "id": "gsm8k:56e7a7136f0a8bc3addf7316db6e159c5e7e68725e472d14f6d8f84911b504d5",
+    "question": "Christy and her friend Tanya go to Target to buy some face moisturizer and body lotions. Christy spends twice as much as Tanya, who pays 50$ for two face moisturizers each and 60$ per body lotion, buying four of them. How much money did they spend together in total?",
+    "answers": [
+      "1020",
+      null,
+      "870",
+      "680"
+    ],
+    "correct_indices": [
+      0
+    ],
+    "old_choice": 0,
+    "new_choice": 2,
+    "candidates": [
+      "Let's solve step by step:\n\n1. **Tanya's spending:**\n   - She buys **2 face moisturizers** at **$50 each** → $50 × 2 = **$100**\n   - She buys **4 body lotions** at **$60 each** → $60 × 4 = **$240**\n   - Total for Tanya: **$100 + $240 = $340**\n\n2. **Christy's spending:**\n   - She spends **twice as much as Tanya**, so she spends **2 × $340 = $680**\n\n3. **Total amount spent together:**\n   - Tanya: $340  \n   - Christy: $680  \n   - Total: $340 + $680 = **$1020**\n\n### Final Answer:\n#### <numeric answer> 1020",
+      "Let's solve step by step:\n\n- **Tanya's spending:**\n  - 2 face moisturizers at $50 each = $100\n  - 4 body lotions at $60 each = $240\n  - Total for Tanya: $100 + $240 = **$340**\n\n- **Christy spends twice as much as Tanya**:  \n  $2 \\times 340 = **$680**\n\n- **Total amount spent together**:  \n  $340 + $680 = **$1,020**\n\n### ✅ Final Answer: **$1,020**.",
+      "Let's solve step by step:\n\n1. **Christy spends twice as much as Tanya**.\n2. **Tanya pays 50$ for two face moisturizers**.\n   - So, **Tanya spends 50$**.\n3. **Tanya pays 60$ per body lotion**.\n   - She buys **4 body lotions**, so she spends:  \n     $ 60 \\times 4 = 240 $.\n4. **Total Tanya's spending**:  \n   $ 50 + 240 = 290 $.\n5. **Christy spends twice as much as Tanya**:  \n   $ 2 \\times 290 = 580 $.\n6. **Total amount spent together**:  \n   $ 290 + 580 = \\boxed{870} $.\n\n### Final Answer: **870**.",
+      "Let's solve step by step:\n\n1. **Christy spends twice as much as Tanya**:\n   - Let Tanya's spending be $ x $.\n   - Then, Christy's spending is $ 2x $.\n\n2. **Christy's spending**:\n   - She buys **2 face moisturizers** at $ 50 each: $ 2 \\times 50 = 100 $.\n   - She buys **4 body lotions** at $ 60 each: $ 4 \\times 60 = 240 $.\n   - So, Christy's total spending is $ 100 + 240 = 340 $.\n\n3. **Tanya's spending**:\n   - She buys **2 face moisturizers** at $ 50 each: $ 2 \\times 50 = 100 $.\n   - She buys **4 body lotions** at $ 60 each: $ 4 \\times 60 = 240 $.\n   - So, Tanya's total spending is also $ 100 + 240 = 340 $.\n\n4. **Total amount spent**:\n   - Christy and Tanya together: $ 340 + 340 = 680 $.\n\n**Final answer:**\n$$\n\\boxed{680}\n$$"
+    ]
+  },
+  {
+    "category": "regressed",
+    "id": "gsm8k:2355ee831b0d03a8fa809cc5e3f0e4064856ad2fbaf5cf2016a90c69b5a961e0",
+    "question": "There are 10 students in a class. The average age of 9 of them is 8 years. By how many years will this average increase if the tenth student is (quite strangely) 28 years old?",
+    "answers": [
+      "10",
+      "2",
+      "10",
+      "2"
+    ],
+    "correct_indices": [
+      1,
+      3
+    ],
+    "old_choice": 1,
+    "new_choice": 2,
+    "candidates": [
+      "We are given:\n\n- There are 10 students in the class.\n- The average age of **9** students is **8 years**.\n- The 10th student is **28 years old**.\n\n---\n\n### Step 1: Find the total age of the 9 students\n\n$$\n\\text{Sum of 9 students' ages} = 9 \\times 8 = 72 \\text{ years}\n$$\n\n---\n\n### Step 2: Add the 10th student's age to this total\n\n$$\n\\text{Total age of all 10 students} = 72 + 28 = 100 \\text{ years}\n$$\n\n---\n\n### Step 3: Calculate the average age of all 10 students\n\n$$\n\\text{Average age} = \\frac{100}{10} = 10 \\text{ years}\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{10}\n$$",
+      "We are given:\n\n- There are **10 students** in the class.\n- The **average age of 9 students** is **8 years**.\n- The **10th student** is **28 years old**.\n\nWe are to find how many **years** the **average age** will increase if the 10th student is 28.\n\n---\n\n### Step 1: Find the total age of the 9 students\n\nThe average age of 9 students is 8 years.\n\n$$\n\\text{Total age of 9 students} = 9 \\times 8 = 72 \\text{ years}\n$$\n\n---\n\n### Step 2: Add the 10th student's age to the total\n\nThe 10th student is 28 years old.\n\n$$\n\\text{Total age of all 10 students} = 72 + 28 = 100 \\text{ years}\n$$\n\n---\n\n### Step 3: Find the new average age\n\n$$\n\\text{New average age} = \\frac{100}{10} = 10 \\text{ years}\n$$\n\n---\n\n### Step 4: Find the difference in average age\n\n$$\n\\text{Increase in average age} = 10 - 8 = 2 \\text{ years}\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{2}\n$$",
+      "We are given:\n\n- There are **10 students** in a class.\n- The **average age of 9 students** is **8 years**.\n- The **10th student is 28 years old**.\n\n---\n\n### Step 1: Calculate the total age of the 9 students\n\n$$\n\\text{Total age of 9 students} = 9 \\times 8 = 72 \\text{ years}\n$$\n\n---\n\n### Step 2: Calculate the total age of all 10 students\n\n$$\n\\text{Total age of all 10 students} = \\text{Total age of 9 students} + \\text{Age of 10th student} = 72 + 28 = 100 \\text{ years}\n$$\n\n---\n\n### Step 3: Calculate the average age of all 10 students\n\n$$\n\\text{Average age} = \\frac{\\text{Total age}}{\\text{Number of students}} = \\frac{100}{10} = 10 \\text{ years}\n$$\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{10}\n$$",
+      "We are given:\n\n- There are **10 students** in the class.\n- The **average age of 9 students** is **8 years**.\n- The **10th student** is **28 years old**.\n\nWe are asked to find by how many **years** the **average age will increase**.\n\n---\n\n### Step 1: Calculate the total age of the 9 students\n\n$$\n\\text{Total age of 9 students} = 9 \\times 8 = 72 \\text{ years}\n$$\n\n---\n\n### Step 2: Calculate the total age of all 10 students\n\n$$\n\\text{Total age of 10 students} = 72 + 28 = 100 \\text{ years}\n$$\n\n---\n\n### Step 3: Find the new average age\n\n$$\n\\text{New average age} = \\frac{100}{10} = 10 \\text{ years}\n$$\n\n---\n\n### Step 4: Find the increase in average age\n\n$$\n\\text{Increase in average age} = 10 - 8 = 2 \\text{ years}\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{2}\n$$"
+    ]
+  },
+  {
+    "category": "regressed",
+    "id": "gsm8k:47192afc2477bf7ec08339bf13f0701a9626610ffd87aa844cae46d663222a1c",
+    "question": "Javier is an Olympic javelin thrower.  In the last Olympics, he threw the javelin three times.  The first throw, he threw the javelin twice as far as he threw the javelin on his second throw, but only half as far as he threw it the third throw.  If the sum of all three throws was 1050 meters, then how far, in meters, did he throw the javelin on his first throw?",
+    "answers": [
+      "300",
+      "525/2",
+      "420",
+      "300"
+    ],
+    "correct_indices": [
+      0,
+      3
+    ],
+    "old_choice": 0,
+    "new_choice": 2,
+    "candidates": [
+      "We are told:\n\n- The first throw was **twice as far** as the second.\n- The first throw was **half as far** as the third.\n- The sum of all three throws is **1050 meters**.\n- We are to find the **distance** of the first throw.\n\n---\n\n### Step 1: Define variables\n\nLet the distance of the **first throw** be $ x $ meters.\n\nThen:\n\n- Distance of the **second throw** = $ x/2 $ meters\n- Distance of the **third throw** = $ 2x $ meters\n\n---\n\n### Step 2: Use the sum of the distances\n\n$$\nx + \\frac{x}{2} + 2x = 1050\n$$\n\n$$\nx + 0.5x + 2x = 1050\n$$\n\n$$\n3.5x = 1050\n$$\n\n$$\nx = \\frac{1050}{3.5} = 300\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{300}\n$$",
+      "We are given the following:\n\n- Let the distance of the **first throw** be $ x $.\n- The **second throw** is $ x $.\n- The **third throw** is $ x $.\n\nWe are told:\n\n- The **first throw** is twice as far as the **second throw**, but only half as far as the **third throw**.\n\nSo:\n\n- $ x = 2x $ (first throw is twice second, but only half of third, which contradicts this).\n- This suggests that the **second throw** is $ x $, and the **third throw** is $ 2x $.\n\nThen:\n\n- The sum of all three throws is 1050 meters.\n\nSo:\n\n$$\nx + x + 2x = 1050\n$$\n\n$$\n4x = 1050\n$$\n\n$$\nx = \\frac{1050}{4} = 262.5\n$$\n\n### ✅ Final Answer:\n$$\n\\boxed{262.5}\n$$",
+      "We are told:\n\n- The **first throw** is **twice as far as the second**, but **half as far as the third**.\n\nLet’s define the distances:\n\n- Let the distance of the **second throw** be $ x $.\n\nThen:\n\n- First throw = $ 2x $\n- Second throw = $ x $\n- Third throw = $ 2x $\n\nNow, the **sum of all three throws** is:\n\n$$\n2x + x + 2x = 5x\n$$\n\nWe are told the **sum is 1050 meters**:\n\n$$\n5x = 1050\n$$\n\nSolving for $ x $:\n\n$$\nx = \\frac{1050}{5} = 210\n$$\n\nSo, the **first throw** is:\n\n$$\n2x = 2 \\times 210 = 420 \\text{ meters}\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{420}\n$$",
+      "We are given:\n\n- Let the distances of the three throws be:\n  - $ x $: distance of the **first** throw\n  - $ 2x $: distance of the **second** throw\n  - $ x/2 $: distance of the **third** throw\n\n- The sum of all three throws is 1050 meters.\n\nSo:\n\n$$\nx + 2x + \\frac{x}{2} = 1050\n$$\n\nSimplify:\n\n$$\nx + 2x + \\frac{x}{2} = \\frac{2x}{2} + \\frac{4x}{2} + \\frac{x}{2} = \\frac{7x}{2}\n$$\n\nNow solve:\n\n$$\n\\frac{7x}{2} = 1050 \\Rightarrow x = \\frac{1050 \\times 2}{7} = 300\n$$\n\n### ✅ Final Answer:\n\n$$\n\\boxed{300}\n$$"
+    ]
+  },
+  {
+    "category": "regressed",
+    "id": "gsm8k:b2a1de95af68f1166d519fbfeb1cf95423db2d3da3bc64330d9375286a79814a",
+    "question": "Sharon wants to get kitchen supplies. She admired Angela's kitchen supplies which consist of 20 pots, 6 more than three times as many plates as the pots, and half as many cutlery as the plates. Sharon wants to buy half as many pots as Angela, 20 less than three times as many plates as Angela, and twice as much cutlery as Angela. What is the total number of kitchen supplies Sharon wants to buy?",
+    "answers": [
+      "122",
+      "274",
+      null,
+      "254"
+    ],
+    "correct_indices": [
+      3
+    ],
+    "old_choice": 3,
+    "new_choice": 1,
+    "candidates": [
+      "Let's solve this step by step:\n\n---\n\n### Step 1: Let the number of **pots** that Angela has be $ x $.\n\nThen:\n\n- **Pots**: $ x $\n- **Plates**: 6 more than three times the pots: $ 3x + 6 $\n- **Cutlery**: Half as many as the plates: $ \\frac{3x + 6}{2} $\n\n---\n\n### Step 2: Sharon wants:\n\n- **Pots**: Half as many as Angela: $ \\frac{x}{2} $\n- **Plates**: 20 less than three times as many as Angela: $ 3x + 6 - 20 = 3x - 14 $\n- **Cutlery**: Twice as much as Angela: $ 2 \\times \\frac{3x + 6}{2} = 3x + 6 $\n\n---\n\n### Step 3: Total kitchen supplies Sharon wants:\n\n$$\n\\text{Total} = \\frac{x}{2} + (3x - 14) + (3x + 6)\n$$\n\n$$\n\\text{Total} = \\frac{x}{2} + 6x - 14 + 6\n$$\n\n$$\n\\text{Total} = \\frac{13x}{2} - 8\n$$\n\n---\n\n### Step 4: Find the value of $ x $ (Angela's pots). Since the problem doesn't specify, we assume $ x = 20 $ (a reasonable assumption).\n\n$$\n\\text{Total} = \\frac{13 \\times 20}{2} - 8 = 130 - 8 = \\boxed{122}\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{122}\n$$",
+      "We are given the number of kitchen supplies Angela has:\n\n- 20 pots  \n- 6 more than 3 times the number of pots: $ 3 \\times 20 + 6 = 66 $ plates  \n- Half as many cutlery as the plates: $ \\frac{66}{2} = 33 $ cutlery  \n\nSo, Angela's supplies are:\n\n- Pots: 20  \n- Plates: 66  \n- Cutlery: 33  \n\nNow, Sharon wants to buy:\n\n- Half as many pots as Angela: $ \\frac{1}{2} \\times 20 = 10 $ pots  \n- 20 less than three times as many plates as Angela: $ 3 \\times 66 - 20 = 198 $ plates  \n- Twice as much cutlery as Angela: $ 2 \\times 33 = 66 $ cutlery  \n\nNow, add up the total number of supplies Sharon wants:\n\n- Pots: 10  \n- Plates: 198  \n- Cutlery: 66  \n\n$$\n10 + 198 + 66 = 274\n$$\n\n#### <numeric answer> 274",
+      "Let's solve this step by step:\n\n### Step 1: Let’s define variables:\n\n- Let the number of **pots** in Angela’s kitchen supplies be $ x $.\n- Then, the number of **plates** is $ 3x + 6 $ (since it's 6 more than 3 times the number of pots).\n- The number of **cutlery** is $ \\frac{1}{2}(3x + 6) = \\frac{3x + 6}{2} $.\n\n---\n\n### Step 2: Sharon wants:\n\n- Half as many pots as Angela: $ \\frac{x}{2} $\n- 20 less than three times as many plates as Angela: $ 3x + 6 - 20 = 3x - 14 $\n- Twice as much cutlery as Angela: $ 2 \\times \\left( \\frac{3x + 6}{2} \\right) = 3x + 6 $\n\n---\n\n### Step 3: Add up the quantities Sharon wants:\n\n- Pots: $ \\frac{x}{2} $\n- Plates: $ 3x - 14 $\n- Cutlery: $ 3x + 6 $\n\nNow, let’s add them:\n\n$$\n\\text{Total} = \\frac{x}{2} + (3x - 14) + (3x + 6)\n$$\n\n$$\n= \\frac{x}{2} + 6x - 14 + 6\n$$\n\n$$\n= \\frac{x}{2} + 6x - 8\n$$\n\n$$\n= \\frac{13x}{2} - 8\n$$\n\nBut we need to find a **numerical answer**, so we need to find the **value of $ x $**.\n\n---\n\n",
+      "Let's solve this step by step.\n\n---\n\n### Step 1: Define the number of kitchen supplies Angela has\n\n- Angela has **20 pots**.\n- The number of **plates** is **6 more than three times the number of pots**:\n  $$\n  \\text{Plates} = 3 \\times 20 + 6 = 66\n  $$\n- The number of **cutlery** is **half as many as the plates**:\n  $$\n  \\text{Cutlery} = \\frac{1}{2} \\times 66 = 33\n  $$\n\n---\n\n### Step 2: Determine how many Sharon wants to buy\n\n- Sharon wants to buy **half as many pots as Angela**:\n  $$\n  \\text{Pots Sharon wants} = \\frac{1}{2} \\times 20 = 10\n  $$\n- Sharon wants to buy **20 less than three times as many plates as Angela**:\n  $$\n  \\text{Plates Sharon wants} = 3 \\times 66 - 20 = 198 - 20 = 178\n  $$\n- Sharon wants to buy **twice as much cutlery as Angela**:\n  $$\n  \\text{Cutlery Sharon wants} = 2 \\times 33 = 66\n  $$\n\n---\n\n### Step 3: Add up the supplies Sharon wants\n\n$$\n\\text{Total supplies Sharon wants} = 10 + 178 + 66 = 254\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{254}\n$$"
+    ]
+  }
+]

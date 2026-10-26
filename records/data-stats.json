@@ -1,0 +1,42 @@
+{
+  "train": {
+    "questions": 4755,
+    "candidates": 19020,
+    "parseable_candidates": 18149,
+    "parseable_candidate_rate": 0.9542060988433229,
+    "correct_candidates_per_question": {
+      "1": 711,
+      "2": 732,
+      "3": 1070,
+      "4": 2242
+    },
+    "distinct_valid_answers_per_question": {
+      "1": 2641,
+      "2": 1338,
+      "3": 608,
+      "4": 168
+    },
+    "questions_with_duplicate_valid_answers": 4411,
+    "hard_subset_questions": 2114
+  },
+  "validation": {
+    "questions": 798,
+    "candidates": 3192,
+    "parseable_candidates": 3035,
+    "parseable_candidate_rate": 0.9508145363408521,
+    "correct_candidates_per_question": {
+      "1": 117,
+      "2": 123,
+      "3": 179,
+      "4": 379
+    },
+    "distinct_valid_answers_per_question": {
+      "1": 443,
+      "2": 227,
+      "3": 108,
+      "4": 20
+    },
+    "questions_with_duplicate_valid_answers": 741,
+    "hard_subset_questions": 355
+  }
+}

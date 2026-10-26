@@ -1,0 +1,16 @@
+{
+  "tests": 11,
+  "failures": 0,
+  "errors": 0,
+  "official_validation_passed": true,
+  "one_fit_only": true,
+  "test_accessed": false,
+  "weights_and_predictions_gitignored": true,
+  "source_sha256": {
+    "arithmetic_evidence.py": "6bb09c53193763b02a59ce7141845a88cc9dec9a3a3056ff6e63bf14df67d650",
+    "submission_arithmetic.py": "f030a7a33407a44edfb2c15eab98f96bc26ac3da42b5c6f506f24be726f998f6",
+    "run_arithmetic.py": "9c43d5373889d5533671c9c12059fd92d20d2ae7b8f207d680dc1908494db982",
+    "diagnose_arithmetic.py": "125068154db494310e610869655466a19a46bc750aba109014caca246dc309c3",
+    "test_arithmetic_evidence.py": "f64a955ea9825edd16c32ba6453174b72b2e612e8c771234abbb9e7e0208a107"
+  }
+}

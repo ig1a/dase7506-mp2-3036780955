@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-26",
+  "scope": "Train-only arithmetic-equality diagnostic; conditionally one validation configuration, never test",
+  "parser": "Explicit '=' chains, complete numeric adjacent components, exact bounded rational AST; decimal RHS rounding tolerance; unknowns excluded, never reject candidates",
+  "features": ["log1p checked equations", "log1p inconsistent equations", "inconsistent fraction among checked", "no checked equations indicator"],
+  "diagnostic_gate_before_validation": {
+    "minimum_checked_candidate_fraction": 0.2,
+    "minimum_hard_questions_with_feature_variation": 50,
+    "inconsistent_rate_wrong_answers_must_exceed_correct_answers": true,
+    "minimum_baseline_train_errors_with_flagged_choice_and_unflagged_correct_alternative": 10,
+    "manual_flagged_equation_audit": "20 deterministic seed17 randomly sampled flagged candidates, stratified by correct/incorrect final answer; at least 90% true arithmetic inconsistencies. Training-only parser bug fixes permitted and logged; never adapt to validation."
+  },
+  "conditional_training": {
+    "fits": 1,
+    "C": 0.01,
+    "features": "Original 1028 context features plus four arithmetic features",
+    "scaler": "Train-only StandardScaler; original 1028 means/scales unchanged",
+    "objective": "Identical equal-per-question pairwise logistic objective to current best",
+    "solver": "lbfgs max_iter2000 tol1e-6 fit_interceptFalse seed17",
+    "selection": "Fixed config complete validation and 355-question disagreement subset; keep previous best on tie or loss",
+    "error_analysis": "At most 10 changed validation selections; no rule changes after validation"
+  },
+  "baseline": "artifacts/pairwise-C001-20261026.npz",
+  "test_accessed": false,
+  "publication": "Local code and report only; no submission or GitHub publication"
+}

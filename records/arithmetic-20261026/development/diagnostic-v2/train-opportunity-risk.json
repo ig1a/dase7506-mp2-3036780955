@@ -1,0 +1,1166 @@
+[
+  {
+    "category": "opportunity",
+    "id": "gsm8k:95691fde17ea0acd33c8b58ec6cc5e918f2a97cbc347af0f9314670b418682a8",
+    "question": "A store decides to shut down and sell all of its inventory.  They have 2000 different items which would normally retail for $50.  They are offering an 80% discount and manage to sell 90% of the items.  They owed $15000 to their creditors.  How much money do they have left after the sale?",
+    "choice": 0,
+    "correct_indices": [
+      2
+    ],
+    "candidates": [
+      {
+        "text": "We are given:\n\n- Number of items: 2000  \n- Retail price per item: $50  \n- Discount: 80%  \n- Percentage sold: 90%  \n- Total owed to creditors: $15000\n\n---\n\n### Step 1: Calculate the total revenue from the sale\n\n$$\n\\text{Revenue} = \\text{Number of items} \\times (\\text{Retail price} - \\text{Discount}) = 2000 \\times (50 - 0.8 \\times 50) = 2000 \\times 30 = 60,000\n$$\n\n---\n\n### Step 2: Calculate the total amount owed\n\nThey owed $15,000.\n\n---\n\n### Step 3: Calculate how much money they have left\n\n$$\n\\text{Money left} = \\text{Total revenue} - \\text{Amount owed} = 60,000 - 15,000 = \\boxed{45000}\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{45000}\n$$",
+        "code": null,
+        "index": 0
+      },
+      {
+        "text": "We are given:\n\n- Total number of items: 2000  \n- Retail price per item: $50  \n- Discount: 80%  \n- Percentage of items sold: 90%  \n- Total owed to creditors: $15000\n\n---\n\n### Step 1: Calculate the total amount the store would have if no discount is applied\n\n$$\n\\text{Total amount without discount} = 2000 \\times 50 = 100,000\n$$\n\n---\n\n### Step 2: Calculate the amount the store would have if they apply the 80% discount\n\n$$\n\\text{Discount amount} = 100,000 \\times 0.80 = 80,000\n$$\n\n$$\n\\text{Amount after discount} = 100,000 - 80,000 = 20,000\n$$\n\n---\n\n### Step 3: Calculate the amount of money they actually have after the sale\n\n$$\n\\text{Amount after sale} = 20,000 \\times 0.90 = 18,000\n$$\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{18000}\n$$",
+        "code": null,
+        "index": 1
+      },
+      {
+        "text": "We are given:\n\n- Total items: 2000  \n- Original retail price per item: $50  \n- Discount: 80%  \n- Number of items sold: 90% of 2000 = 1800  \n- Total debt owed: $15000  \n- Selling price per item: $50 × 0.20 = $10\n\nNow, calculate the total amount received from the sale:\n\n$$\n1800 \\times 10 = 18000\n$$\n\nNow subtract the debt owed from the amount received:\n\n$$\n18000 - 15000 = \\boxed{3000}\n$$\n\n**Final answer:** $ \\boxed{3000} $",
+        "code": null,
+        "index": 2
+      },
+      {
+        "text": "We are given:\n\n- Number of items: 2000  \n- Retail price per item: $50  \n- Discount: 80%  \n- Number of items sold: 90% of 2000 = 1800  \n- Total debt owed: $15000  \n- Total revenue from sales: $1800 \\times 50 = 90,000\n\nThey sold **90% of the items**, so:\n\n- Revenue: $90,000  \n- Total debt: $15,000\n\nAfter the sale, the amount of money they have left is:\n\n$$\n15,000 - 9,000 = \\boxed{6000}\n$$\n\n### Final Answer:\n#### <numeric answer> 6000.",
+        "code": null,
+        "index": 3
+      }
+    ],
+    "checks": [
+      [
+        {
+          "left": "2000 * (50 - 0.8 * 50)",
+          "right": "2000 * 30",
+          "computed_left": "20000",
+          "computed_right": "60000",
+          "tolerance": "0",
+          "inconsistent": true
+        },
+        {
+          "left": "2000 * 30",
+          "right": "60000",
+          "computed_left": "60000",
+          "computed_right": "60000",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "60000 - 15000",
+          "right": "(45000)",
+          "computed_left": "45000",
+          "computed_right": "45000",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ],
+      [
+        {
+          "left": "2000 * 50",
+          "right": "100000",
+          "computed_left": "100000",
+          "computed_right": "100000",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "100000 * 0.80",
+          "right": "80000",
+          "computed_left": "80000",
+          "computed_right": "80000",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "100000 - 80000",
+          "right": "20000",
+          "computed_left": "20000",
+          "computed_right": "20000",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "20000 * 0.90",
+          "right": "18000",
+          "computed_left": "18000",
+          "computed_right": "18000",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ],
+      [
+        {
+          "left": "1800 * 10",
+          "right": "18000",
+          "computed_left": "18000",
+          "computed_right": "18000",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "18000 - 15000",
+          "right": "(3000)",
+          "computed_left": "3000",
+          "computed_right": "3000",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ],
+      [
+        {
+          "left": "15000 - 9000",
+          "right": "(6000)",
+          "computed_left": "6000",
+          "computed_right": "6000",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ]
+    ]
+  },
+  {
+    "category": "opportunity",
+    "id": "gsm8k:c2b774ce8d6a26df67879fd372e4dcea454504f60c376d1b5cf474b6ea92b52d",
+    "question": "After buying shirts worth $27 from a store, Dennis received 2 $10 bills and $3 in loose coins for his change. How much money did Dennis have initially?",
+    "choice": 0,
+    "correct_indices": [
+      2
+    ],
+    "candidates": [
+      {
+        "text": "Let's break down the problem step by step:\n\n- Dennis bought **$27** worth of shirts.\n- He received **2 $10 bills** and **$3 in loose coins**.\n\nTo find the **initial amount of money** Dennis had, we add the value of the shirts and the change:\n\n$$\n\\text{Initial amount} = 27 + 2 \\times 10 + 3 = 27 + 20 + 3 = 40\n$$\n\n### Final Answer:\n$$\n\\boxed{40}\n$$",
+        "code": null,
+        "index": 0
+      },
+      {
+        "text": "Dennis initially had **$27** worth of shirts. He received **$10 bills** and **$3 in loose coins** for his change. Since the question asks for the total amount he had initially, and not the total change, we can conclude:\n\n**Final answer:**  \n#### $27",
+        "code": null,
+        "index": 1
+      },
+      {
+        "text": "Let's break it down step by step:\n\n- Dennis bought **$27** worth of shirts.\n- He received **2 $10 bills** for change.\n- He also received **$3 in loose coins**.\n\nSo, the total amount he had initially is:\n\n$$\n27 + 2 \\times 10 + 3 = 27 + 20 + 3 = \\boxed{50}\n$$\n\n### Final Answer:\n**$50**.",
+        "code": null,
+        "index": 2
+      },
+      {
+        "text": "Dennis received $27 in total, including $10 bills and loose coins. We need to find out how much he had initially.\n\n- He paid $27.\n- He received $10 bills and $3 in loose coins.\n\nSo, the total amount he had initially is:\n\n$$\n27 + 10 + 3 = \\boxed{40}\n$$\n\n**Answer:** $\\boxed{40}$",
+        "code": null,
+        "index": 3
+      }
+    ],
+    "checks": [
+      [
+        {
+          "left": "27 + 2 * 10 + 3",
+          "right": "27 + 20 + 3",
+          "computed_left": "50",
+          "computed_right": "50",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "27 + 20 + 3",
+          "right": "40",
+          "computed_left": "50",
+          "computed_right": "40",
+          "tolerance": "0",
+          "inconsistent": true
+        }
+      ],
+      [],
+      [
+        {
+          "left": "27 + 2 * 10 + 3",
+          "right": "27 + 20 + 3",
+          "computed_left": "50",
+          "computed_right": "50",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "27 + 20 + 3",
+          "right": "(50)",
+          "computed_left": "50",
+          "computed_right": "50",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ],
+      [
+        {
+          "left": "27 + 10 + 3",
+          "right": "(40)",
+          "computed_left": "40",
+          "computed_right": "40",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ]
+    ]
+  },
+  {
+    "category": "opportunity",
+    "id": "gsm8k:f6ef435c4ff2022fe6e81842ba72d76f2b4a9d604074e2351a9f695d50c80dfd",
+    "question": "John buys a chair. He then buys a table that is 3 times the price of the chair. Then, he buys a couch that is 5 times the price of the table. If John paid $380 for all these items, what is the price of the couch?",
+    "choice": 0,
+    "correct_indices": [
+      3
+    ],
+    "candidates": [
+      {
+        "text": "Let’s solve this step by step:\n\n- Let the price of the **chair** be $ x $.\n\n- The price of the **table** is 3 times the price of the chair:  \n  $ 3x $.\n\n- The price of the **couch** is 5 times the price of the table:  \n  $ 5 \\times 3x = 15x $.\n\n- John paid $380 for all items, so:  \n  $ x + 3x + 15x = 380 $.\n\n- Combine like terms:  \n  $ 29x = 380 $.\n\n- Solve for $ x $:  \n  $ x = \\frac{380}{29} = 13 $.\n\n- The price of the **couch** is $ 15x = 15 \\times 13 = 195 $.\n\n### Final Answer:\n**$ \\boxed{195} $**",
+        "code": null,
+        "index": 0
+      },
+      {
+        "text": "We are told:\n\n- The price of the chair is $ x $.\n- The price of the table is 3 times the chair: $ 3x $.\n- The price of the couch is 5 times the table: $ 5 \\times 3x = 15x $.\n\nJohn paid $380 for all items:\n\n$$\nx + 3x + 15x = 380\n$$\n\n$$\n20x = 380\n$$\n\n$$\nx = 19\n$$\n\nSo, the price of the **couch** is:\n\n$$\n15x = 15 \\times 19 = \\boxed{285}\n$$\n\n#### <numeric answer> 285.",
+        "code": null,
+        "index": 1
+      },
+      {
+        "text": "Let the price of the chair be $ x $.  \n- The price of the table is $ 3x $, since it is 3 times the price of the chair.  \n- The price of the couch is $ 5 \\times 3x = 15x $, since it is 5 times the price of the table.\n\nJohn paid $ 380 for all these items, so:\n\n$$\nx + 3x + 15x = 380\n$$\n\n$$\n20x = 380\n$$\n\n$$\nx = 19\n$$\n\nNow, the price of the couch is:\n\n$$\n15x = 15 \\times 19 = \\boxed{285}\n$$\n\n#### <numeric answer> 285.",
+        "code": null,
+        "index": 2
+      },
+      {
+        "text": "We are told:\n\n- The price of the chair is $ C $.\n- The price of the table is $ 3C $.\n- The price of the couch is $ 5 \\times 3C = 15C $.\n\nJohn paid $ 380 for all these items, so:\n\n$$\nC + 3C + 15C = 380\n$$\n\n$$\n19C = 380\n$$\n\n$$\nC = \\frac{380}{19} = 20\n$$\n\nThe price of the couch is:\n\n$$\n15C = 15 \\times 20 = \\boxed{300}\n$$\n\n#### <numeric answer> 300",
+        "code": null,
+        "index": 3
+      }
+    ],
+    "checks": [
+      [
+        {
+          "left": "((380)/(29))",
+          "right": "13",
+          "computed_left": "380/29",
+          "computed_right": "13",
+          "tolerance": "0",
+          "inconsistent": true
+        },
+        {
+          "left": "15 * 13",
+          "right": "195",
+          "computed_left": "195",
+          "computed_right": "195",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ],
+      [
+        {
+          "left": "15 * 19",
+          "right": "(285)",
+          "computed_left": "285",
+          "computed_right": "285",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ],
+      [
+        {
+          "left": "15 * 19",
+          "right": "(285)",
+          "computed_left": "285",
+          "computed_right": "285",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ],
+      [
+        {
+          "left": "((380)/(19))",
+          "right": "20",
+          "computed_left": "20",
+          "computed_right": "20",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "15 * 20",
+          "right": "(300)",
+          "computed_left": "300",
+          "computed_right": "300",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ]
+    ]
+  },
+  {
+    "category": "opportunity",
+    "id": "gsm8k:fe4310a4712ec07ee6289f8c304fef6d6b00c42ae460824bf922b62233a94dfb",
+    "question": "Trey has 5 times as many turtles as Kris. Kris has one fourth the turtles Kristen has. How many turtles are there altogether if Kristen has 12?",
+    "choice": 2,
+    "correct_indices": [
+      0,
+      3
+    ],
+    "candidates": [
+      {
+        "text": "We are given:\n\n- Trey has 5 times as many turtles as **Kris**.\n- Kris has **1/4** the number of turtles as **Kristen**.\n- Kristen has **12** turtles.\n\n---\n\n### Step 1: Express the number of turtles in terms of Kristen.\n\nLet:\n- $ K $ = number of turtles Kristen has = 12\n\nThen:\n- Kris has $ \\frac{1}{4} \\times 12 = 3 $ turtles.\n\n---\n\n### Step 2: Express Trey in terms of Kris.\n\nTrey has 5 times as many turtles as Kris:\n\n- $ T = 5 \\times 3 = 15 $ turtles.\n\n---\n\n### Step 3: Total number of turtles.\n\n- Kristen: 12\n- Kris: 3\n- Trey: 15\n\n$$\n\\text{Total} = 12 + 3 + 15 = 30\n$$\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{30}\n$$",
+        "code": null,
+        "index": 0
+      },
+      {
+        "text": "We are given the following relationships:\n\n- Trey has 5 times as many turtles as **Kris**.\n- Kris has **1/4** the number of turtles that **Kristen** has.\n- Kristen has **12** turtles.\n\nLet's solve step by step:\n\n1. Let **Kristen's turtles** be 12.\n\n2. Kris has $ \\frac{1}{4} \\times 12 = 3 $ turtles.\n\n3. Trey has $ 5 \\times 3 = 15 $ turtles.\n\n4. The total number of turtles is:\n   $$\n   15 + 3 + 12 = 29\n   $$\n\n### Final Answer:\n$$\n\\boxed{29}\n$$",
+        "code": null,
+        "index": 1
+      },
+      {
+        "text": "We are given:\n\n- Trey has 5 times as many turtles as Kris.\n- Kris has 1/4 the turtles Kristen has.\n- Kristen has 12 turtles.\n\nLet’s solve step by step:\n\n1. Let Kristen’s number of turtles be **12**.\n2. Kris has **1/4** of that:  \n   $$\n   \\text{Kris} = \\frac{1}{4} \\times 12 = 3\n   $$\n3. Trey has 5 times as many as Kris:  \n   $$\n   \\text{Trey} = 5 \\times 3 = 15\n   $$\n4. Total turtles:  \n   $$\n   \\text{Total} = \\text{Trey} + \\text{Kris} + \\text{Kristen} = 15 + 3 + 12 = 29\n   $$\n\n### Final Answer:\n$$\n\\boxed{29}\n$$",
+        "code": null,
+        "index": 2
+      },
+      {
+        "text": "We are given:\n\n- Trey has 5 times as many turtles as Kris.\n- Kris has 1/4 as many turtles as Kristen.\n- Kristen has 12 turtles.\n\n---\n\nLet’s define:\n\n- Let $ K $ be the number of turtles Kristen has.\n- Then, Kris has $ \\frac{1}{4}K = \\frac{1}{4} \\times 12 = 3 $ turtles.\n- Trey has $ 5 \\times 3 = 15 $ turtles.\n\nSo, the total number of turtles is:\n\n$$\n15 + 3 + 12 = \\boxed{30}\n$$\n\n### Final Answer:\n#### <numeric answer> = **30**.",
+        "code": null,
+        "index": 3
+      }
+    ],
+    "checks": [
+      [
+        {
+          "left": "((1)/(4)) * 12",
+          "right": "3",
+          "computed_left": "3",
+          "computed_right": "3",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "5 * 3",
+          "right": "15",
+          "computed_left": "15",
+          "computed_right": "15",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "12 + 3 + 15",
+          "right": "30",
+          "computed_left": "30",
+          "computed_right": "30",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ],
+      [
+        {
+          "left": "((1)/(4)) * 12",
+          "right": "3",
+          "computed_left": "3",
+          "computed_right": "3",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "5 * 3",
+          "right": "15",
+          "computed_left": "15",
+          "computed_right": "15",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "15 + 3 + 12",
+          "right": "29",
+          "computed_left": "30",
+          "computed_right": "29",
+          "tolerance": "0",
+          "inconsistent": true
+        }
+      ],
+      [
+        {
+          "left": "((1)/(4)) * 12",
+          "right": "3",
+          "computed_left": "3",
+          "computed_right": "3",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "5 * 3",
+          "right": "15",
+          "computed_left": "15",
+          "computed_right": "15",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "15 + 3 + 12",
+          "right": "29",
+          "computed_left": "30",
+          "computed_right": "29",
+          "tolerance": "0",
+          "inconsistent": true
+        }
+      ],
+      [
+        {
+          "left": "((1)/(4)) * 12",
+          "right": "3",
+          "computed_left": "3",
+          "computed_right": "3",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "5 * 3",
+          "right": "15",
+          "computed_left": "15",
+          "computed_right": "15",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "15 + 3 + 12",
+          "right": "(30)",
+          "computed_left": "30",
+          "computed_right": "30",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ]
+    ]
+  },
+  {
+    "category": "opportunity",
+    "id": "gsm8k:5951b8bd948f16d7423ed1377de46b27c1cc6cd976c905b2f840fa4b2edbe840",
+    "question": "Linda is painting her bedroom. Her bedroom has 4 walls, with the room being 20 feet wide by 20 feet long by 8 feet tall. One wall has a 3-foot by 7-foot doorway. A second wall has a 6-foot by 4-foot window. A third wall has a 5-foot by 7-foot doorway to a walk-in-closet. And the fourth wall is completely solid. What is the total area of wall space that Linda will have to paint?",
+    "choice": 1,
+    "correct_indices": [
+      0
+    ],
+    "candidates": [
+      {
+        "text": "To find the total area of wall space Linda will paint, we need to calculate the total area of all the walls and subtract the areas of the doors and windows that are already painted.\n\n### Step 1: Calculate the area of all walls\n\nThe room is a rectangular prism with dimensions:  \n- Width = 20 feet  \n- Length = 20 feet  \n- Height = 8 feet  \n\nThe total area of the walls is:  \n$$\n2 \\times (20 \\times 8) + 2 \\times (20 \\times 8) = 2 \\times 160 + 2 \\times 160 = 640 \\text{ square feet}\n$$\n\n### Step 2: Subtract the areas of the doors and windows\n\n- **Doorway on one wall**:  \n  $$\n  3 \\times 7 = 21 \\text{ square feet}\n  $$\n\n- **Window on one wall**:  \n  $$\n  6 \\times 4 = 24 \\text{ square feet}\n  $$\n\n- **Doorway to the walk-in-closet**:  \n  $$\n  5 \\times 7 = 35 \\text{ square feet}\n  $$\n\nSo, the total area to be painted is:  \n$$\n640 - 21 - 24 - 35 = 560 \\text{ square feet}\n$$\n\n### Final Answer:\n\n$$\n\\boxed{560}\n$$",
+        "code": null,
+        "index": 0
+      },
+      {
+        "text": "We are given:\n\n- The room has dimensions: **20 ft × 20 ft × 8 ft**.\n- One wall has a **3 ft × 7 ft doorway**.\n- One wall has a **6 ft × 4 ft window**.\n- One wall has a **5 ft × 7 ft doorway** to a **walk-in-closet**.\n- The fourth wall is **completely solid**.\n\n---\n\n### Step 1: Calculate the total area of the walls\n\nThe room has **4 walls**, so we can calculate the area of each wall and then add them up.\n\n- **First wall**: 20 ft × 8 ft = 160 ft²  \n- **Second wall**: 20 ft × 8 ft = 160 ft²  \n- **Third wall**: 20 ft × 8 ft = 160 ft²  \n- **Fourth wall**: 20 ft × 20 ft = 400 ft²\n\nTotal wall area = 160 + 160 + 160 + 400 = **880 ft²**\n\n---\n\n### Step 2: Subtract the areas of the windows and doors that are not painted\n\n- **First door**: 3 ft × 7 ft = 21 ft²  \n- **Second window**: 6 ft × 4 ft = 24 ft²  \n- **Third door**: 5 ft × 7 ft = 35 ft²\n\nNow subtract these from the total:\n\n$$\n880 - 21 - 24 - 35 = 820 \\text{ ft}^2\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{820}\n$$",
+        "code": null,
+        "index": 1
+      },
+      {
+        "text": "To find the total area of wall space that Linda will have to paint, we need to calculate the area of all the walls, subtract the areas of the windows and doors that are already painted, and then add the area of the walls that are completely solid.\n\n### Step 1: Calculate the total area of all walls\n\nThe room is a rectangular prism with:\n- Width = 20 ft\n- Length = 20 ft\n- Height = 8 ft\n\nSo the total area of the walls is:\n\n$$\n2 \\times (20 \\times 20) = 800 \\, \\text{ft}^2\n$$\n\n### Step 2: Calculate the areas of the windows and doors\n\n- **Doorway 1**: 3 ft × 7 ft  \n  Area = $ 3 \\times 7 = 21 \\, \\text{ft}^2 $\n\n- **Window 2**: 6 ft × 4 ft  \n  Area = $ 6 \\times 4 = 24 \\, \\text{ft}^2 $\n\n- **Doorway 3**: 5 ft × 7 ft  \n  Area = $ 5 \\times 7 = 35 \\, \\text{ft}^2 $\n\n### Step 3: Subtract the areas of the windows and doors from the total wall area\n\n$$\n800 - 21 - 24 - 35 = 730 \\, \\text{ft}^2\n$$\n\n### Final Answer:\n\n$$\n\\boxed{730}\n$$",
+        "code": null,
+        "index": 2
+      },
+      {
+        "text": "To find the **total area of wall space that Linda will have to paint**, we need to calculate the **total area of all walls** and then subtract the **area of the walls that are covered by **doors or windows**.\n\n---\n\n### Step 1: Calculate the area of all walls\n\nThe room is a rectangular prism with:\n- **Width = 20 ft**\n- **Length = 20 ft**\n- **Height = 8 ft**\n\nThe **total area of the walls** is:\n\n$$\n2 \\times (20 \\, \\text{ft} \\times 20 \\, \\text{ft}) + 2 \\times (20 \\, \\text{ft} \\times 8 \\, \\text{ft})\n$$\n\n$$\n= 2 \\times 400 + 2 \\times 160 = 800 + 320 = 1120 \\, \\text{ft}^2\n$$\n\n---\n\n### Step 2: Calculate the area of the walls that are covered by **doors or windows**\n\n- **One wall** has a **3-foot by 7-foot doorway**:\n  $$\n  3 \\times 7 = 21 \\, \\text{ft}^2\n  $$\n\n- **A second wall** has a **6-foot by 4-foot window**:\n  $$\n  6 \\times 4 = 24 \\, \\text{ft}^2\n  $$\n\n- **A third wall** has a **5-foot by 7-foot doorway**:\n  $$\n  5 \\times 7 = 35 \\, \\text{ft}^2\n  $$\n\n- **The fourth wall** is completely solid, so its area is **1120 ft²**",
+        "code": null,
+        "index": 3
+      }
+    ],
+    "checks": [
+      [
+        {
+          "left": "2 * (20 * 8) + 2 * (20 * 8)",
+          "right": "2 * 160 + 2 * 160",
+          "computed_left": "640",
+          "computed_right": "640",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "2 * 160 + 2 * 160",
+          "right": "640",
+          "computed_left": "640",
+          "computed_right": "640",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "3 * 7",
+          "right": "21",
+          "computed_left": "21",
+          "computed_right": "21",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "6 * 4",
+          "right": "24",
+          "computed_left": "24",
+          "computed_right": "24",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "5 * 7",
+          "right": "35",
+          "computed_left": "35",
+          "computed_right": "35",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "640 - 21 - 24 - 35",
+          "right": "560",
+          "computed_left": "560",
+          "computed_right": "560",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ],
+      [
+        {
+          "left": "880 - 21 - 24 - 35",
+          "right": "820",
+          "computed_left": "800",
+          "computed_right": "820",
+          "tolerance": "0",
+          "inconsistent": true
+        }
+      ],
+      [
+        {
+          "left": "2 * (20 * 20)",
+          "right": "800",
+          "computed_left": "800",
+          "computed_right": "800",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "3 * 7",
+          "right": "21",
+          "computed_left": "21",
+          "computed_right": "21",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "6 * 4",
+          "right": "24",
+          "computed_left": "24",
+          "computed_right": "24",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "5 * 7",
+          "right": "35",
+          "computed_left": "35",
+          "computed_right": "35",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "800 - 21 - 24 - 35",
+          "right": "730",
+          "computed_left": "720",
+          "computed_right": "730",
+          "tolerance": "0",
+          "inconsistent": true
+        }
+      ],
+      [
+        {
+          "left": "2 * 400 + 2 * 160",
+          "right": "800 + 320",
+          "computed_left": "1120",
+          "computed_right": "1120",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "800 + 320",
+          "right": "1120",
+          "computed_left": "1120",
+          "computed_right": "1120",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "3 * 7",
+          "right": "21",
+          "computed_left": "21",
+          "computed_right": "21",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "6 * 4",
+          "right": "24",
+          "computed_left": "24",
+          "computed_right": "24",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "5 * 7",
+          "right": "35",
+          "computed_left": "35",
+          "computed_right": "35",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ]
+    ]
+  },
+  {
+    "category": "risk",
+    "id": "gsm8k:c6cca665654df4ff54cc1c24071567a30a7eaf96454db4748fa19120395813e2",
+    "question": "Sidney has 4 kittens and 3 adult cats.  She has 7 cans of cat food.  Each adult cat eats 1 can of food per day.  Each kitten eats 3/4 of a can per day.  How many additional cans of food does Sidney need to buy to feed all of her animals for 7 days.",
+    "choice": 3,
+    "correct_indices": [
+      1,
+      3
+    ],
+    "candidates": [
+      {
+        "text": "We are given:\n\n- **Kittens:** 4  \n- **Adult cats:** 3  \n- **Food cans:** 7  \n- **Daily food consumption:**  \n  - Adult cats: 1 can/day  \n  - Kittens: $ \\frac{3}{4} $ can/day  \n\nWe need to calculate how many additional cans of food Sidney needs to buy for **7 days**.\n\n---\n\n### Step 1: Calculate total food needed for 7 days\n\n- **Adult cats**: $ 3 \\times 1 = 3 $ cans/day  \n- **Kittens**: $ 4 \\times \\frac{3}{4} = 3 $ cans/day\n\nSo total food per day:\n\n$$\n3 + 3 = 6 \\text{ cans/day}\n$$\n\nMultiply by 7 days:\n\n$$\n6 \\times 7 = 42 \\text{ cans}\n$$\n\n---\n\n### Step 2: Add food cans already available\n\nSidney has 7 cans.\n\n$$\n7 \\text{ cans} \\text{ (available)} + 42 \\text{ cans (needed)} = 49 \\text{ cans}\n$$\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{49}\n$$",
+        "code": null,
+        "index": 0
+      },
+      {
+        "text": "We are given:\n\n- **4 kittens**\n- **3 adult cats**\n- **7 cans of cat food**\n- **Each adult cat eats 1 can/day**\n- **Each kitten eats 3/4 of a can/day**\n\n---\n\n### Step 1: Calculate total food needed for **all animals for 7 days**\n\n- **Adult cats**: 3 cats × 1 can/day = **3 cans/day**\n- **Kittens**: 4 kittens × (3/4 can/day) = **3 cans/day**\n\nSo total per day = 3 + 3 = **6 cans/day**\n\n---\n\n### Step 2: Total food needed for 7 days = 6 cans/day × 7 days = **42 cans**\n\n---\n\n### Step 3: Sidney already has 7 cans, so she needs:\n\n$$\n42 - 7 = \\boxed{35}\n$$\n\n#### Final answer: **35**.",
+        "code": null,
+        "index": 1
+      },
+      {
+        "text": "Sidney has:\n\n- **4 adult cats**  \n- **3 kittens**  \n- **7 cans of cat food**  \n- **7 days**\n\n### Step 1: Calculate daily food consumption\n\n- **Adult cats**: 3 adult cats × 1 can/day = **3 cans/day**\n- **Kittens**: 3 kittens × (3/4 can/day) = **2.25 cans/day**\n\n### Step 2: Total daily food needed\n\n$$\n3 \\text{ cans/day (adults)} + 2.25 \\text{ cans/day (kittens)} = 5.25 \\text{ cans/day}\n$$\n\n### Step 3: Total food needed for 7 days\n\n$$\n5.25 \\text{ cans/day} \\times 7 \\text{ days} = 36.75 \\text{ cans}\n$$\n\n### Step 4: Add the 7 cans of food to account for the initial stock\n\n$$\n36.75 + 7 = 43.75\n$$\n\n### Final Answer:\n\n$$\n\\boxed{43.75}\n$$",
+        "code": null,
+        "index": 2
+      },
+      {
+        "text": "We are given:\n\n- 4 kittens  \n- 3 adult cats  \n- 7 cans of cat food  \n- Each adult cat eats 1 can per day  \n- Each kitten eats $ \\frac{3}{4} $ of a can per day  \n- The food lasts for 7 days\n\n### Step 1: Calculate total food needed per day\n\n- Adult cats: 3 × 1 = 3 cans/day  \n- Kitten: 4 × $ \\frac{3}{4} = 3 $ cans/day\n\nSo, total food per day:  \n$$ 3 + 3 = 6 \\text{ cans/day} $$\n\n### Step 2: Multiply by 7 days to find total food needed\n\n$$ 6 \\times 7 = 42 \\text{ cans} $$\n\n### Step 3: Add the initial cans of food to find how many additional cans are needed\n\n$$ 42 - 7 = 35 $$\n\n### Final Answer:\n\n$$ \\boxed{35} $$",
+        "code": null,
+        "index": 3
+      }
+    ],
+    "checks": [
+      [
+        {
+          "left": "3 * 1",
+          "right": "3",
+          "computed_left": "3",
+          "computed_right": "3",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "4 * ((3)/(4))",
+          "right": "3",
+          "computed_left": "3",
+          "computed_right": "3",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "3 + 3",
+          "right": "6",
+          "computed_left": "6",
+          "computed_right": "6",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "6 * 7",
+          "right": "42",
+          "computed_left": "42",
+          "computed_right": "42",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ],
+      [
+        {
+          "left": "42 - 7",
+          "right": "(35)",
+          "computed_left": "35",
+          "computed_right": "35",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ],
+      [
+        {
+          "left": "36.75 + 7",
+          "right": "43.75",
+          "computed_left": "175/4",
+          "computed_right": "175/4",
+          "tolerance": "1/200",
+          "inconsistent": false
+        }
+      ],
+      [
+        {
+          "left": "((3)/(4))",
+          "right": "3",
+          "computed_left": "3/4",
+          "computed_right": "3",
+          "tolerance": "0",
+          "inconsistent": true
+        },
+        {
+          "left": "3 + 3",
+          "right": "6",
+          "computed_left": "6",
+          "computed_right": "6",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "6 * 7",
+          "right": "42",
+          "computed_left": "42",
+          "computed_right": "42",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "42 - 7",
+          "right": "35",
+          "computed_left": "35",
+          "computed_right": "35",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ]
+    ]
+  },
+  {
+    "category": "risk",
+    "id": "gsm8k:231f073d334ce11b2332be75be1f81492c58d815c4f151f640f2ead14edf0255",
+    "question": "Alexis is applying for a new job and bought a new set of business clothes to wear to the interview. She went to a department store with a budget of $200 and spent $30 on a button-up shirt, $46 on suit pants, $38 on a suit coat, $11 on socks, and $18 on a belt. She also purchased a pair of shoes, but lost the receipt for them. She has $16 left from her budget. How much did Alexis pay for the shoes?",
+    "choice": 2,
+    "correct_indices": [
+      2
+    ],
+    "candidates": [
+      {
+        "text": "Let's break down the expenses:\n\n- **Budget**: $200  \n- **Spent on shirt**: $30  \n- **Spent on suit pants**: $46  \n- **Spent on suit coat**: $38  \n- **Spent on socks**: $11  \n- **Spent on belt**: $18  \n- **Remaining**: $16\n\nAdd the total expenses:\n\n$$\n30 + 46 + 38 + 11 + 18 = 143\n$$\n\n$$\n200 - 143 = 57\n$$\n\nSo, Alexis paid **$57** for the shoes.\n\n#### <numeric answer> 57",
+        "code": null,
+        "index": 0
+      },
+      {
+        "text": "We are given the following expenses:\n\n- **Budget**: $200  \n- **Spent on shirt**: $30  \n- **Spent on suit pants**: $46  \n- **Spent on suit coat**: $38  \n- **Spent on socks**: $11  \n- **Spent on belt**: $18  \n- **Remaining**: $16\n\nTo find the **amount spent on the shoes**, we subtract the total spent from the budget:\n\n$$\n\\text{Amount spent on shoes} = \\text{Budget} - (\\text{Spent on shirt} + \\text{Spent on suit pants} + \\text{Spent on suit coat} + \\text{Spent on socks} + \\text{Spent on belt})\n$$\n\n$$\n\\text{Amount spent on shoes} = 200 - (30 + 46 + 38 + 11 + 18) = 200 - 143 = 57\n$$\n\n### Final Answer:\n$$\n\\boxed{57}\n$$",
+        "code": null,
+        "index": 1
+      },
+      {
+        "text": "Alexis spent a total of:\n\n- $30 (shirt)\n- $46 (pants)\n- $38 (coat)\n- $11 (socks)\n- $18 (belt)\n\nSo, the total spent is:\n\n$$\n30 + 46 + 38 + 11 + 18 = 143\n$$\n\nShe had $200 initially and has $16 left, so the total spent is:\n\n$$\n200 - 16 = 184\n$$\n\nShe spent $184 in total, which means she paid for the shoes as:\n\n$$\n184 - (30 + 46 + 38 + 11) = 184 - 143 = 41\n$$\n\n### Final Answer:\n$$\n\\boxed{41}\n$$",
+        "code": null,
+        "index": 2
+      },
+      {
+        "text": "Let's solve the problem step by step:\n\n1. **Initial budget**: $200  \n2. **Spent on shirts**: $30  \n3. **Spent on suit pants**: $46  \n4. **Spent on suit coat**: $38  \n5. **Spent on socks**: $11  \n6. **Spent on belt**: $18  \n7. **Remaining money**: $16  \n\nNow add up the amounts spent:\n\n$$\n30 + 46 + 38 + 11 + 18 = 143\n$$\n\n$$\n200 - 143 = 57\n$$\n\nSo, Alexis paid **$57** for the shoes.\n\n#### <numeric answer> 57",
+        "code": null,
+        "index": 3
+      }
+    ],
+    "checks": [
+      [
+        {
+          "left": "30 + 46 + 38 + 11 + 18",
+          "right": "143",
+          "computed_left": "143",
+          "computed_right": "143",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "200 - 143",
+          "right": "57",
+          "computed_left": "57",
+          "computed_right": "57",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ],
+      [
+        {
+          "left": "200 - (30 + 46 + 38 + 11 + 18)",
+          "right": "200 - 143",
+          "computed_left": "57",
+          "computed_right": "57",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "200 - 143",
+          "right": "57",
+          "computed_left": "57",
+          "computed_right": "57",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ],
+      [
+        {
+          "left": "30 + 46 + 38 + 11 + 18",
+          "right": "143",
+          "computed_left": "143",
+          "computed_right": "143",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "200 - 16",
+          "right": "184",
+          "computed_left": "184",
+          "computed_right": "184",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "184 - (30 + 46 + 38 + 11)",
+          "right": "184 - 143",
+          "computed_left": "59",
+          "computed_right": "41",
+          "tolerance": "0",
+          "inconsistent": true
+        },
+        {
+          "left": "184 - 143",
+          "right": "41",
+          "computed_left": "41",
+          "computed_right": "41",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ],
+      [
+        {
+          "left": "30 + 46 + 38 + 11 + 18",
+          "right": "143",
+          "computed_left": "143",
+          "computed_right": "143",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "200 - 143",
+          "right": "57",
+          "computed_left": "57",
+          "computed_right": "57",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ]
+    ]
+  },
+  {
+    "category": "risk",
+    "id": "gsm8k:f311cfad297dca7271125c74d48b08d85ec5cea651ff1d5e419613135ee91e3d",
+    "question": "Daisy is climbing trees all around her neighborhood and starts to notice the number of branches and the height. The first tree she climbs is 50 feet tall and has 200 branches. The second tree she climbs is 40 feet tall and has 180 branches. The third tree she climbs is 60 feet tall and has 180 branches. The final tree she climbs is 34 feet tall and has 153 branches. On average, how many branches do these trees have per foot?",
+    "choice": 3,
+    "correct_indices": [
+      3
+    ],
+    "candidates": [
+      {
+        "text": "We are given the number of branches and height for each tree:\n\n- Tree 1: 50 feet tall, 200 branches  \n- Tree 2: 40 feet tall, 180 branches  \n- Tree 3: 60 feet tall, 180 branches  \n- Tree 4: 34 feet tall, 153 branches  \n\nWe are to find the **average number of branches per foot**.\n\n### Step-by-step calculation:\n\n1. Add the number of branches for each tree:  \n   $ 200 + 180 + 180 + 153 = 713 $\n\n2. Add the heights of the trees:  \n   $ 50 + 40 + 60 + 34 = 184 $\n\n3. Divide the total number of branches by the total height:  \n   $ \\frac{713}{184} \\approx 3.86 $\n\n### Final Answer:\n\n$$\n\\boxed{3.86}\n$$",
+        "code": null,
+        "index": 0
+      },
+      {
+        "text": "We are given the height and number of branches for each tree:\n\n- Tree 1: 50 feet tall, 200 branches  \n- Tree 2: 40 feet tall, 180 branches  \n- Tree 3: 60 feet tall, 180 branches  \n- Tree 4: 34 feet tall, 153 branches  \n\nWe are asked to find the **average number of branches per foot**.\n\n### Step-by-step calculation:\n\n1. For each tree, divide the number of branches by the height:\n   - Tree 1: $ \\frac{200}{50} = 4 $\n   - Tree 2: $ \\frac{180}{40} = 4.5 $\n   - Tree 3: $ \\frac{180}{60} = 3 $\n   - Tree 4: $ \\frac{153}{34} \\approx 4.594 $\n\n2. Take the average of these values:\n\n$$\n\\frac{4 + 4.5 + 3 + 4.594}{4} \\approx \\frac{16.094}{4} \\approx 4.0235\n$$\n\n### Final answer:\n\n$$\n\\boxed{4.02}\n$$",
+        "code": null,
+        "index": 1
+      },
+      {
+        "text": "We are given the height and number of branches for each tree:\n\n- Tree 1: 50 ft (200 branches)\n- Tree 2: 40 ft (180 branches)\n- Tree 3: 60 ft (180 branches)\n- Tree 4: 34 ft (153 branches)\n\nWe are to find the **average number of branches per foot**.\n\n### Step-by-step calculation:\n\n1. Add the number of branches for each tree:\n   $$\n   200 + 180 + 180 + 153 = 713\n   $$\n\n2. Add the heights of the trees:\n   $$\n   50 + 40 + 60 + 34 = 184\n   $$\n\n3. Divide the total number of branches by the total height to find the average:\n   $$\n   \\frac{713}{184} \\approx 3.86\n   $$\n\n### Final answer:\n$$\n\\boxed{3.86}\n$$",
+        "code": null,
+        "index": 2
+      },
+      {
+        "text": "We are given the height and number of branches for each tree:\n\n- First tree: 50 ft, 200 branches  \n- Second tree: 40 ft, 180 branches  \n- Third tree: 60 ft, 180 branches  \n- Final tree: 34 ft, 153 branches  \n\nWe are asked to find the **average number of branches per foot**.\n\n### Step-by-step calculation:\n\n1. For each tree, divide the number of branches by the height:\n   - 200 / 50 = 4  \n   - 180 / 40 = 4.5  \n   - 180 / 60 = 3  \n   - 153 / 34 = 4.5\n\n2. Take the **average** of these results:\n   $$\n   \\frac{4 + 4.5 + 3 + 4.5}{4} = \\frac{16}{4} = 4\n   $$\n\n### Final answer:\n\n$$\n\\boxed{4}\n$$",
+        "code": null,
+        "index": 3
+      }
+    ],
+    "checks": [
+      [
+        {
+          "left": "200 + 180 + 180 + 153",
+          "right": "713",
+          "computed_left": "713",
+          "computed_right": "713",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "50 + 40 + 60 + 34",
+          "right": "184",
+          "computed_left": "184",
+          "computed_right": "184",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ],
+      [
+        {
+          "left": "((200)/(50))",
+          "right": "4",
+          "computed_left": "4",
+          "computed_right": "4",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "((180)/(40))",
+          "right": "4.5",
+          "computed_left": "9/2",
+          "computed_right": "9/2",
+          "tolerance": "1/20",
+          "inconsistent": false
+        },
+        {
+          "left": "((180)/(60))",
+          "right": "3",
+          "computed_left": "3",
+          "computed_right": "3",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ],
+      [
+        {
+          "left": "200 + 180 + 180 + 153",
+          "right": "713",
+          "computed_left": "713",
+          "computed_right": "713",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "50 + 40 + 60 + 34",
+          "right": "184",
+          "computed_left": "184",
+          "computed_right": "184",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ],
+      [
+        {
+          "left": "((4 + 4.5 + 3 + 4.5)/(4))",
+          "right": "((16)/(4))",
+          "computed_left": "4",
+          "computed_right": "4",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "((16)/(4))",
+          "right": "4",
+          "computed_left": "4",
+          "computed_right": "4",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "- 200 / 50",
+          "right": "4",
+          "computed_left": "-4",
+          "computed_right": "4",
+          "tolerance": "0",
+          "inconsistent": true
+        },
+        {
+          "left": "- 180 / 40",
+          "right": "4.5",
+          "computed_left": "-9/2",
+          "computed_right": "9/2",
+          "tolerance": "1/20",
+          "inconsistent": true
+        },
+        {
+          "left": "- 180 / 60",
+          "right": "3",
+          "computed_left": "-3",
+          "computed_right": "3",
+          "tolerance": "0",
+          "inconsistent": true
+        },
+        {
+          "left": "- 153 / 34",
+          "right": "4.5",
+          "computed_left": "-9/2",
+          "computed_right": "9/2",
+          "tolerance": "1/20",
+          "inconsistent": true
+        }
+      ]
+    ]
+  },
+  {
+    "category": "risk",
+    "id": "gsm8k:683dbafafa03dfd89a8045a3a780fc87809c1109350bba1b6daa35040a7ca6ef",
+    "question": "Luther designs clothes for a high fashion company. His latest line of clothing uses both silk and cashmere fabrics. There are ten pieces made with silk and half that number made with cashmere. If his latest line has thirteen pieces, how many pieces use a blend of cashmere and silk?",
+    "choice": 2,
+    "correct_indices": [
+      0,
+      1,
+      2
+    ],
+    "candidates": [
+      {
+        "text": "We are told:\n\n- There are **10 pieces** made with **silk**.\n- Half the number of silk pieces are made with **cashmere**, so there are **5** pieces made with **cashmere**.\n- The total number of pieces is **13**.\n\nNow, to find how many pieces use **a blend of cashmere and silk**, we subtract the number of silk and cashmere pieces from the total:\n\n$$\n13 - 10 - 5 = 2\n$$\n\n### Final Answer:\n$$\n\\boxed{2}\n$$",
+        "code": null,
+        "index": 0
+      },
+      {
+        "text": "We are told:\n\n- There are **10 pieces** made with **silk**.\n- There are **half the number** of silk pieces made with **cashmere**, so there are **5 pieces** made with cashmere.\n- The **total number of pieces** is **13**.\n\nTo find how many **pieces use a blend of cashmere and silk**, we subtract the number of silk and cashmere pieces from the total:\n\n$$\n13 - 10 - 5 = 2\n$$\n\n### Final Answer:\n$$\n\\boxed{2}\n$$",
+        "code": null,
+        "index": 1
+      },
+      {
+        "text": "We are told:\n\n- There are **10 pieces** made with silk.\n- Half the number of these pieces is made with cashmere.  \n  So, half of 10 is **5**.\n\n- The total number of pieces in the line is **13**.\n\n- To find how many pieces use a **blend of cashmere and silk**, we subtract the silk and cashmere pieces from the total:\n\n$$\n13 - 10 - 5 = 2\n$$\n\n### Final Answer:\n\n$$\n\\boxed{2}\n$$",
+        "code": null,
+        "index": 2
+      },
+      {
+        "text": "We are told:\n\n- There are **10 pieces** made with **silk**.\n- There are **half that number** (i.e., 5) made with **cashmere**.\n- The **total number of pieces** in the line is **13**.\n\n### Step-by-step:\n\n- Silk: 10 pieces\n- Cashmere: 5 pieces\n- Total: $ 10 + 5 = 15 $ pieces\n\nBut wait — the total is **13**, not 15.\n\nSo, the **blend of cashmere and silk** is:\n\n$$\n13 - 10 = 3\n$$\n\n### ✅ Final Answer:\n\n$$\n\\boxed{3}\n$$",
+        "code": null,
+        "index": 3
+      }
+    ],
+    "checks": [
+      [
+        {
+          "left": "13 - 10 - 5",
+          "right": "2",
+          "computed_left": "-2",
+          "computed_right": "2",
+          "tolerance": "0",
+          "inconsistent": true
+        }
+      ],
+      [
+        {
+          "left": "13 - 10 - 5",
+          "right": "2",
+          "computed_left": "-2",
+          "computed_right": "2",
+          "tolerance": "0",
+          "inconsistent": true
+        }
+      ],
+      [
+        {
+          "left": "13 - 10 - 5",
+          "right": "2",
+          "computed_left": "-2",
+          "computed_right": "2",
+          "tolerance": "0",
+          "inconsistent": true
+        }
+      ],
+      [
+        {
+          "left": "10 + 5",
+          "right": "15",
+          "computed_left": "15",
+          "computed_right": "15",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "13 - 10",
+          "right": "3",
+          "computed_left": "3",
+          "computed_right": "3",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ]
+    ]
+  },
+  {
+    "category": "risk",
+    "id": "gsm8k:d0c130630e1bb946a81fe9cdac45ffb83a0aea2e201e994fff1ddcebd18a380a",
+    "question": "Samantha bought a crate of 30 eggs for $5. If she decides to sell each egg for 20 cents, how many eggs will she have left by the time she recovers her capital from the sales?",
+    "choice": 0,
+    "correct_indices": [
+      0,
+      1
+    ],
+    "candidates": [
+      {
+        "text": "Samantha bought 30 eggs for $5. She sells each egg for 20 cents.\n\n1. Total money received from selling eggs:  \n   $ 30 \\times 20 = 600 $ cents.\n\n2. Total money spent:  \n   $ 5 = 500 $ cents.\n\n3. Money left:  \n   $ 600 - 500 = 100 $ cents.\n\n4. Convert cents to eggs:  \n   $ 100 \\div 20 = 5 $ eggs.\n\nSo, the answer is:  \n**#### 5**",
+        "code": null,
+        "index": 0
+      },
+      {
+        "text": "We are given:\n\n- Samantha bought 30 eggs for **$5**.\n- She sells each egg for **20 cents**.\n- We want to know how many eggs she will have **left** after recouping her initial investment.\n\n---\n\n### Step 1: Calculate the total money received from selling the eggs\n\nShe sells **30 eggs × 20 cents = 600 cents**.\n\nConvert this to dollars:  \n600 cents = **$6**\n\n---\n\n### Step 2: Calculate the cost of the eggs\n\nShe spent **$5** to buy the eggs.\n\n---\n\n### Step 3: Calculate how many eggs she will have left\n\nShe starts with **30 eggs**, and sells **600 cents** (i.e., $6) to recover the $5 cost.\n\nSo, the number of eggs left is:\n\n$$\n30 - \\left(\\frac{5}{0.20}\\right) = 30 - 25 = 5\n$$\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{5}\n$$",
+        "code": null,
+        "index": 1
+      },
+      {
+        "text": "Samantha buys 30 eggs for $5. She sells each egg for 20 cents. Let's calculate how many eggs she has left by the time she recovers her capital.\n\n1. **Cost of eggs**: $5  \n2. **Earnings from selling eggs**:  \n   - 30 eggs × 20 cents = $60  \n3. **Net profit**: $60 - $5 = $55  \n4. **Number of eggs left**:  \n   - 30 eggs - 30 eggs = 0 eggs  \n\n### Final Answer:  \n**0**",
+        "code": null,
+        "index": 2
+      },
+      {
+        "text": "Samantha buys 30 eggs for $5. She sells each egg for 20 cents.\n\n1. **Total money received from selling eggs**:\n   $$\n   30 \\text{ eggs} \\times 20 \\text{ cents/egg} = 600 \\text{ cents}\n   $$\n\n2. **Cost of the eggs**:\n   $$\n   30 \\text{ eggs} \\times 1 \\text{ dollar/egg} = 30 \\text{ dollars} = 3000 \\text{ cents}\n   $$\n\n3. **Net profit**:\n   $$\n   600 \\text{ cents} - 3000 \\text{ cents} = -2400 \\text{ cents}\n   $$\n\n4. **Eggs left**:\n   Since she lost money, there are **no eggs left**.\n\n**Final Answer**:  \n$$\n\\boxed{0}\n$$",
+        "code": null,
+        "index": 3
+      }
+    ],
+    "checks": [
+      [
+        {
+          "left": "30 * 20",
+          "right": "600",
+          "computed_left": "600",
+          "computed_right": "600",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "5",
+          "right": "500",
+          "computed_left": "5",
+          "computed_right": "500",
+          "tolerance": "0",
+          "inconsistent": true
+        },
+        {
+          "left": "600 - 500",
+          "right": "100",
+          "computed_left": "100",
+          "computed_right": "100",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "100 / 20",
+          "right": "5",
+          "computed_left": "5",
+          "computed_right": "5",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ],
+      [
+        {
+          "left": "30 -  (((5)/(0.20)) )",
+          "right": "30 - 25",
+          "computed_left": "5",
+          "computed_right": "5",
+          "tolerance": "0",
+          "inconsistent": false
+        },
+        {
+          "left": "30 - 25",
+          "right": "5",
+          "computed_left": "5",
+          "computed_right": "5",
+          "tolerance": "0",
+          "inconsistent": false
+        }
+      ],
+      [],
+      []
+    ]
+  }
+]

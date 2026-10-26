@@ -1,0 +1,71 @@
+{
+  "status": "complete",
+  "model": "arithmetic-C001-20261026",
+  "official_score": {
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "test",
+    "correct": 379,
+    "n": 467,
+    "accuracy": 81.15631691648822,
+    "scoring_seconds": 0.010816041001817212
+  },
+  "previous_official_score": {
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "test",
+    "correct": 366,
+    "n": 467,
+    "accuracy": 78.37259100642399,
+    "scoring_seconds": 0.01095645799068734
+  },
+  "correct_delta": 13,
+  "accuracy_delta_pp": 2.783725910064234,
+  "comparison_note": "Accumulated improvement over the older context-C10 model, not an isolated test effect of arithmetic features",
+  "processes": [
+    {
+      "process": "prediction",
+      "wall_seconds": 0.2532992910128087,
+      "returncode": 0,
+      "user_cpu_seconds": 0.20039099999999999,
+      "system_cpu_seconds": 0.022802999999999997,
+      "stdout": "{\"protocol\": \"dase7506-mp2-open-hard-verifier-v5\", \"split\": \"test\", \"prediction_seconds\": 0.1760920420056209}\n",
+      "stderr": ""
+    },
+    {
+      "process": "scoring",
+      "wall_seconds": 0.061528541991719976,
+      "returncode": 0,
+      "user_cpu_seconds": 0.04826199999999997,
+      "system_cpu_seconds": 0.010728000000000001,
+      "stdout": "{\n  \"protocol\": \"dase7506-mp2-open-hard-verifier-v5\",\n  \"split\": \"test\",\n  \"correct\": 379,\n  \"n\": 467,\n  \"accuracy\": 81.15631691648822,\n  \"scoring_seconds\": 0.010816041001817212\n}\n",
+      "stderr": ""
+    }
+  ],
+  "total_prediction_plus_scoring_wall_seconds": 0.31482783300452866,
+  "outer_wall_seconds_including_wrapper_records": 0.31527800002368167,
+  "wall_limit_seconds": 30,
+  "local_cpu_time_within_limit": true,
+  "hardware": {
+    "cpu": "Apple M5",
+    "platform": "macOS-27.0.1-arm64-arm-64bit",
+    "reference_cpu": "Xeon Platinum 8457C",
+    "reference_cpu_tested": false
+  },
+  "threads": {
+    "OMP_NUM_THREADS": "4",
+    "OPENBLAS_NUM_THREADS": "4",
+    "MKL_NUM_THREADS": "4",
+    "VECLIB_MAXIMUM_THREADS": "4",
+    "NUMEXPR_NUM_THREADS": "4"
+  },
+  "assets": {
+    "file_bytes": 26064,
+    "archive_uncompressed_bytes": 25456,
+    "limit_bytes": 16777216,
+    "counted_bytes": 26064
+  },
+  "asset_limit_passed": true,
+  "model_and_sources_unchanged": true,
+  "prediction_sha256": "1c6c13401974630c7440bc41c7e4079827f3fd97154e95169b252b206b2c2c0d",
+  "course_score_submitted": false,
+  "qualification": "Official full-test score; local Apple CPU timing only, not reference Xeon qualification"
+}
